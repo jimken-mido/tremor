@@ -1,0 +1,27 @@
+{
+  "unversionedId": "artefacts/offramps",
+  "id": "version-0.11/artefacts/offramps",
+  "title": "Offramps",
+  "description": "Specify how tremor connects to the outside world in order to publish to external systems.",
+  "source": "@site/versioned_docs/version-0.11/artefacts/offramps.md",
+  "sourceDirName": "artefacts",
+  "slug": "/artefacts/offramps",
+  "permalink": "/docs/0.11/artefacts/offramps",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/artefacts/offramps.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {
+    "id": "offramps",
+    "title": "Offramps"
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Codecs",
+    "permalink": "/docs/0.11/artefacts/codecs"
+  },
+  "next": {
+    "title": "Onramps",
+    "permalink": "/docs/0.11/artefacts/onramps"
+  }
+}

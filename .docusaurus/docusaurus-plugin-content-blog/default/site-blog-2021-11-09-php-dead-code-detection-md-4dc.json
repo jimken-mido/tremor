@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/11/09/php-dead-code-detection",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-11-09-php-dead-code-detection.md",
+  "source": "@site/blog/2021-11-09-php-dead-code-detection.md",
+  "title": "Case Study - Dead Code Detection in PHP",
+  "description": "Identified Need",
+  "date": "2021-11-09T00:00:00.000Z",
+  "formattedDate": "November 9, 2021",
+  "tags": [
+    {
+      "label": "case-study",
+      "permalink": "/blog/tags/case-study"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    }
+  ],
+  "readingTime": 1.185,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Ramona Łuczkiewicz",
+      "url": "https://github.com/Agares",
+      "imageURL": "https://avatars.githubusercontent.com/u/303398?v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Case Study - Dead Code Detection in PHP",
+    "tags": [
+      "case-study",
+      "wayfair"
+    ],
+    "author": "Ramona Łuczkiewicz",
+    "author_url": "https://github.com/Agares",
+    "author_image_url": "https://avatars.githubusercontent.com/u/303398?v=4",
+    "image": "./media/wayfair.png",
+    "draft": false,
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Connectors for Streaming to AWS S3",
+    "permalink": "/blog/2021/12/04/LFX-Blog-Daksh"
+  },
+  "nextItem": {
+    "title": "Case Study - Unified Observability Platform",
+    "permalink": "/blog/2021/11/08/uop"
+  }
+}

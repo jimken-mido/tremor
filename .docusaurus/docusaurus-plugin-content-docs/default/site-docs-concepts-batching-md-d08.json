@@ -1,0 +1,24 @@
+{
+  "unversionedId": "concepts/batching",
+  "id": "concepts/batching",
+  "title": "Batching",
+  "description": "Batching is a complex topic. It happens in many layers, and it's easy to confuse one with another. This makes it especially important to explain the concepts of batching the tremor engine uses.",
+  "source": "@site/docs/concepts/batching.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/batching",
+  "permalink": "/docs/edge/concepts/batching",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/concepts/batching.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Aggregations",
+    "permalink": "/docs/edge/concepts/aggregation"
+  },
+  "next": {
+    "title": "Design",
+    "permalink": "/docs/edge/concepts/design"
+  }
+}

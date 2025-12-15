@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/linked-transports",
+  "id": "version-0.11/operations/linked-transports",
+  "title": "Linked Transports",
+  "description": "Linked transports are in alpha status as of v0.9.0 and we recommend its use only for exploratory projects. Details around it (including any on this page) are likely to change, as the feature set matures.",
+  "source": "@site/versioned_docs/version-0.11/operations/linked-transports.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/linked-transports",
+  "permalink": "/docs/0.11/operations/linked-transports",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/operations/linked-transports.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Circuit Breakers and Guaranteed Delivery",
+    "permalink": "/docs/0.11/operations/gdcb"
+  },
+  "next": {
+    "title": "Monitoring",
+    "permalink": "/docs/0.11/operations/monitoring"
+  }
+}

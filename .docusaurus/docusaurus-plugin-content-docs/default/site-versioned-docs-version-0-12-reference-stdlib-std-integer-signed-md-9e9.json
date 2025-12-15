@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/integer/signed",
+  "id": "version-0.12/reference/stdlib/std/integer/signed",
+  "title": "signed",
+  "description": "Signed integer constants",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/integer/signed.md",
+  "sourceDirName": "reference/stdlib/std/integer",
+  "slug": "/reference/stdlib/std/integer/signed",
+  "permalink": "/docs/0.12/reference/stdlib/std/integer/signed",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/integer/signed.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "integer",
+    "permalink": "/docs/0.12/reference/stdlib/std/integer/"
+  },
+  "next": {
+    "title": "unsigned",
+    "permalink": "/docs/0.12/reference/stdlib/std/integer/unsigned"
+  }
+}

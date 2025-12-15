@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/linked-transports",
+  "id": "implemented/linked-transports",
+  "title": "Linked Transports",
+  "description": "- Feature Name: rfc0003linked_transports",
+  "source": "@site/rfc/implemented/0003-linked-transports.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/linked-transports",
+  "permalink": "/rfc/implemented/linked-transports",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0003-linked-transports.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Remove Actix",
+    "permalink": "/rfc/implemented/remove-actix-from-tremor-runtime"
+  },
+  "next": {
+    "title": "Circuit Breaker Mechanism",
+    "permalink": "/rfc/implemented/circuit-breaker-mechanism"
+  }
+}

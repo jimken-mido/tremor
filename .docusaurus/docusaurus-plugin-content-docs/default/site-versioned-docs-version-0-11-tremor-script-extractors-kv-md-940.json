@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/extractors/kv",
+  "id": "version-0.11/tremor-script/extractors/kv",
+  "title": "KV",
+  "description": "Parses a string into a map. It is possible to split based on different characters that represent  either field or key value boundaries.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/extractors/kv.md",
+  "sourceDirName": "tremor-script/extractors",
+  "slug": "/tremor-script/extractors/kv",
+  "permalink": "/docs/0.11/tremor-script/extractors/kv",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/extractors/kv.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "JSON",
+    "permalink": "/docs/0.11/tremor-script/extractors/json"
+  },
+  "next": {
+    "title": "Regex (re)",
+    "permalink": "/docs/0.11/tremor-script/extractors/regex"
+  }
+}

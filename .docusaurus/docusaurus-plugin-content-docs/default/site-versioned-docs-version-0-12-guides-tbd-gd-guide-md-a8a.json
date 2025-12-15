@@ -1,0 +1,28 @@
+{
+  "unversionedId": "guides/tbd-gd-guide",
+  "id": "version-0.12/guides/tbd-gd-guide",
+  "title": "tbd-gd-guide",
+  "description": "TBD",
+  "source": "@site/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/tbd-gd-guide",
+  "permalink": "/docs/0.12/guides/tbd-gd-guide",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99,
+    "draft": true
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Logging",
+    "permalink": "/docs/0.12/guides/logging"
+  },
+  "next": {
+    "title": "Logstash",
+    "permalink": "/docs/0.12/guides/old/logstash/"
+  }
+}

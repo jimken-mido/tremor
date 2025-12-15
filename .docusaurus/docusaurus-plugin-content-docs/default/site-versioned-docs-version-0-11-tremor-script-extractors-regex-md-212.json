@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/extractors/regex",
+  "id": "version-0.11/tremor-script/extractors/regex",
+  "title": "Regex (re)",
+  "description": "The regex extractor extracts fields from data by parsing a regular expression provided by the user. It accepts a \"perl-style regular expression\"",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/extractors/regex.md",
+  "sourceDirName": "tremor-script/extractors",
+  "slug": "/tremor-script/extractors/regex",
+  "permalink": "/docs/0.11/tremor-script/extractors/regex",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/extractors/regex.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "KV",
+    "permalink": "/docs/0.11/tremor-script/extractors/kv"
+  },
+  "next": {
+    "title": "Extractors",
+    "permalink": "/docs/0.11/tremor-script/extractors"
+  }
+}

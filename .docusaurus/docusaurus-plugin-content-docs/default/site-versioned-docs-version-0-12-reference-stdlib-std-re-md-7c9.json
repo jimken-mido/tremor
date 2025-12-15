@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/re",
+  "id": "version-0.12/reference/stdlib/std/re",
+  "title": "re",
+  "description": "The re module contains functions for regular expression handing. Please note",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/re.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/re",
+  "permalink": "/docs/0.12/reference/stdlib/std/re",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/re.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "range",
+    "permalink": "/docs/0.12/reference/stdlib/std/range"
+  },
+  "next": {
+    "title": "record",
+    "permalink": "/docs/0.12/reference/stdlib/std/record"
+  }
+}

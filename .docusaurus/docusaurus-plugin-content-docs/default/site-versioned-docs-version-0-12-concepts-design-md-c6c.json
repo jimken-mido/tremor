@@ -1,0 +1,26 @@
+{
+  "unversionedId": "concepts/design",
+  "id": "version-0.12/concepts/design",
+  "title": "Design",
+  "description": "TBD",
+  "source": "@site/versioned_docs/version-0.12/concepts/design.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/design",
+  "permalink": "/docs/0.12/concepts/design",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/concepts/design.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {
+    "draft": true
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Batching",
+    "permalink": "/docs/0.12/concepts/batching"
+  },
+  "next": {
+    "title": "Runtime Capabilities",
+    "permalink": "/docs/0.12/concepts/runtime_capabilities"
+  }
+}

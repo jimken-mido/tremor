@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/index",
+  "id": "version-0.12/reference/operators/index",
+  "title": "Operators",
+  "description": "Operators are part of the pipeline configuration.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/index.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/",
+  "permalink": "/docs/0.12/reference/operators/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Command Line Interface",
+    "permalink": "/docs/0.12/reference/cli"
+  },
+  "next": {
+    "title": "qos::backpressure",
+    "permalink": "/docs/0.12/reference/operators/backpressure"
+  }
+}

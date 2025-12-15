@@ -1,0 +1,29 @@
+{
+  "unversionedId": "ConstraintsLimitations",
+  "id": "version-0.11/ConstraintsLimitations",
+  "title": "Constraints and Limitations",
+  "description": "This section lists known limitations in the current version of Tremor, these limitations are not oversights but tradeoffs driven by the use cases we focused on.",
+  "source": "@site/versioned_docs/version-0.11/ConstraintsLimitations.md",
+  "sourceDirName": ".",
+  "slug": "/ConstraintsLimitations",
+  "permalink": "/docs/0.11/ConstraintsLimitations",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/ConstraintsLimitations.md",
+  "tags": [],
+  "version": "0.11",
+  "sidebarPosition": 200,
+  "frontMatter": {
+    "id": "ConstraintsLimitations",
+    "title": "Constraints and Limitations",
+    "sidebar_position": 200
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Architecture Overview",
+    "permalink": "/docs/0.11/overview"
+  },
+  "next": {
+    "title": "Recipes",
+    "permalink": "/docs/0.11/recipes/"
+  }
+}

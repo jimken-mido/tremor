@@ -1,0 +1,53 @@
+{
+  "permalink": "/blog/2022/06/02/tremor-tremors",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2022-06-02-tremor-tremors.md",
+  "source": "@site/blog/2022-06-02-tremor-tremors.md",
+  "title": "Tremors - May '22",
+  "description": "Welcome, Tremor Enthusiasts! This post is another in a series intended to inform and entertain Tremor Technologists with recent changes in the tremor project. We'll mostly focus these posts on Pull Requests and other notable developments. With these posts, you can stay informed and learn more about the project without having to read pull requests, or wait for release notes.",
+  "date": "2022-06-02T00:00:00.000Z",
+  "formattedDate": "June 2, 2022",
+  "tags": [
+    {
+      "label": "collaboration",
+      "permalink": "/blog/tags/collaboration"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    },
+    {
+      "label": "tremors",
+      "permalink": "/blog/tags/tremors"
+    }
+  ],
+  "readingTime": 3.575,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Gary + The Tremor Team",
+      "url": "https://github.com/GaryPWhite",
+      "imageURL": "https://avatars.githubusercontent.com/u/7660110?v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Tremors - May '22",
+    "tags": [
+      "collaboration",
+      "wayfair",
+      "tremors"
+    ],
+    "author": "Gary + The Tremor Team",
+    "author_url": "https://github.com/GaryPWhite",
+    "author_image_url": "https://avatars.githubusercontent.com/u/7660110?v=4",
+    "draft": false,
+    "hide_table_of_contents": true
+  },
+  "prevItem": {
+    "title": "Automating the tremor release process",
+    "permalink": "/blog/2022/06/03/LFX-Blog-Prashant"
+  },
+  "nextItem": {
+    "title": "Tremors - April '22",
+    "permalink": "/blog/2022/05/03/tremor-tremors"
+  }
+}

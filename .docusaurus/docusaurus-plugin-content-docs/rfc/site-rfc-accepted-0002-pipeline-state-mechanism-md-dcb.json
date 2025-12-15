@@ -1,0 +1,25 @@
+{
+  "unversionedId": "accepted/pipeline-state-mechanism",
+  "id": "accepted/pipeline-state-mechanism",
+  "title": "Pipeline State Mechanism",
+  "description": "- Feature Name: rfc0002pipelinestatemechanism",
+  "source": "@site/rfc/accepted/0002-pipeline-state-mechanism.md",
+  "sourceDirName": "accepted",
+  "slug": "/accepted/pipeline-state-mechanism",
+  "permalink": "/rfc/accepted/pipeline-state-mechanism",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/accepted/0002-pipeline-state-mechanism.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "RFCs",
+    "permalink": "/rfc/"
+  },
+  "next": {
+    "title": "Sliding Window Mechanism",
+    "permalink": "/rfc/accepted/sliding-window-mechanism"
+  }
+}

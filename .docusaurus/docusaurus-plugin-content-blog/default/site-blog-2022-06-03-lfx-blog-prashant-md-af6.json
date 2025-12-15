@@ -1,0 +1,58 @@
+{
+  "permalink": "/blog/2022/06/03/LFX-Blog-Prashant",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2022-06-03-LFX-Blog-Prashant.md",
+  "source": "@site/blog/2022-06-03-LFX-Blog-Prashant.md",
+  "title": "Automating the tremor release process",
+  "description": "Prashant's Mentorship experience",
+  "date": "2022-06-03T00:00:00.000Z",
+  "formattedDate": "June 3, 2022",
+  "tags": [
+    {
+      "label": "DevOps",
+      "permalink": "/blog/tags/dev-ops"
+    },
+    {
+      "label": "CI",
+      "permalink": "/blog/tags/ci"
+    },
+    {
+      "label": "mentorship",
+      "permalink": "/blog/tags/mentorship"
+    },
+    {
+      "label": "cncf",
+      "permalink": "/blog/tags/cncf"
+    }
+  ],
+  "readingTime": 4.035,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Prashant",
+      "title": "Tremor 2022 Spring Mentee",
+      "url": "https://www.linkedin.com/in/prashantpm20/"
+    }
+  ],
+  "frontMatter": {
+    "title": "Automating the tremor release process",
+    "author": "Prashant",
+    "author_title": "Tremor 2022 Spring Mentee",
+    "author_url": "https://www.linkedin.com/in/prashantpm20/",
+    "tags": [
+      "DevOps",
+      "CI",
+      "mentorship",
+      "cncf"
+    ],
+    "draft": false,
+    "description": "Prashant's Mentorship experience"
+  },
+  "prevItem": {
+    "title": "TDengine colaboration",
+    "permalink": "/blog/2022/06/15/tdengine-colaboration"
+  },
+  "nextItem": {
+    "title": "Tremors - May '22",
+    "permalink": "/blog/2022/06/02/tremor-tremors"
+  }
+}

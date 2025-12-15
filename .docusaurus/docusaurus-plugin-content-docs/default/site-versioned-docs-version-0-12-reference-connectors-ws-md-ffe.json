@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/ws",
+  "id": "version-0.12/reference/connectors/ws",
+  "title": "The ws Connector",
+  "description": "The ws connector provides support for the WebSocket protocol specification.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/ws.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/ws",
+  "permalink": "/docs/0.12/reference/connectors/ws",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/ws.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "ws (Web Sockets)",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "wal (Write Ahead Log)",
+    "permalink": "/docs/0.12/reference/connectors/wal"
+  },
+  "next": {
+    "title": "bench (Benchmarking)",
+    "permalink": "/docs/0.12/reference/connectors/bench"
+  }
+}

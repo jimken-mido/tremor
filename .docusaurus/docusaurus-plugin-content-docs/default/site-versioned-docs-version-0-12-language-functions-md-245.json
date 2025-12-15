@@ -1,0 +1,27 @@
+{
+  "unversionedId": "language/functions",
+  "id": "version-0.12/language/functions",
+  "title": "Functions",
+  "description": "Tremor provides access to a growing number of functions that allow",
+  "source": "@site/versioned_docs/version-0.12/language/functions.md",
+  "sourceDirName": "language",
+  "slug": "/language/functions",
+  "permalink": "/docs/0.12/language/functions",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/functions.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Scripts",
+    "permalink": "/docs/0.12/language/scripts"
+  },
+  "next": {
+    "title": "Expressions",
+    "permalink": "/docs/0.12/language/expressions"
+  }
+}

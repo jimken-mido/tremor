@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/index",
+  "id": "reference/preprocessors/index",
+  "title": "Preprocessors",
+  "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
+  "source": "@site/docs/reference/preprocessors/index.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/",
+  "permalink": "/docs/edge/reference/preprocessors/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/preprocessors/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Postprocessors",
+    "permalink": "/docs/edge/reference/postprocessors/"
+  },
+  "next": {
+    "title": "Command Line Interface",
+    "permalink": "/docs/edge/reference/cli"
+  }
+}

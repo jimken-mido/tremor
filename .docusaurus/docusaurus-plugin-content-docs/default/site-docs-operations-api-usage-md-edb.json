@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/api-usage",
+  "id": "operations/api-usage",
+  "title": "API usage",
+  "description": "At the moment tremor supports a fairly minimal",
+  "source": "@site/docs/operations/api-usage.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/api-usage",
+  "permalink": "/docs/edge/operations/api-usage",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/operations/api-usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Runtime Capabilities",
+    "permalink": "/docs/edge/concepts/runtime_capabilities"
+  },
+  "next": {
+    "title": "Configuring Tremor",
+    "permalink": "/docs/edge/operations/configuration"
+  }
+}

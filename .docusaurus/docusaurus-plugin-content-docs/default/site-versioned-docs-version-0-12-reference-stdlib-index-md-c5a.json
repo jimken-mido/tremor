@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/index",
+  "id": "version-0.12/reference/stdlib/index",
+  "title": "Standard Library",
+  "description": "Tremor is shipped with a standard library that contains as set of functions, constants and definitions to be used within Troy, Tremor Pipeline or Tremor Script code.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/index.md",
+  "sourceDirName": "reference/stdlib",
+  "slug": "/reference/stdlib/",
+  "permalink": "/docs/0.12/reference/stdlib/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "script",
+    "permalink": "/docs/0.12/reference/operators/script"
+  },
+  "next": {
+    "title": "aggr",
+    "permalink": "/docs/0.12/reference/stdlib/aggr/"
+  }
+}

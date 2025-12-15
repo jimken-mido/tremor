@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/length-prefixed",
+  "id": "version-0.12/reference/preprocessors/length-prefixed",
+  "title": "length-prefixed",
+  "description": "Separates a continuous stream of data based on length prefixing. The length for each package in a stream is based on the first 64 bit decoded as an unsigned big endian integer.",
+  "source": "@site/versioned_docs/version-0.12/reference/preprocessors/length-prefixed.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/length-prefixed",
+  "permalink": "/docs/0.12/reference/preprocessors/length-prefixed",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/preprocessors/length-prefixed.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "gelf-chunking",
+    "permalink": "/docs/0.12/reference/preprocessors/gelf-chunking"
+  },
+  "next": {
+    "title": "remove-empty",
+    "permalink": "/docs/0.12/reference/preprocessors/remove-empty"
+  }
+}

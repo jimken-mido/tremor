@@ -1,0 +1,25 @@
+{
+  "unversionedId": "index",
+  "id": "version-0.11/index",
+  "title": "Tremor",
+  "description": "Tremor is an event processing system originally designed for the needs of platform engineering and infrastructure.",
+  "source": "@site/versioned_docs/version-0.11/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/0.11/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/index.md",
+  "tags": [],
+  "version": "0.11",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "index",
+    "title": "Tremor",
+    "sidebar_position": 0
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "next": {
+    "title": "Architecture Overview",
+    "permalink": "/docs/0.11/overview"
+  }
+}

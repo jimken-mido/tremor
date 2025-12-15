@@ -1,0 +1,24 @@
+{
+  "unversionedId": "concepts/runtime_capabilities",
+  "id": "concepts/runtime_capabilities",
+  "title": "Runtime Capabilities",
+  "description": "The Tremor runtime is the part of the system that takes your Troy configuration, brings it to live and has your CPUs pump events through your pipelines as fast as we could make it do. We tried to follow a few principles we took from years long experience in wr",
+  "source": "@site/docs/concepts/runtime_capabilities.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/runtime_capabilities",
+  "permalink": "/docs/edge/concepts/runtime_capabilities",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/concepts/runtime_capabilities.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Design",
+    "permalink": "/docs/edge/concepts/design"
+  },
+  "next": {
+    "title": "API usage",
+    "permalink": "/docs/edge/operations/api-usage"
+  }
+}

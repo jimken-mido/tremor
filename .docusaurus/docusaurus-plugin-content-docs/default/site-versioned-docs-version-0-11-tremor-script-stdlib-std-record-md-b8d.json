@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/std/record",
+  "id": "version-0.11/tremor-script/stdlib/std/record",
+  "title": "record",
+  "description": "The record module contains functions to work with records.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/std/record.md",
+  "sourceDirName": "tremor-script/stdlib/std",
+  "slug": "/tremor-script/stdlib/std/record",
+  "permalink": "/docs/0.11/tremor-script/stdlib/std/record",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/std/record.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "re",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/re"
+  },
+  "next": {
+    "title": "string",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/string"
+  }
+}

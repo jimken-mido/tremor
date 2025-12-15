@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/2022/09/24/LFX-Blog-Carol",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2022-09-24-LFX-Blog-Carol.md",
+  "source": "@site/blog/2022-09-24-LFX-Blog-Carol.md",
+  "title": "Hygienic error handling and validation for pipelines",
+  "description": "Carol’s Tremor Mentorship Report",
+  "date": "2022-09-24T00:00:00.000Z",
+  "formattedDate": "September 24, 2022",
+  "tags": [
+    {
+      "label": "cncf",
+      "permalink": "/blog/tags/cncf"
+    },
+    {
+      "label": "mentorship",
+      "permalink": "/blog/tags/mentorship"
+    }
+  ],
+  "readingTime": 6.43,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Carol Geng",
+      "title": "Tremor 2022 Summer Mentee",
+      "url": "https://www.linkedin.com/in/carolgeng/"
+    }
+  ],
+  "frontMatter": {
+    "Title": "Hygienic error handling and validation for pipelines",
+    "author": "Carol Geng",
+    "author_title": "Tremor 2022 Summer Mentee",
+    "author_url": "https://www.linkedin.com/in/carolgeng/",
+    "tags": [
+      "cncf",
+      "mentorship"
+    ],
+    "draft": false,
+    "description": "Carol’s Tremor Mentorship Report"
+  },
+  "nextItem": {
+    "title": "Support for the ClickHouse database in Tremor",
+    "permalink": "/blog/2022/07/07/LFX-Blog-Sasha"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/s3",
+  "id": "version-0.12/reference/connectors/s3",
+  "title": "The AWS s3 Connector",
+  "description": "The Amazon Web Services s3 provides integration with the AWS Simple Storage Service or",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/s3.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/s3",
+  "permalink": "/docs/0.12/reference/connectors/s3",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/s3.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "s3 (AWS S3 object store)",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "otel (Open Telemetry)",
+    "permalink": "/docs/0.12/reference/connectors/otel"
+  },
+  "next": {
+    "title": "stdio (Standard IO)",
+    "permalink": "/docs/0.12/reference/connectors/stdio"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/index",
+  "id": "version-0.12/reference/codecs/index",
+  "title": "Codecs",
+  "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/index.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/",
+  "permalink": "/docs/0.12/reference/codecs/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/0.12/reference/connectors/common_configuration"
+  },
+  "next": {
+    "title": "binary",
+    "permalink": "/docs/0.12/reference/codecs/binary"
+  }
+}

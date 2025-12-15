@@ -1,0 +1,29 @@
+{
+  "unversionedId": "overview",
+  "id": "version-0.11/overview",
+  "title": "Architecture Overview",
+  "description": "This is a short architectural overview of Tremor.",
+  "source": "@site/versioned_docs/version-0.11/overview.md",
+  "sourceDirName": ".",
+  "slug": "/overview",
+  "permalink": "/docs/0.11/overview",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/overview.md",
+  "tags": [],
+  "version": "0.11",
+  "sidebarPosition": 100,
+  "frontMatter": {
+    "id": "overview",
+    "title": "Architecture Overview",
+    "sidebar_position": 100
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Tremor",
+    "permalink": "/docs/0.11/"
+  },
+  "next": {
+    "title": "Constraints and Limitations",
+    "permalink": "/docs/0.11/ConstraintsLimitations"
+  }
+}

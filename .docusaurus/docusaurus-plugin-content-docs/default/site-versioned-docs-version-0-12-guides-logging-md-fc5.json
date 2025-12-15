@@ -1,0 +1,28 @@
+{
+  "unversionedId": "guides/logging",
+  "id": "version-0.12/guides/logging",
+  "title": "Logging",
+  "description": "DRAFT This will be hidden outside of dev DRAFT",
+  "source": "@site/versioned_docs/version-0.12/guides/logging.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/logging",
+  "permalink": "/docs/0.12/guides/logging",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/logging.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "draft": true
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Metrics",
+    "permalink": "/docs/0.12/guides/metrics"
+  },
+  "next": {
+    "title": "tbd-gd-guide",
+    "permalink": "/docs/0.12/guides/tbd-gd-guide"
+  }
+}

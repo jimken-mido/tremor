@@ -1,0 +1,25 @@
+{
+  "unversionedId": "process/template",
+  "id": "process/template",
+  "title": "RFC Template (RFC Title goes here)",
+  "description": "- Feature Name: (fill me in with a unique ident, myawesomefeature)",
+  "source": "@site/rfc/process/0000-template.md",
+  "sourceDirName": "process",
+  "slug": "/process/template",
+  "permalink": "/rfc/process/template",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/process/0000-template.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Modular Queries",
+    "permalink": "/rfc/implemented/modular-queries"
+  },
+  "next": {
+    "title": "API Changes",
+    "permalink": "/rfc/process/api_changes"
+  }
+}

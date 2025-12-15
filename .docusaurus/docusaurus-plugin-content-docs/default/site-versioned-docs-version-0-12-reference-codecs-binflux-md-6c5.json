@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/binflux",
+  "id": "version-0.12/reference/codecs/binflux",
+  "title": "binflux",
+  "description": "The binflux codec is a binary representation of the influx line protocol.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/binflux.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/binflux",
+  "permalink": "/docs/0.12/reference/codecs/binflux",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/binflux.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "binary",
+    "permalink": "/docs/0.12/reference/codecs/binary"
+  },
+  "next": {
+    "title": "csv",
+    "permalink": "/docs/0.12/reference/codecs/csv"
+  }
+}

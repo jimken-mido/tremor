@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/udp",
+  "id": "version-0.12/reference/connectors/udp",
+  "title": "The udp Connector",
+  "description": "The udp connector allows UDP based datagram clients and servers to be integrated with tremor.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/udp.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/udp",
+  "permalink": "/docs/0.12/reference/connectors/udp",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/udp.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "udp",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "tcp",
+    "permalink": "/docs/0.12/reference/connectors/tcp"
+  },
+  "next": {
+    "title": "unix_socket",
+    "permalink": "/docs/0.12/reference/connectors/unix_socket"
+  }
+}

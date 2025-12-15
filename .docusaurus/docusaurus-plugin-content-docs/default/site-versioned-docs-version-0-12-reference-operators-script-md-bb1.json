@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/script",
+  "id": "version-0.12/reference/operators/script",
+  "title": "script",
+  "description": "An embedded tremor script is created with a special syntax that deviates from the operator creation. For a full reference see the section on tremor-query embedded-scripts.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/script.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/script",
+  "permalink": "/docs/0.12/reference/operators/script",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/script.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "qos::roundrobin",
+    "permalink": "/docs/0.12/reference/operators/roundrobin"
+  },
+  "next": {
+    "title": "Standard Library",
+    "permalink": "/docs/0.12/reference/stdlib/"
+  }
+}

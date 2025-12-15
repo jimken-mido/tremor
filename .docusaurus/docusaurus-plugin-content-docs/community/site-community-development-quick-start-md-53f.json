@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/quick-start",
+  "id": "development/quick-start",
+  "title": "Quick Start",
+  "description": "Quick start guide to installing, running and testing Tremor.",
+  "source": "@site/community/development/quick-start.md",
+  "sourceDirName": "development",
+  "slug": "/development/quick-start",
+  "permalink": "/community/development/quick-start",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Quick Start",
+    "description": "Quick start guide to installing, running and testing Tremor.",
+    "sidebar_position": 1
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Contributing to Tremor",
+    "permalink": "/community/development/"
+  },
+  "next": {
+    "title": "Testing",
+    "permalink": "/community/development/testing"
+  }
+}

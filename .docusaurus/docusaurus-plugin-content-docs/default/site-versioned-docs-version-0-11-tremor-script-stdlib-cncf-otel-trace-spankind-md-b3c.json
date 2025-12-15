@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/cncf/otel/trace/spankind",
+  "id": "version-0.11/tremor-script/stdlib/cncf/otel/trace/spankind",
+  "title": "spankind",
+  "description": "SpanKind is the type of span. Can be used to specify additional relationships between spans",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/trace/spankind.md",
+  "sourceDirName": "tremor-script/stdlib/cncf/otel/trace",
+  "slug": "/tremor-script/stdlib/cncf/otel/trace/spankind",
+  "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/spankind",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/trace/spankind.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "span_id",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/span_id"
+  },
+  "next": {
+    "title": "status",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/status"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "api/index",
+  "id": "version-0.12/api/index",
+  "title": "index",
+  "description": "Tremor exposes a versioned http API. This file should not be visible.",
+  "source": "@site/versioned_docs/version-0.12/api/index.md",
+  "sourceDirName": "api",
+  "slug": "/api/",
+  "permalink": "/docs/0.12/api/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/api/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Monitoring",
+    "permalink": "/docs/0.12/operations/monitoring"
+  }
+}

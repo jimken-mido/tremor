@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/batch",
+  "id": "version-0.12/reference/operators/batch",
+  "title": "generic::batch",
+  "description": "The batch operator is used to batch multiple events and send them in a bulk fashion. It also allows to set a timeout of how long the operator should wait for a batch to be filled.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/batch.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/batch",
+  "permalink": "/docs/0.12/reference/operators/batch",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/batch.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "qos::backpressure",
+    "permalink": "/docs/0.12/reference/operators/backpressure"
+  },
+  "next": {
+    "title": "grouper::bucket",
+    "permalink": "/docs/0.12/reference/operators/bucket"
+  }
+}

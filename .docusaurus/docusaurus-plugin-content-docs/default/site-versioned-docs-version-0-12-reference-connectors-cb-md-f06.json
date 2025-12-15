@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/cb",
+  "id": "version-0.12/reference/connectors/cb",
+  "title": "The cb Connector",
+  "description": "This connector is not intended for production use, but for testing the Tremor runtime itself. To enable it pass --debug-connectors to tremor.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/cb.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/cb",
+  "permalink": "/docs/0.12/reference/connectors/cb",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/cb.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "sidebar_label": "cb (Circuit Breaker)",
+    "sidebar_position": 101
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "null (No messages)",
+    "permalink": "/docs/0.12/reference/connectors/null"
+  },
+  "next": {
+    "title": "exit",
+    "permalink": "/docs/0.12/reference/connectors/exit"
+  }
+}

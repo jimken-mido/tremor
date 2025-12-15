@@ -1,0 +1,217 @@
+{
+  "pluginId": "community",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "communitySidebar": [
+      {
+        "type": "link",
+        "label": "Community",
+        "href": "/community/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Code of Conduct",
+        "href": "/community/CodeofConduct",
+        "docId": "CodeofConduct"
+      },
+      {
+        "type": "category",
+        "label": "Contribute",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Quick Start",
+            "href": "/community/development/quick-start",
+            "docId": "development/quick-start"
+          },
+          {
+            "type": "link",
+            "label": "Testing",
+            "href": "/community/development/testing",
+            "docId": "development/testing"
+          },
+          {
+            "type": "link",
+            "label": "Debugging Tremor",
+            "href": "/community/development/debugging",
+            "docId": "development/debugging"
+          },
+          {
+            "type": "link",
+            "label": "Profiling Tremor",
+            "href": "/community/development/profiling",
+            "docId": "development/profiling"
+          },
+          {
+            "type": "link",
+            "label": "Benchmarking",
+            "href": "/community/development/benchmarking",
+            "docId": "development/benchmarking"
+          }
+        ],
+        "href": "/community/development/"
+      },
+      {
+        "type": "category",
+        "label": "Governance",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Core Infrastructure Initiative",
+            "href": "/community/governance/CII",
+            "docId": "governance/CII"
+          },
+          {
+            "type": "link",
+            "label": "Versioning and Sundown Policy",
+            "href": "/community/governance/Versioning",
+            "docId": "governance/Versioning"
+          },
+          {
+            "type": "link",
+            "label": "Tremor Teams",
+            "href": "/community/governance/teams",
+            "docId": "governance/teams"
+          },
+          {
+            "type": "link",
+            "label": "Security",
+            "href": "/community/governance/security",
+            "docId": "governance/security"
+          }
+        ],
+        "href": "/community/governance/"
+      },
+      {
+        "type": "category",
+        "label": "Events & Media",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "TremorCon",
+            "href": "/community/events/TremorCon2021",
+            "docId": "events/TremorCon2021"
+          }
+        ],
+        "href": "/community/events/"
+      },
+      {
+        "type": "link",
+        "label": "Adoption Case Studies",
+        "href": "/community/ADOPTERS",
+        "docId": "ADOPTERS"
+      }
+    ]
+  },
+  "docs": {
+    "ADOPTERS": {
+      "id": "ADOPTERS",
+      "title": "Adoption Case Studies",
+      "description": "Until Tremor was open-sourced in February 2020, it was an internal project",
+      "sidebar": "communitySidebar"
+    },
+    "CodeofConduct": {
+      "id": "CodeofConduct",
+      "title": "Code of Conduct",
+      "description": "A version of this document can be found online.",
+      "sidebar": "communitySidebar"
+    },
+    "development/benchmarking": {
+      "id": "development/benchmarking",
+      "title": "Benchmarking",
+      "description": "This is a short synopsis of benchmarking in tremor",
+      "sidebar": "communitySidebar"
+    },
+    "development/Contributing": {
+      "id": "development/Contributing",
+      "title": "Contributing to Tremor",
+      "description": "Thanks for your interest in contributing to the Tremor project!!",
+      "sidebar": "communitySidebar"
+    },
+    "development/debugging": {
+      "id": "development/debugging",
+      "title": "Debugging Tremor",
+      "description": "This is a short canned synopsis of debugging tremor.",
+      "sidebar": "communitySidebar"
+    },
+    "development/profiling": {
+      "id": "development/profiling",
+      "title": "Profiling Tremor",
+      "description": "This is a short canned synopsis of profiling tremor.",
+      "sidebar": "communitySidebar"
+    },
+    "development/quick-start": {
+      "id": "development/quick-start",
+      "title": "Quick Start",
+      "description": "Quick start guide to installing, running and testing Tremor.",
+      "sidebar": "communitySidebar"
+    },
+    "development/testing": {
+      "id": "development/testing",
+      "title": "Testing",
+      "description": "This is a short canned synopsis of testing in the tremor project.",
+      "sidebar": "communitySidebar"
+    },
+    "events/index": {
+      "id": "events/index",
+      "title": "Overview",
+      "description": "From time to time the Tremor team hosts, engages with or",
+      "sidebar": "communitySidebar"
+    },
+    "events/TremorCon2021": {
+      "id": "events/TremorCon2021",
+      "title": "TremorCon",
+      "description": "TremorCon is an annual one-day conference that showcases the contributions",
+      "sidebar": "communitySidebar"
+    },
+    "governance/CII": {
+      "id": "governance/CII",
+      "title": "Core Infrastructure Initiative",
+      "description": "This document normatively details the Tremor project best practices which is founded",
+      "sidebar": "communitySidebar"
+    },
+    "governance/index": {
+      "id": "governance/index",
+      "title": "Governance",
+      "description": "Tremor project governance model.",
+      "sidebar": "communitySidebar"
+    },
+    "governance/security": {
+      "id": "governance/security",
+      "title": "Security",
+      "description": "The tremor project follows strict coding practices that help to reduce the incidence,",
+      "sidebar": "communitySidebar"
+    },
+    "governance/teams": {
+      "id": "governance/teams",
+      "title": "Tremor Teams",
+      "description": "Teams",
+      "sidebar": "communitySidebar"
+    },
+    "governance/Versioning": {
+      "id": "governance/Versioning",
+      "title": "Versioning and Sundown Policy",
+      "description": "Versioning",
+      "sidebar": "communitySidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Community",
+      "description": "The Tremor project is an early-stage project, with a small supporting community.",
+      "sidebar": "communitySidebar"
+    }
+  }
+}

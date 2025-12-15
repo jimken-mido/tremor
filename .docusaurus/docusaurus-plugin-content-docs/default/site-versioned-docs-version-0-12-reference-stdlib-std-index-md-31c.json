@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/index",
+  "id": "version-0.12/reference/stdlib/std/index",
+  "title": "std",
+  "description": "The tremor language standard library it provides the following modules:",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/index.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/",
+  "permalink": "/docs/0.12/reference/stdlib/std/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "trace_id",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace_id"
+  },
+  "next": {
+    "title": "array",
+    "permalink": "/docs/0.12/reference/stdlib/std/array"
+  }
+}

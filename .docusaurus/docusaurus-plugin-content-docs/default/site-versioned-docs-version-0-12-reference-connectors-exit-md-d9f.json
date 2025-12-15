@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/exit",
+  "id": "version-0.12/reference/connectors/exit",
+  "title": "The exit Connector",
+  "description": "This connector is not intended for production use, but for testing the Tremor runtime itself. To enable it pass --debug-connectors to tremor.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/exit.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/exit",
+  "permalink": "/docs/0.12/reference/connectors/exit",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/exit.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 102,
+  "frontMatter": {
+    "sidebar_label": "exit",
+    "sidebar_position": 102
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "cb (Circuit Breaker)",
+    "permalink": "/docs/0.12/reference/connectors/cb"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/0.12/reference/connectors/common_configuration"
+  }
+}

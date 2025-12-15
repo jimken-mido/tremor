@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/json",
+  "id": "version-0.12/reference/extractors/json",
+  "title": "json",
+  "description": "The JSON extractor converts the input string into its respective JSON representation conforming to The Javascript Object Notation Data Interchange Format (RFC 8259)",
+  "source": "@site/versioned_docs/version-0.12/reference/extractors/json.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/json",
+  "permalink": "/docs/0.12/reference/extractors/json",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/extractors/json.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "influx",
+    "permalink": "/docs/0.12/reference/extractors/influx"
+  },
+  "next": {
+    "title": "kv",
+    "permalink": "/docs/0.12/reference/extractors/kv"
+  }
+}

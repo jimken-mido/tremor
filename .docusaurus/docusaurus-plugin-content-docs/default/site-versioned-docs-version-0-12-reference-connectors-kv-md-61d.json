@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/kv",
+  "id": "version-0.12/reference/connectors/kv",
+  "title": "The kv Connector",
+  "description": "The kv connector provides a key value storate facility for tremor-based",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/kv.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/kv",
+  "permalink": "/docs/0.12/reference/connectors/kv",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/kv.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "kv (Key/Value Store)",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "kafka",
+    "permalink": "/docs/0.12/reference/connectors/kafka"
+  },
+  "next": {
+    "title": "metrics (Tremor metrics)",
+    "permalink": "/docs/0.12/reference/connectors/metrics"
+  }
+}

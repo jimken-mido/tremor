@@ -1,0 +1,24 @@
+{
+  "unversionedId": "guides/old/syslog_udp/index",
+  "id": "guides/old/syslog_udp/index",
+  "title": "Syslog UDP",
+  "description": "The syslog udp example is demonstrate a number things:",
+  "source": "@site/docs/guides/old/syslog_udp/index.md",
+  "sourceDirName": "guides/old/syslog_udp",
+  "slug": "/guides/old/syslog_udp/",
+  "permalink": "/docs/edge/guides/old/syslog_udp/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/guides/old/syslog_udp/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Logstash",
+    "permalink": "/docs/edge/guides/old/logstash/"
+  },
+  "next": {
+    "title": "Syslog UDP with DNS",
+    "permalink": "/docs/edge/guides/old/syslog_udp_dns/"
+  }
+}

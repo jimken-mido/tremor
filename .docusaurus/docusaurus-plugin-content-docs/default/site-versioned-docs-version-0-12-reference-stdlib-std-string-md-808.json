@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/string",
+  "id": "version-0.12/reference/stdlib/std/string",
+  "title": "string",
+  "description": "The string module contains functions that primarily work with strings.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/string.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/string",
+  "permalink": "/docs/0.12/reference/stdlib/std/string",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/string.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "size",
+    "permalink": "/docs/0.12/reference/stdlib/std/size"
+  },
+  "next": {
+    "title": "test",
+    "permalink": "/docs/0.12/reference/stdlib/std/test"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/polling_alerts/index",
+  "id": "version-0.11/recipes/polling_alerts/index",
+  "title": "Polling",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/38_polling_alerts/index.md",
+  "sourceDirName": "recipes/38_polling_alerts",
+  "slug": "/recipes/polling_alerts/",
+  "permalink": "/docs/0.11/recipes/polling_alerts/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/38_polling_alerts/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Configurator",
+    "permalink": "/docs/0.11/recipes/configurator/"
+  },
+  "next": {
+    "title": "Ingesting documents from kafka into elastic",
+    "permalink": "/docs/0.11/recipes/kafka_elastic_correlation/"
+  }
+}

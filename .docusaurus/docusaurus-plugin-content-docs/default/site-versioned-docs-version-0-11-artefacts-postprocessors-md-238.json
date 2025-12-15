@@ -1,0 +1,27 @@
+{
+  "unversionedId": "artefacts/postprocessors",
+  "id": "version-0.11/artefacts/postprocessors",
+  "title": "Postprocessors",
+  "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
+  "source": "@site/versioned_docs/version-0.11/artefacts/postprocessors.md",
+  "sourceDirName": "artefacts",
+  "slug": "/artefacts/postprocessors",
+  "permalink": "/docs/0.11/artefacts/postprocessors",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/artefacts/postprocessors.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {
+    "id": "postprocessors",
+    "title": "Postprocessors"
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Onramps",
+    "permalink": "/docs/0.11/artefacts/onramps"
+  },
+  "next": {
+    "title": "Preprocessors",
+    "permalink": "/docs/0.11/artefacts/preprocessors"
+  }
+}

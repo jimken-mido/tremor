@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/cli",
+  "id": "reference/cli",
+  "title": "Command Line Interface",
+  "description": "This document summarises the tremor cli commands.",
+  "source": "@site/docs/reference/cli.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/cli",
+  "permalink": "/docs/edge/reference/cli",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/cli.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Preprocessors",
+    "permalink": "/docs/edge/reference/preprocessors/"
+  },
+  "next": {
+    "title": "Extractors",
+    "permalink": "/docs/edge/reference/extractors/"
+  }
+}

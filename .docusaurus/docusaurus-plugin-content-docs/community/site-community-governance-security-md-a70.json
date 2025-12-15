@@ -1,0 +1,26 @@
+{
+  "unversionedId": "governance/security",
+  "id": "governance/security",
+  "title": "Security",
+  "description": "The tremor project follows strict coding practices that help to reduce the incidence,",
+  "source": "@site/community/governance/security.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/security",
+  "permalink": "/community/governance/security",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Tremor Teams",
+    "permalink": "/community/governance/teams"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/community/events/"
+  }
+}

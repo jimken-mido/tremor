@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/onramp-postgres",
+  "id": "implemented/onramp-postgres",
+  "title": "Onramp Postgres",
+  "description": "- Feature Name: rfc0008onramp_postgres",
+  "source": "@site/rfc/implemented/0008-onramp-postgres.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/onramp-postgres",
+  "permalink": "/rfc/implemented/onramp-postgres",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0008-onramp-postgres.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pipeline Optimisations",
+    "permalink": "/rfc/implemented/pipeline-optimizations"
+  },
+  "next": {
+    "title": "Modularity",
+    "permalink": "/rfc/implemented/modularity"
+  }
+}

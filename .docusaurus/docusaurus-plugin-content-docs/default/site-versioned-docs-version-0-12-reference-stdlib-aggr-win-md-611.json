@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/aggr/win",
+  "id": "version-0.12/reference/stdlib/aggr/win",
+  "title": "win",
+  "description": "The win module contains functions for aggregating over the current active window in a",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/aggr/win.md",
+  "sourceDirName": "reference/stdlib/aggr",
+  "slug": "/reference/stdlib/aggr/win",
+  "permalink": "/docs/0.12/reference/stdlib/aggr/win",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/aggr/win.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "stats",
+    "permalink": "/docs/0.12/reference/stdlib/aggr/stats"
+  },
+  "next": {
+    "title": "cncf",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/"
+  }
+}

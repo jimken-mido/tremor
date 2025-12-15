@@ -1,0 +1,24 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "RFCs",
+  "description": "[Tremor RFCs]: #tremor-rfcs",
+  "source": "@site/rfc/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/rfc/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "RFCs",
+    "sidebar_position": 0
+  },
+  "sidebar": "defaultSidebar",
+  "next": {
+    "title": "Pipeline State Mechanism",
+    "permalink": "/rfc/accepted/pipeline-state-mechanism"
+  }
+}

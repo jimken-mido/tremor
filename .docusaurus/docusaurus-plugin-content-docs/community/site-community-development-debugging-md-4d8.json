@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development/debugging",
+  "id": "development/debugging",
+  "title": "Debugging Tremor",
+  "description": "This is a short canned synopsis of debugging tremor.",
+  "source": "@site/community/development/debugging.md",
+  "sourceDirName": "development",
+  "slug": "/development/debugging",
+  "permalink": "/community/development/debugging",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Testing",
+    "permalink": "/community/development/testing"
+  },
+  "next": {
+    "title": "Profiling Tremor",
+    "permalink": "/community/development/profiling"
+  }
+}

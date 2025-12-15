@@ -1,0 +1,25 @@
+{
+  "unversionedId": "accepted/plugin-development-kit",
+  "id": "accepted/plugin-development-kit",
+  "title": "Plugin development Kit",
+  "description": "- Feature Name: plugindevelopmentkit",
+  "source": "@site/rfc/accepted/0006-plugin-development-kit.md",
+  "sourceDirName": "accepted",
+  "slug": "/accepted/plugin-development-kit",
+  "permalink": "/rfc/accepted/plugin-development-kit",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/accepted/0006-plugin-development-kit.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Sliding Window Mechanism",
+    "permalink": "/rfc/accepted/sliding-window-mechanism"
+  },
+  "next": {
+    "title": "Ramp Interface",
+    "permalink": "/rfc/accepted/ramp-interface"
+  }
+}

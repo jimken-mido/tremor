@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/math",
+  "id": "version-0.12/reference/stdlib/std/math",
+  "title": "math",
+  "description": "The math module contains functions for common mathematical operations.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/math.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/math",
+  "permalink": "/docs/0.12/reference/stdlib/std/math",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/math.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "json",
+    "permalink": "/docs/0.12/reference/stdlib/std/json"
+  },
+  "next": {
+    "title": "path",
+    "permalink": "/docs/0.12/reference/stdlib/std/path"
+  }
+}

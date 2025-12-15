@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/tremor/system",
+  "id": "version-0.12/reference/stdlib/tremor/system",
+  "title": "system",
+  "description": "The system namespace contains functions that provide information about the",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/tremor/system.md",
+  "sourceDirName": "reference/stdlib/tremor",
+  "slug": "/reference/stdlib/tremor/system",
+  "permalink": "/docs/0.12/reference/stdlib/tremor/system",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/tremor/system.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "pipelines",
+    "permalink": "/docs/0.12/reference/stdlib/tremor/pipelines"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/0.12/api/"
+  }
+}

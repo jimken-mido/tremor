@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/postprocessors/index",
+  "id": "reference/postprocessors/index",
+  "title": "Postprocessors",
+  "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
+  "source": "@site/docs/reference/postprocessors/index.md",
+  "sourceDirName": "reference/postprocessors",
+  "slug": "/reference/postprocessors/",
+  "permalink": "/docs/edge/reference/postprocessors/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/postprocessors/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Codecs",
+    "permalink": "/docs/edge/reference/codecs/"
+  },
+  "next": {
+    "title": "Preprocessors",
+    "permalink": "/docs/edge/reference/preprocessors/"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development/profiling",
+  "id": "development/profiling",
+  "title": "Profiling Tremor",
+  "description": "This is a short canned synopsis of profiling tremor.",
+  "source": "@site/community/development/profiling.md",
+  "sourceDirName": "development",
+  "slug": "/development/profiling",
+  "permalink": "/community/development/profiling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Debugging Tremor",
+    "permalink": "/community/development/debugging"
+  },
+  "next": {
+    "title": "Benchmarking",
+    "permalink": "/community/development/benchmarking"
+  }
+}

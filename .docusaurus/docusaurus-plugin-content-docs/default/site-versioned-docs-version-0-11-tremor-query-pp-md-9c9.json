@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-query/pp",
+  "id": "version-0.11/tremor-query/pp",
+  "title": "pp",
+  "description": "Lexical Preprocessor",
+  "source": "@site/versioned_docs/version-0.11/tremor-query/pp.md",
+  "sourceDirName": "tremor-query",
+  "slug": "/tremor-query/pp",
+  "permalink": "/docs/0.11/tremor-query/pp",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-query/pp.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Operators",
+    "permalink": "/docs/0.11/tremor-query/operators"
+  },
+  "next": {
+    "title": "Periodic Synthetic Metrics Events",
+    "permalink": "/docs/0.11/tremor-query/recipes"
+  }
+}

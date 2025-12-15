@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/2021/11/05/kubernetes-sidecars",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-11-05-kubernetes-sidecars.md",
+  "source": "@site/blog/2021-11-05-kubernetes-sidecars.md",
+  "title": "Case Study - Kubernetes and Tremor Sidecars",
+  "description": "Happened Before",
+  "date": "2021-11-05T00:00:00.000Z",
+  "formattedDate": "November 5, 2021",
+  "tags": [
+    {
+      "label": "case-study",
+      "permalink": "/blog/tags/case-study"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    },
+    {
+      "label": "k8s",
+      "permalink": "/blog/tags/k-8-s"
+    }
+  ],
+  "readingTime": 2.765,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "url": "https://github.com/tremor-rs",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Case Study - Kubernetes and Tremor Sidecars",
+    "tags": [
+      "case-study",
+      "wayfair",
+      "k8s"
+    ],
+    "author": "The Tremor Team",
+    "author_url": "https://github.com/tremor-rs",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "image": "./media/wayfair.png",
+    "draft": false,
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Case Study - Modularity, Oh My",
+    "permalink": "/blog/2021/11/06/modularity"
+  },
+  "nextItem": {
+    "title": "Case Study - Data Flow with Tremor",
+    "permalink": "/blog/2021/11/04/data-flow"
+  }
+}

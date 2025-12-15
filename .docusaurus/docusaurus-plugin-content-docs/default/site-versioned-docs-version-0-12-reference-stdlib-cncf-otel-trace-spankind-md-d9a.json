@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/trace/spankind",
+  "id": "version-0.12/reference/stdlib/cncf/otel/trace/spankind",
+  "title": "spankind",
+  "description": "SpanKind is the type of span. Can be used to specify additional relationships between spans",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/spankind.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/trace",
+  "slug": "/reference/stdlib/cncf/otel/trace/spankind",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/spankind",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/spankind.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "trace",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/"
+  },
+  "next": {
+    "title": "status",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/"
+  }
+}

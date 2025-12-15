@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/quota_service/index",
+  "id": "version-0.11/recipes/quota_service/index",
+  "title": "Quota Service",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/36_quota_service/index.md",
+  "sourceDirName": "recipes/36_quota_service",
+  "slug": "/recipes/quota_service/",
+  "permalink": "/docs/0.11/recipes/quota_service/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/36_quota_service/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Reverse proxy with Load Balancing",
+    "permalink": "/docs/0.11/recipes/reverse_proxy_load_balancing/"
+  },
+  "next": {
+    "title": "Configurator",
+    "permalink": "/docs/0.11/recipes/configurator/"
+  }
+}

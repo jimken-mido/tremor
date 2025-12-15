@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/win",
+  "id": "version-0.12/reference/stdlib/std/win",
+  "title": "win",
+  "description": "The win module contains to get informations about the current",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/win.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/win",
+  "permalink": "/docs/0.12/reference/stdlib/std/win",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/win.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "url",
+    "permalink": "/docs/0.12/reference/stdlib/std/url"
+  },
+  "next": {
+    "title": "tremor",
+    "permalink": "/docs/0.12/reference/stdlib/tremor/"
+  }
+}

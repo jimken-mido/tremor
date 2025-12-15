@@ -1,0 +1,56 @@
+{
+  "permalink": "/blog/2020/02/22/welcome",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2020-02-22-welcome.md",
+  "source": "@site/blog/2020-02-22-welcome.md",
+  "title": "Tremor is now Open Source!",
+  "description": "Announcement of Tremor as an OSS project.",
+  "date": "2020-02-22T00:00:00.000Z",
+  "formattedDate": "February 22, 2020",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
+    },
+    {
+      "label": "announcement",
+      "permalink": "/blog/tags/announcement"
+    },
+    {
+      "label": "open-source",
+      "permalink": "/blog/tags/open-source"
+    }
+  ],
+  "readingTime": 0.275,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "url": "https://github.com/tremor-rs",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Tremor is now Open Source!",
+    "author": "The Tremor Team",
+    "author_url": "https://github.com/tremor-rs",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "tags": [
+      "hello",
+      "welcome",
+      "announcement",
+      "open-source"
+    ],
+    "image": "/img/logo-minimalism.png",
+    "draft": false,
+    "hide_table_of_contents": false,
+    "description": "Announcement of Tremor as an OSS project."
+  },
+  "prevItem": {
+    "title": "Improving our Influx Parser- A Story in Four Acts",
+    "permalink": "/blog/2020/03/06/influx-perf"
+  }
+}

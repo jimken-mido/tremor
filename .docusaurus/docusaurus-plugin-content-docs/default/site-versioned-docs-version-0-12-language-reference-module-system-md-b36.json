@@ -1,0 +1,24 @@
+{
+  "unversionedId": "language/reference/module_system",
+  "id": "version-0.12/language/reference/module_system",
+  "title": "ModuleFile Grammar",
+  "description": "Rule ModuleFile",
+  "source": "@site/versioned_docs/version-0.12/language/reference/module_system.md",
+  "sourceDirName": "language/reference",
+  "slug": "/language/reference/module_system",
+  "permalink": "/docs/0.12/language/reference/module_system",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/reference/module_system.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Full Grammar",
+    "permalink": "/docs/0.12/language/reference/full"
+  },
+  "next": {
+    "title": "Query Grammar",
+    "permalink": "/docs/0.12/language/reference/query"
+  }
+}

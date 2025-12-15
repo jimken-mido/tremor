@@ -1,0 +1,25 @@
+{
+  "unversionedId": "accepted/script-operator-enhacements",
+  "id": "accepted/script-operator-enhacements",
+  "title": "script-operator-enhacements",
+  "description": "- Feature Name: script operator enhancements",
+  "source": "@site/rfc/accepted/0013-script-operator-enhacements.md",
+  "sourceDirName": "accepted",
+  "slug": "/accepted/script-operator-enhacements",
+  "permalink": "/rfc/accepted/script-operator-enhacements",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/accepted/0013-script-operator-enhacements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Ramp Interface",
+    "permalink": "/rfc/accepted/ramp-interface"
+  },
+  "next": {
+    "title": "binary-type",
+    "permalink": "/rfc/accepted/binary-type"
+  }
+}

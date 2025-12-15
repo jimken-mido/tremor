@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/trace/status/code",
+  "id": "version-0.12/reference/stdlib/cncf/otel/trace/status/code",
+  "title": "code",
+  "description": "Represents the status code",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/status/code.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/trace/status",
+  "slug": "/reference/stdlib/cncf/otel/trace/status/code",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/code",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/status/code.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "status",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/"
+  },
+  "next": {
+    "title": "deprecated",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/deprecated"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/tremor/origin",
+  "id": "version-0.11/tremor-script/stdlib/tremor/origin",
+  "title": "origin",
+  "description": "The origin module contains functions for retrieving relevant origin",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/tremor/origin.md",
+  "sourceDirName": "tremor-script/stdlib/tremor",
+  "slug": "/tremor-script/stdlib/tremor/origin",
+  "permalink": "/docs/0.11/tremor-script/stdlib/tremor/origin",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/tremor/origin.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "chash",
+    "permalink": "/docs/0.11/tremor-script/stdlib/tremor/chash"
+  },
+  "next": {
+    "title": "system",
+    "permalink": "/docs/0.11/tremor-script/stdlib/tremor/system"
+  }
+}

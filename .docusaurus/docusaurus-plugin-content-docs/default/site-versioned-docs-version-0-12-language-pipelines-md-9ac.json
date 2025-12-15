@@ -1,0 +1,27 @@
+{
+  "unversionedId": "language/pipelines",
+  "id": "version-0.12/language/pipelines",
+  "title": "Pipelines",
+  "description": "This section details the major concepts of Pipelines in Tremor.",
+  "source": "@site/versioned_docs/version-0.12/language/pipelines.md",
+  "sourceDirName": "language",
+  "slug": "/language/pipelines",
+  "permalink": "/docs/0.12/language/pipelines",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/pipelines.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Language",
+    "permalink": "/docs/0.12/language/"
+  },
+  "next": {
+    "title": "Scripts",
+    "permalink": "/docs/0.12/language/scripts"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/trace_id",
+  "id": "version-0.12/reference/stdlib/cncf/otel/trace_id",
+  "title": "trace_id",
+  "description": "Trace Identifiers",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace_id.md",
+  "sourceDirName": "reference/stdlib/cncf/otel",
+  "slug": "/reference/stdlib/cncf/otel/trace_id",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace_id",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace_id.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "deprecated",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/deprecated"
+  },
+  "next": {
+    "title": "std",
+    "permalink": "/docs/0.12/reference/stdlib/std/"
+  }
+}

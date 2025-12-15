@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/install",
+  "id": "getting-started/install",
+  "title": "Install Tremor",
+  "description": "Lets get Tremor installed on your machine!",
+  "source": "@site/docs/getting-started/install.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/install",
+  "permalink": "/docs/edge/getting-started/install",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/getting-started/install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/edge/getting-started/"
+  },
+  "next": {
+    "title": "IDE Integration and tooling",
+    "permalink": "/docs/edge/getting-started/tooling"
+  }
+}

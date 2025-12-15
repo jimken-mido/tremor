@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/logs/traceflags",
+  "id": "version-0.12/reference/stdlib/cncf/otel/logs/traceflags",
+  "title": "traceflags",
+  "description": "The severity module defines severity_number values",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/logs/traceflags.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/logs",
+  "slug": "/reference/stdlib/cncf/otel/logs/traceflags",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/logs/traceflags",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/logs/traceflags.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "severity",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/logs/severity"
+  },
+  "next": {
+    "title": "metrics",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/metrics/"
+  }
+}

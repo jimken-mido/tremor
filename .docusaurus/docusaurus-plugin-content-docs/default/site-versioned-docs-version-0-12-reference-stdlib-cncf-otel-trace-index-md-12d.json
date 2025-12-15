@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/trace/index",
+  "id": "version-0.12/reference/stdlib/cncf/otel/trace/index",
+  "title": "trace",
+  "description": "CNCF OpenTelemetry Trace event utilities",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/index.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/trace",
+  "slug": "/reference/stdlib/cncf/otel/trace/",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "span_id",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/span_id"
+  },
+  "next": {
+    "title": "spankind",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/spankind"
+  }
+}

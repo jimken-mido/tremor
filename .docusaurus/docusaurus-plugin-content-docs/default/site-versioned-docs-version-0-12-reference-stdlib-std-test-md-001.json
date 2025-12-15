@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/test",
+  "id": "version-0.12/reference/stdlib/std/test",
+  "title": "test",
+  "description": "The test module is used for writing tremor unit tests.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/test.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/test",
+  "permalink": "/docs/0.12/reference/stdlib/std/test",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/test.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "string",
+    "permalink": "/docs/0.12/reference/stdlib/std/string"
+  },
+  "next": {
+    "title": "time",
+    "permalink": "/docs/0.12/reference/stdlib/std/time/"
+  }
+}

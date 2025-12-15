@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/modularity",
+  "id": "implemented/modularity",
+  "title": "Modularity",
+  "description": "- Feature Name: rfc-0010-modularity",
+  "source": "@site/rfc/implemented/0010-modularity.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/modularity",
+  "permalink": "/rfc/implemented/modularity",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0010-modularity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Onramp Postgres",
+    "permalink": "/rfc/implemented/onramp-postgres"
+  },
+  "next": {
+    "title": "String Interpolation",
+    "permalink": "/rfc/implemented/string-interpolation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/basics",
+  "id": "guides/basics",
+  "title": "Basics",
+  "description": "This guide is a walk through of tremor basics. It is a starting point to learn",
+  "source": "@site/docs/guides/basics.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/basics",
+  "permalink": "/docs/edge/guides/basics",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/guides/basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Guides",
+    "permalink": "/docs/edge/guides/"
+  },
+  "next": {
+    "title": "Logging",
+    "permalink": "/docs/edge/guides/logging"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "guides/metrics",
+  "id": "version-0.12/guides/metrics",
+  "title": "Metrics",
+  "description": "One case you can deploy tremor for is to work with metrics. Not as a store but as a preprocessor, aggregator, and filter for metrics stores.",
+  "source": "@site/versioned_docs/version-0.12/guides/metrics.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/metrics",
+  "permalink": "/docs/0.12/guides/metrics",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/metrics.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Basics",
+    "permalink": "/docs/0.12/guides/basics"
+  },
+  "next": {
+    "title": "Logging",
+    "permalink": "/docs/0.12/guides/logging"
+  }
+}

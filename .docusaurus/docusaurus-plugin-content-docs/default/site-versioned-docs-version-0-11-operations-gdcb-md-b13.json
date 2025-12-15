@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/gdcb",
+  "id": "version-0.11/operations/gdcb",
+  "title": "Circuit Breakers and Guaranteed Delivery",
+  "description": "With tremor 0.9 we introduced logic for Guaranteed Delivery (GD) and Circuit Breakers (CB) so it is",
+  "source": "@site/versioned_docs/version-0.11/operations/gdcb.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/gdcb",
+  "permalink": "/docs/0.11/operations/gdcb",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/operations/gdcb.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Configuring Tremor",
+    "permalink": "/docs/0.11/operations/configuration"
+  },
+  "next": {
+    "title": "Linked Transports",
+    "permalink": "/docs/0.11/operations/linked-transports"
+  }
+}

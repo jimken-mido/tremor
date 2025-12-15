@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/path",
+  "id": "version-0.12/reference/stdlib/std/path",
+  "title": "path",
+  "description": "The path module contains utility functions for path handling",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/path.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/path",
+  "permalink": "/docs/0.12/reference/stdlib/std/path",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/path.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "math",
+    "permalink": "/docs/0.12/reference/stdlib/std/math"
+  },
+  "next": {
+    "title": "random",
+    "permalink": "/docs/0.12/reference/stdlib/std/random"
+  }
+}

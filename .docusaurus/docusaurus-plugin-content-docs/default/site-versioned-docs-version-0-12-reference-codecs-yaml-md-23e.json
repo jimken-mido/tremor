@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/yaml",
+  "id": "version-0.12/reference/codecs/yaml",
+  "title": "yaml",
+  "description": "The yaml codec supports marshalling the YAML Ain't Markup Language format.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/yaml.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/yaml",
+  "permalink": "/docs/0.12/reference/codecs/yaml",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/yaml.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "syslog",
+    "permalink": "/docs/0.12/reference/codecs/syslog"
+  },
+  "next": {
+    "title": "Postprocessors",
+    "permalink": "/docs/0.12/reference/postprocessors/"
+  }
+}

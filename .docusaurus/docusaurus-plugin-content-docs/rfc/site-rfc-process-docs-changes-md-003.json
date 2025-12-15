@@ -1,0 +1,27 @@
+{
+  "unversionedId": "process/docs_changes",
+  "id": "process/docs_changes",
+  "title": "Documentation Changes",
+  "description": "Any change to tremor that requires an RFC requires complete documentation to be contributed to cover the changes covered by the RFC and any changes to existing capabilities, features or functions within tremor.",
+  "source": "@site/rfc/process/docs_changes.md",
+  "sourceDirName": "process",
+  "slug": "/process/docs_changes",
+  "permalink": "/rfc/process/docs_changes",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/process/docs_changes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Documentation Changes",
+    "id": "docs_changes"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Architecture Changes",
+    "permalink": "/rfc/process/arch_changes"
+  },
+  "next": {
+    "title": "Language Changes",
+    "permalink": "/rfc/process/lang_changes"
+  }
+}

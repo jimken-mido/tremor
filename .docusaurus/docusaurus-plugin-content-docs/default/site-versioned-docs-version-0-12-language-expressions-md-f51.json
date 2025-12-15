@@ -1,0 +1,27 @@
+{
+  "unversionedId": "language/expressions",
+  "id": "version-0.12/language/expressions",
+  "title": "Expressions",
+  "description": "This section will give you an overview over all the expressions available in Tremor, be it [Select] statements, [Script] or [Connector] definitions.",
+  "source": "@site/versioned_docs/version-0.12/language/expressions.md",
+  "sourceDirName": "language",
+  "slug": "/language/expressions",
+  "permalink": "/docs/0.12/language/expressions",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/expressions.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Functions",
+    "permalink": "/docs/0.12/language/functions"
+  },
+  "next": {
+    "title": "Grammar",
+    "permalink": "/docs/0.12/language/reference/"
+  }
+}

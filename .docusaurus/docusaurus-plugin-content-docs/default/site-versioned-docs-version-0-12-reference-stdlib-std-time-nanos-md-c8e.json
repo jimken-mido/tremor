@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/time/nanos",
+  "id": "version-0.12/reference/stdlib/std/time/nanos",
+  "title": "nanos",
+  "description": "Utilities for dealing with nanoseconds",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/time/nanos.md",
+  "sourceDirName": "reference/stdlib/std/time",
+  "slug": "/reference/stdlib/std/time/nanos",
+  "permalink": "/docs/0.12/reference/stdlib/std/time/nanos",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/time/nanos.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "time",
+    "permalink": "/docs/0.12/reference/stdlib/std/time/"
+  },
+  "next": {
+    "title": "type",
+    "permalink": "/docs/0.12/reference/stdlib/std/type"
+  }
+}

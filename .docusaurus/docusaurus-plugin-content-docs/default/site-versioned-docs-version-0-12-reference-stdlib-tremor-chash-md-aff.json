@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/tremor/chash",
+  "id": "version-0.12/reference/stdlib/tremor/chash",
+  "title": "chash",
+  "description": "The chash module contains functions for consistent hashing of values.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/tremor/chash.md",
+  "sourceDirName": "reference/stdlib/tremor",
+  "slug": "/reference/stdlib/tremor/chash",
+  "permalink": "/docs/0.12/reference/stdlib/tremor/chash",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/tremor/chash.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "tremor",
+    "permalink": "/docs/0.12/reference/stdlib/tremor/"
+  },
+  "next": {
+    "title": "connectors",
+    "permalink": "/docs/0.12/reference/stdlib/tremor/connectors"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "language/common_patterns",
+  "id": "version-0.12/language/common_patterns",
+  "title": "Common Patterns",
+  "description": "This document provides a few recipes for common patterns in Tremor [Scripts]. Please note however that it neither is exhaustive nor should those patterns considered the 'only way' to perform certain tasks.",
+  "source": "@site/versioned_docs/version-0.12/language/common_patterns.md",
+  "sourceDirName": "language",
+  "slug": "/language/common_patterns",
+  "permalink": "/docs/0.12/language/common_patterns",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/common_patterns.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Script Grammar",
+    "permalink": "/docs/0.12/language/reference/script"
+  },
+  "next": {
+    "title": "History",
+    "permalink": "/docs/0.12/language/history"
+  }
+}

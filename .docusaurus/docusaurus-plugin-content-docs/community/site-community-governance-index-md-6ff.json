@@ -1,0 +1,29 @@
+{
+  "unversionedId": "governance/index",
+  "id": "governance/index",
+  "title": "Governance",
+  "description": "Tremor project governance model.",
+  "source": "@site/community/governance/index.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/",
+  "permalink": "/community/governance/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "draft": false,
+    "description": "Tremor project governance model.",
+    "hide_table_of_contents": false,
+    "sidebar_position": 0
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Benchmarking",
+    "permalink": "/community/development/benchmarking"
+  },
+  "next": {
+    "title": "Core Infrastructure Initiative",
+    "permalink": "/community/governance/CII"
+  }
+}

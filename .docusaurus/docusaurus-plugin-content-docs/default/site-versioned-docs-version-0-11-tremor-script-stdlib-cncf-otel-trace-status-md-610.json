@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/cncf/otel/trace/status",
+  "id": "version-0.11/tremor-script/stdlib/cncf/otel/trace/status",
+  "title": "status",
+  "description": "The Status type defines a logical error model that is suitable for different",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/trace/status.md",
+  "sourceDirName": "tremor-script/stdlib/cncf/otel/trace",
+  "slug": "/tremor-script/stdlib/cncf/otel/trace/status",
+  "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/status",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/trace/status.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "spankind",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/spankind"
+  },
+  "next": {
+    "title": "trace",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace"
+  }
+}

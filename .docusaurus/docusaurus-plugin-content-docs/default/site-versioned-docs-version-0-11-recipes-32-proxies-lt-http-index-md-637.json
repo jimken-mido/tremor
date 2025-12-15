@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/proxies_lt_http/index",
+  "id": "version-0.11/recipes/proxies_lt_http/index",
+  "title": "HTTP Proxy",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/32_proxies_lt_http/index.md",
+  "sourceDirName": "recipes/32_proxies_lt_http",
+  "slug": "/recipes/proxies_lt_http/",
+  "permalink": "/docs/0.11/recipes/proxies_lt_http/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/32_proxies_lt_http/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Websocket Server",
+    "permalink": "/docs/0.11/recipes/servers_lt_ws/"
+  },
+  "next": {
+    "title": "Websocket Proxy",
+    "permalink": "/docs/0.11/recipes/proxies_lt_ws/"
+  }
+}

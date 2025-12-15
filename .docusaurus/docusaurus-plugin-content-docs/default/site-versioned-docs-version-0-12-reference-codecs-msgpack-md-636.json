@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/msgpack",
+  "id": "version-0.12/reference/codecs/msgpack",
+  "title": "msgpack",
+  "description": "The msgpack codec supports the Msgpack binary format that.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/msgpack.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/msgpack",
+  "permalink": "/docs/0.12/reference/codecs/msgpack",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/msgpack.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "json",
+    "permalink": "/docs/0.12/reference/codecs/json"
+  },
+  "next": {
+    "title": "null",
+    "permalink": "/docs/0.12/reference/codecs/null"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/12/13/redpanda",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-12-13-redpanda.md",
+  "source": "@site/blog/2021-12-13-redpanda.md",
+  "title": "Collaboration - Using Redpanda with Tremor",
+  "description": "Like all good projects in the open source community, great collaborations start with ad hoc interactions.",
+  "date": "2021-12-13T00:00:00.000Z",
+  "formattedDate": "December 13, 2021",
+  "tags": [
+    {
+      "label": "collaboration",
+      "permalink": "/blog/tags/collaboration"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    }
+  ],
+  "readingTime": 3.065,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Tremor Team",
+      "url": "https://github.com/tremor-rs",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Collaboration - Using Redpanda with Tremor",
+    "tags": [
+      "collaboration",
+      "wayfair"
+    ],
+    "author": "Tremor Team",
+    "author_url": "https://github.com/tremor-rs",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "image": "./media/redpanda-rocket.png",
+    "draft": false,
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Tremors - April '22",
+    "permalink": "/blog/2022/05/03/tremor-tremors"
+  },
+  "nextItem": {
+    "title": "Connectors for Streaming to AWS S3",
+    "permalink": "/blog/2021/12/04/LFX-Blog-Daksh"
+  }
+}

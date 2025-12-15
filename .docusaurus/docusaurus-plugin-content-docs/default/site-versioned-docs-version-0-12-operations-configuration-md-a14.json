@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/configuration",
+  "id": "version-0.12/operations/configuration",
+  "title": "Configuring Tremor",
+  "description": "This is a short canned synopsis of tremor configuration.",
+  "source": "@site/versioned_docs/version-0.12/operations/configuration.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/configuration",
+  "permalink": "/docs/0.12/operations/configuration",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/operations/configuration.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "API usage",
+    "permalink": "/docs/0.12/operations/api-usage"
+  },
+  "next": {
+    "title": "Monitoring",
+    "permalink": "/docs/0.12/operations/monitoring"
+  }
+}

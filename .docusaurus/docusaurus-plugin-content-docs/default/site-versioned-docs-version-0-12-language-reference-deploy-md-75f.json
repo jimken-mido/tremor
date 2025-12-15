@@ -1,0 +1,24 @@
+{
+  "unversionedId": "language/reference/deploy",
+  "id": "version-0.12/language/reference/deploy",
+  "title": "Deploy Grammar",
+  "description": "Rule Deploy",
+  "source": "@site/versioned_docs/version-0.12/language/reference/deploy.md",
+  "sourceDirName": "language/reference",
+  "slug": "/language/reference/deploy",
+  "permalink": "/docs/0.12/language/reference/deploy",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/reference/deploy.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "EBNF",
+    "permalink": "/docs/0.12/language/reference/EBNF"
+  },
+  "next": {
+    "title": "Full Grammar",
+    "permalink": "/docs/0.12/language/reference/full"
+  }
+}

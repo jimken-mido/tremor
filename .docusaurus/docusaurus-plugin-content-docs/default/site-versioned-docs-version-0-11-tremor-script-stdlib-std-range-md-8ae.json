@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/std/range",
+  "id": "version-0.11/tremor-script/stdlib/std/range",
+  "title": "range",
+  "description": "The range module contains functions for common range generator operations.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/std/range.md",
+  "sourceDirName": "tremor-script/stdlib/std",
+  "slug": "/tremor-script/stdlib/std/range",
+  "permalink": "/docs/0.11/tremor-script/stdlib/std/range",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/std/range.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "random",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/random"
+  },
+  "next": {
+    "title": "re",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/re"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/modular-queries",
+  "id": "implemented/modular-queries",
+  "title": "Modular Queries",
+  "description": "- Feature Name: rfc-0014-modular-queries",
+  "source": "@site/rfc/implemented/0014-modular-queries.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/modular-queries",
+  "permalink": "/rfc/implemented/modular-queries",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0014-modular-queries.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Correlation",
+    "permalink": "/rfc/implemented/correlation"
+  },
+  "next": {
+    "title": "RFC Template (RFC Title goes here)",
+    "permalink": "/rfc/process/template"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/counter",
+  "id": "version-0.12/reference/operators/counter",
+  "title": "generic::counter",
+  "description": "Keeps track of the number of events as they come and emits the current count out alongside the event. The output is a record of the form {\"count\" event}, where n is the current count and event is the original event.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/counter.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/counter",
+  "permalink": "/docs/0.12/reference/operators/counter",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/counter.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "grouper::bucket",
+    "permalink": "/docs/0.12/reference/operators/bucket"
+  },
+  "next": {
+    "title": "debug::history",
+    "permalink": "/docs/0.12/reference/operators/history"
+  }
+}

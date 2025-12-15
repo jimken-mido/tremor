@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/index",
+  "id": "reference/extractors/index",
+  "title": "Extractors",
+  "description": "The tremor-script language can recognize micro-formats and extract or elementize data from those micro-formats.",
+  "source": "@site/docs/reference/extractors/index.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/",
+  "permalink": "/docs/edge/reference/extractors/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/extractors/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Command Line Interface",
+    "permalink": "/docs/edge/reference/cli"
+  },
+  "next": {
+    "title": "Operators",
+    "permalink": "/docs/edge/reference/operators/"
+  }
+}

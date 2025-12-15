@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/redpanda_gd/index",
+  "id": "version-0.11/recipes/redpanda_gd/index",
+  "title": "redpanda delivery guarantees",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/24_redpanda_gd/index.md",
+  "sourceDirName": "recipes/24_redpanda_gd",
+  "slug": "/recipes/redpanda_gd/",
+  "permalink": "/docs/0.11/recipes/redpanda_gd/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/24_redpanda_gd/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Kafka delivery guarantees",
+    "permalink": "/docs/0.11/recipes/kafka_gd/"
+  },
+  "next": {
+    "title": "HTTP Server",
+    "permalink": "/docs/0.11/recipes/servers_lt_http/"
+  }
+}

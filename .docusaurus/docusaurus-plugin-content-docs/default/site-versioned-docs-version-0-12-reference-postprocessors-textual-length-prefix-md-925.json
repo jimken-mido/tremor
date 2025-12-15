@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/postprocessors/textual-length-prefix",
+  "id": "version-0.12/reference/postprocessors/textual-length-prefix",
+  "title": "textual-length-prefix",
+  "description": "Prefixes the data with the length of data given in ascii digits and a space as used in RFC 5425 for TLS/TCP transport for syslog.",
+  "source": "@site/versioned_docs/version-0.12/reference/postprocessors/textual-length-prefix.md",
+  "sourceDirName": "reference/postprocessors",
+  "slug": "/reference/postprocessors/textual-length-prefix",
+  "permalink": "/docs/0.12/reference/postprocessors/textual-length-prefix",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/postprocessors/textual-length-prefix.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "separate",
+    "permalink": "/docs/0.12/reference/postprocessors/separate"
+  },
+  "next": {
+    "title": "Preprocessors",
+    "permalink": "/docs/0.12/reference/preprocessors/"
+  }
+}

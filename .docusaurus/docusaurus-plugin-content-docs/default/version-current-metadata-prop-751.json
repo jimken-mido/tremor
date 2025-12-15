@@ -1,0 +1,360 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "edge",
+  "banner": "unreleased",
+  "badge": true,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": false,
+  "docsSidebars": {
+    "indexSidebar": [
+      {
+        "type": "link",
+        "label": "Tremor",
+        "href": "/docs/edge/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Install Tremor",
+            "href": "/docs/edge/getting-started/install",
+            "docId": "getting-started/install"
+          },
+          {
+            "type": "link",
+            "label": "IDE Integration and tooling",
+            "href": "/docs/edge/getting-started/tooling",
+            "docId": "getting-started/tooling"
+          }
+        ],
+        "href": "/docs/edge/getting-started/"
+      },
+      {
+        "type": "category",
+        "label": "Guides",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Basics",
+            "href": "/docs/edge/guides/basics",
+            "docId": "guides/basics"
+          },
+          {
+            "type": "link",
+            "label": "Logging",
+            "href": "/docs/edge/guides/logging",
+            "docId": "guides/logging"
+          },
+          {
+            "type": "link",
+            "label": "tbd-gd-guide",
+            "href": "/docs/edge/guides/tbd-gd-guide",
+            "docId": "guides/tbd-gd-guide"
+          },
+          {
+            "type": "category",
+            "label": "old",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Logstash",
+                "href": "/docs/edge/guides/old/logstash/",
+                "docId": "guides/old/logstash/index"
+              },
+              {
+                "type": "link",
+                "label": "Syslog UDP",
+                "href": "/docs/edge/guides/old/syslog_udp/",
+                "docId": "guides/old/syslog_udp/index"
+              },
+              {
+                "type": "link",
+                "label": "Syslog UDP with DNS",
+                "href": "/docs/edge/guides/old/syslog_udp_dns/",
+                "docId": "guides/old/syslog_udp_dns/index"
+              }
+            ]
+          }
+        ],
+        "href": "/docs/edge/guides/"
+      },
+      {
+        "type": "category",
+        "label": "Reference",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Codecs",
+            "href": "/docs/edge/reference/codecs/",
+            "docId": "reference/codecs/index"
+          },
+          {
+            "type": "link",
+            "label": "Postprocessors",
+            "href": "/docs/edge/reference/postprocessors/",
+            "docId": "reference/postprocessors/index"
+          },
+          {
+            "type": "link",
+            "label": "Preprocessors",
+            "href": "/docs/edge/reference/preprocessors/",
+            "docId": "reference/preprocessors/index"
+          },
+          {
+            "type": "link",
+            "label": "Command Line Interface",
+            "href": "/docs/edge/reference/cli",
+            "docId": "reference/cli"
+          },
+          {
+            "type": "link",
+            "label": "Extractors",
+            "href": "/docs/edge/reference/extractors/",
+            "docId": "reference/extractors/index"
+          },
+          {
+            "type": "link",
+            "label": "Operators",
+            "href": "/docs/edge/reference/operators/",
+            "docId": "reference/operators/index"
+          }
+        ],
+        "href": "/docs/edge/reference/"
+      },
+      {
+        "type": "link",
+        "label": "API",
+        "href": "/docs/edge/api/",
+        "docId": "api/index"
+      },
+      {
+        "type": "category",
+        "label": "concepts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Aggregations",
+            "href": "/docs/edge/concepts/aggregation",
+            "docId": "concepts/aggregation"
+          },
+          {
+            "type": "link",
+            "label": "Batching",
+            "href": "/docs/edge/concepts/batching",
+            "docId": "concepts/batching"
+          },
+          {
+            "type": "link",
+            "label": "Design",
+            "href": "/docs/edge/concepts/design",
+            "docId": "concepts/design"
+          },
+          {
+            "type": "link",
+            "label": "Runtime Capabilities",
+            "href": "/docs/edge/concepts/runtime_capabilities",
+            "docId": "concepts/runtime_capabilities"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Operations",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "API usage",
+            "href": "/docs/edge/operations/api-usage",
+            "docId": "operations/api-usage"
+          },
+          {
+            "type": "link",
+            "label": "Configuring Tremor",
+            "href": "/docs/edge/operations/configuration",
+            "docId": "operations/configuration"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Benchmarks",
+        "href": "/benchmarks"
+      },
+      {
+        "type": "link",
+        "label": "Api",
+        "href": "/docs/edge/api/",
+        "docId": "api/index"
+      }
+    ]
+  },
+  "docs": {
+    "api/index": {
+      "id": "api/index",
+      "title": "index",
+      "description": "Tremor exposes a versioned http API. This file should not be visible.",
+      "sidebar": "indexSidebar"
+    },
+    "concepts/aggregation": {
+      "id": "concepts/aggregation",
+      "title": "Aggregations",
+      "description": "A key feature of the [Select] queries are aggregations. These are supported with:",
+      "sidebar": "indexSidebar"
+    },
+    "concepts/batching": {
+      "id": "concepts/batching",
+      "title": "Batching",
+      "description": "Batching is a complex topic. It happens in many layers, and it's easy to confuse one with another. This makes it especially important to explain the concepts of batching the tremor engine uses.",
+      "sidebar": "indexSidebar"
+    },
+    "concepts/design": {
+      "id": "concepts/design",
+      "title": "Design",
+      "description": "TBD",
+      "sidebar": "indexSidebar"
+    },
+    "concepts/runtime_capabilities": {
+      "id": "concepts/runtime_capabilities",
+      "title": "Runtime Capabilities",
+      "description": "The Tremor runtime is the part of the system that takes your Troy configuration, brings it to live and has your CPUs pump events through your pipelines as fast as we could make it do. We tried to follow a few principles we took from years long experience in wr",
+      "sidebar": "indexSidebar"
+    },
+    "getting-started/index": {
+      "id": "getting-started/index",
+      "title": "Getting Started",
+      "description": "Welcome to Tremor!",
+      "sidebar": "indexSidebar"
+    },
+    "getting-started/install": {
+      "id": "getting-started/install",
+      "title": "Install Tremor",
+      "description": "Lets get Tremor installed on your machine!",
+      "sidebar": "indexSidebar"
+    },
+    "getting-started/tooling": {
+      "id": "getting-started/tooling",
+      "title": "IDE Integration and tooling",
+      "description": "Tremor is configured using its own configuration language called Troy, which actually enables us to give you valueable feedback while writing your code with our Tremor language server.",
+      "sidebar": "indexSidebar"
+    },
+    "guides/basics": {
+      "id": "guides/basics",
+      "title": "Basics",
+      "description": "This guide is a walk through of tremor basics. It is a starting point to learn",
+      "sidebar": "indexSidebar"
+    },
+    "guides/index": {
+      "id": "guides/index",
+      "title": "Guides",
+      "description": "This are our guides, they're meant to show some example use cases and provide a starting point for various experience levels.",
+      "sidebar": "indexSidebar"
+    },
+    "guides/logging": {
+      "id": "guides/logging",
+      "title": "Logging",
+      "description": "DRAFT This will be hidden outside of dev DRAFT",
+      "sidebar": "indexSidebar"
+    },
+    "guides/old/logstash/index": {
+      "id": "guides/old/logstash/index",
+      "title": "Logstash",
+      "description": "This example shows how handling apache logs with a tremor and elastic search could work. The example is a lot more complex than the initial showcases and combines three components.",
+      "sidebar": "indexSidebar"
+    },
+    "guides/old/syslog_udp_dns/index": {
+      "id": "guides/old/syslog_udp_dns/index",
+      "title": "Syslog UDP with DNS",
+      "description": "This workshop is the samne as the syslogupd workship with the added component of enriching the syslog message we receive with a DNS lookup.",
+      "sidebar": "indexSidebar"
+    },
+    "guides/old/syslog_udp/index": {
+      "id": "guides/old/syslog_udp/index",
+      "title": "Syslog UDP",
+      "description": "The syslog udp example is demonstrate a number things:",
+      "sidebar": "indexSidebar"
+    },
+    "guides/tbd-gd-guide": {
+      "id": "guides/tbd-gd-guide",
+      "title": "tbd-gd-guide",
+      "description": "TBD",
+      "sidebar": "indexSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Tremor",
+      "description": "Think about Tremor as an event- or stream-processing engine. It receives input data from various Connectors], turns the data into streams of structured events with the help of [Preprocessors and Codecs]. Those events are then handled by one or more [Pipelines, which can inspect, mutate and route the event and implement arbitrarily complex application logic. Events are either dropped (e.g. for rate-limiting or traffic-shaping) or sent to downstream systems via various Connectors]. Before actually leaving the system, those streams of structured events need to be serialized using [Codecs] and [Postprocessors.",
+      "sidebar": "indexSidebar"
+    },
+    "operations/api-usage": {
+      "id": "operations/api-usage",
+      "title": "API usage",
+      "description": "At the moment tremor supports a fairly minimal",
+      "sidebar": "indexSidebar"
+    },
+    "operations/configuration": {
+      "id": "operations/configuration",
+      "title": "Configuring Tremor",
+      "description": "This is a short canned synopsis of tremor configuration.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/cli": {
+      "id": "reference/cli",
+      "title": "Command Line Interface",
+      "description": "This document summarises the tremor cli commands.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/codecs/index": {
+      "id": "reference/codecs/index",
+      "title": "Codecs",
+      "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/extractors/index": {
+      "id": "reference/extractors/index",
+      "title": "Extractors",
+      "description": "The tremor-script language can recognize micro-formats and extract or elementize data from those micro-formats.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/index": {
+      "id": "reference/index",
+      "title": "Reference",
+      "description": "This is Tremors reference documentation.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/operators/index": {
+      "id": "reference/operators/index",
+      "title": "Operators",
+      "description": "Operators are part of the pipeline configuration.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/postprocessors/index": {
+      "id": "reference/postprocessors/index",
+      "title": "Postprocessors",
+      "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/preprocessors/index": {
+      "id": "reference/preprocessors/index",
+      "title": "Preprocessors",
+      "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
+      "sidebar": "indexSidebar"
+    }
+  }
+}

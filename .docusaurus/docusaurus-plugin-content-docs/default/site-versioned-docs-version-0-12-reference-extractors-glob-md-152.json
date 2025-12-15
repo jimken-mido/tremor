@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/glob",
+  "id": "version-0.12/reference/extractors/glob",
+  "title": "glob",
+  "description": "Glob is an extractor that checks if the input string matches the specified Unix shell-style pattern#Unix-like). The extractor fails if an pattern is specified that is not valid or the string doesn't match the pattern.",
+  "source": "@site/versioned_docs/version-0.12/reference/extractors/glob.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/glob",
+  "permalink": "/docs/0.12/reference/extractors/glob",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/extractors/glob.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "dissect",
+    "permalink": "/docs/0.12/reference/extractors/dissect"
+  },
+  "next": {
+    "title": "grok",
+    "permalink": "/docs/0.12/reference/extractors/grok"
+  }
+}

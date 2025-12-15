@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/file",
+  "id": "version-0.12/reference/connectors/file",
+  "title": "The file Connector",
+  "description": "The file connector enables reading and writing to files accessible via the file system.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/file.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/file",
+  "permalink": "/docs/0.12/reference/connectors/file",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/file.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "file",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "elastic (Elastic Search)",
+    "permalink": "/docs/0.12/reference/connectors/elastic"
+  },
+  "next": {
+    "title": "gbq (Google Big Query)",
+    "permalink": "/docs/0.12/reference/connectors/gbq"
+  }
+}

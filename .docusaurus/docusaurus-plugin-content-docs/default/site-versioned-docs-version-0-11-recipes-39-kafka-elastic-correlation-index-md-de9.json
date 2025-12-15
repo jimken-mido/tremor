@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/kafka_elastic_correlation/index",
+  "id": "version-0.11/recipes/kafka_elastic_correlation/index",
+  "title": "Ingesting documents from kafka into elastic",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/39_kafka_elastic_correlation/index.md",
+  "sourceDirName": "recipes/39_kafka_elastic_correlation",
+  "slug": "/recipes/kafka_elastic_correlation/",
+  "permalink": "/docs/0.11/recipes/kafka_elastic_correlation/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/39_kafka_elastic_correlation/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Polling",
+    "permalink": "/docs/0.11/recipes/polling_alerts/"
+  },
+  "next": {
+    "title": "CNCF OpenTelemetry Passthrough",
+    "permalink": "/docs/0.11/recipes/otel_passthrough/"
+  }
+}

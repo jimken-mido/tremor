@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/history",
+  "id": "version-0.12/reference/operators/history",
+  "title": "debug::history",
+  "description": "This operator is for debugging purposes only, and should not be used in production deployments.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/history.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/history",
+  "permalink": "/docs/0.12/reference/operators/history",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/history.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "generic::counter",
+    "permalink": "/docs/0.12/reference/operators/counter"
+  },
+  "next": {
+    "title": "qos::percentile",
+    "permalink": "/docs/0.12/reference/operators/percentile"
+  }
+}

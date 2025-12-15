@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/record",
+  "id": "version-0.12/reference/stdlib/std/record",
+  "title": "record",
+  "description": "The record module contains functions to work with records.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/record.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/record",
+  "permalink": "/docs/0.12/reference/stdlib/std/record",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/record.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "re",
+    "permalink": "/docs/0.12/reference/stdlib/std/re"
+  },
+  "next": {
+    "title": "size",
+    "permalink": "/docs/0.12/reference/stdlib/std/size"
+  }
+}

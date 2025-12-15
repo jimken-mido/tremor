@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/statsd",
+  "id": "version-0.12/reference/codecs/statsd",
+  "title": "statsd",
+  "description": "The statsd codec supports the statsd format.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/statsd.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/statsd",
+  "permalink": "/docs/0.12/reference/codecs/statsd",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/statsd.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "null",
+    "permalink": "/docs/0.12/reference/codecs/null"
+  },
+  "next": {
+    "title": "string",
+    "permalink": "/docs/0.12/reference/codecs/string"
+  }
+}

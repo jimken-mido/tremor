@@ -1,0 +1,27 @@
+{
+  "unversionedId": "artefacts/preprocessors",
+  "id": "version-0.11/artefacts/preprocessors",
+  "title": "Preprocessors",
+  "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
+  "source": "@site/versioned_docs/version-0.11/artefacts/preprocessors.md",
+  "sourceDirName": "artefacts",
+  "slug": "/artefacts/preprocessors",
+  "permalink": "/docs/0.11/artefacts/preprocessors",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/artefacts/preprocessors.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {
+    "id": "preprocessors",
+    "title": "Preprocessors"
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Postprocessors",
+    "permalink": "/docs/0.11/artefacts/postprocessors"
+  },
+  "next": {
+    "title": "Tremor-Script",
+    "permalink": "/docs/0.11/tremor-script/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-query/functions",
+  "id": "version-0.11/tremor-query/functions",
+  "title": "Aggregate Functions",
+  "description": "Tremor Query provides access to a growing number of aggregate functions that allow advanced data manipulation over sets of events delineated by windowed operations.",
+  "source": "@site/versioned_docs/version-0.11/tremor-query/functions.md",
+  "sourceDirName": "tremor-query",
+  "slug": "/tremor-query/functions",
+  "permalink": "/docs/0.11/tremor-query/functions",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-query/functions.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "The win namespace",
+    "permalink": "/docs/0.11/tremor-query/functions/win"
+  },
+  "next": {
+    "title": "Modules",
+    "permalink": "/docs/0.11/tremor-query/modules"
+  }
+}

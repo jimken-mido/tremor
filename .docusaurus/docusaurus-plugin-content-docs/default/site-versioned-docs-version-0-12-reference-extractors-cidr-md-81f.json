@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/cidr",
+  "id": "version-0.12/reference/extractors/cidr",
+  "title": "cidr",
+  "description": "Classless Inter-Domain Routing ( CIDR ) is a method of allocating IP addresses and IP routing paths. CIDR notation is a compact representation of an IP address and its associated routing prefix.",
+  "source": "@site/versioned_docs/version-0.12/reference/extractors/cidr.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/cidr",
+  "permalink": "/docs/0.12/reference/extractors/cidr",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/extractors/cidr.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "base64",
+    "permalink": "/docs/0.12/reference/extractors/base64"
+  },
+  "next": {
+    "title": "datetime",
+    "permalink": "/docs/0.12/reference/extractors/datetime"
+  }
+}

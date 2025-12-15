@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/servers_lt_ws/index",
+  "id": "version-0.11/recipes/servers_lt_ws/index",
+  "title": "Websocket Server",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/31_servers_lt_ws/index.md",
+  "sourceDirName": "recipes/31_servers_lt_ws",
+  "slug": "/recipes/servers_lt_ws/",
+  "permalink": "/docs/0.11/recipes/servers_lt_ws/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/31_servers_lt_ws/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "HTTP Server",
+    "permalink": "/docs/0.11/recipes/servers_lt_http/"
+  },
+  "next": {
+    "title": "HTTP Proxy",
+    "permalink": "/docs/0.11/recipes/proxies_lt_http/"
+  }
+}

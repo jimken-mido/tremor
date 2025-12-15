@@ -1,0 +1,25 @@
+{
+  "unversionedId": "accepted/binary-type",
+  "id": "accepted/binary-type",
+  "title": "binary-type",
+  "description": "- Feature Name: binary-type",
+  "source": "@site/rfc/accepted/0014-binary-type.md",
+  "sourceDirName": "accepted",
+  "slug": "/accepted/binary-type",
+  "permalink": "/rfc/accepted/binary-type",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/accepted/0014-binary-type.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "script-operator-enhacements",
+    "permalink": "/rfc/accepted/script-operator-enhacements"
+  },
+  "next": {
+    "title": "troy",
+    "permalink": "/rfc/accepted/troy"
+  }
+}

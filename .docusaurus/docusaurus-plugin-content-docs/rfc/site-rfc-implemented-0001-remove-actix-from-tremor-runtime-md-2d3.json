@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/remove-actix-from-tremor-runtime",
+  "id": "implemented/remove-actix-from-tremor-runtime",
+  "title": "Remove Actix",
+  "description": "- Feature Name: rfc0001remove_actix",
+  "source": "@site/rfc/implemented/0001-remove-actix-from-tremor-runtime.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/remove-actix-from-tremor-runtime",
+  "permalink": "/rfc/implemented/remove-actix-from-tremor-runtime",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0001-remove-actix-from-tremor-runtime.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "troy",
+    "permalink": "/rfc/accepted/troy"
+  },
+  "next": {
+    "title": "Linked Transports",
+    "permalink": "/rfc/implemented/linked-transports"
+  }
+}

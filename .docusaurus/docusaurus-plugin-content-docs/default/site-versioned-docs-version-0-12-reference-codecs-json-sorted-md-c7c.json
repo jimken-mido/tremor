@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/json-sorted",
+  "id": "version-0.12/reference/codecs/json-sorted",
+  "title": "json-sorted",
+  "description": "The json-sorted codec supports the Javascript Object Notation format with a consistent sort order.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/json-sorted.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/json-sorted",
+  "permalink": "/docs/0.12/reference/codecs/json-sorted",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/json-sorted.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "influx",
+    "permalink": "/docs/0.12/reference/codecs/influx"
+  },
+  "next": {
+    "title": "json",
+    "permalink": "/docs/0.12/reference/codecs/json"
+  }
+}

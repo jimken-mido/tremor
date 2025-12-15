@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/extractors/datetime",
+  "id": "version-0.11/tremor-script/extractors/datetime",
+  "title": "Datetime",
+  "description": "The datetime extractor parses the input into a timestamp. The format of the target needs to be specified as a parameter to the extractor.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/extractors/datetime.md",
+  "sourceDirName": "tremor-script/extractors",
+  "slug": "/tremor-script/extractors/datetime",
+  "permalink": "/docs/0.11/tremor-script/extractors/datetime",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/extractors/datetime.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "CIDR",
+    "permalink": "/docs/0.11/tremor-script/extractors/cidr"
+  },
+  "next": {
+    "title": "Dissect",
+    "permalink": "/docs/0.11/tremor-script/extractors/dissect"
+  }
+}

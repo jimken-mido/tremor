@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/bridges_lt_http_ws/index",
+  "id": "version-0.11/recipes/bridges_lt_http_ws/index",
+  "title": "HTTP -> Websocket Bridge",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/34_bridges_lt_http_ws/index.md",
+  "sourceDirName": "recipes/34_bridges_lt_http_ws",
+  "slug": "/recipes/bridges_lt_http_ws/",
+  "permalink": "/docs/0.11/recipes/bridges_lt_http_ws/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/34_bridges_lt_http_ws/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Websocket Proxy",
+    "permalink": "/docs/0.11/recipes/proxies_lt_ws/"
+  },
+  "next": {
+    "title": "Reverse proxy with Load Balancing",
+    "permalink": "/docs/0.11/recipes/reverse_proxy_load_balancing/"
+  }
+}

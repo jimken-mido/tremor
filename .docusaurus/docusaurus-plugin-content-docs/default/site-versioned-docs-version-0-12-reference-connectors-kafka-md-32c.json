@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/kafka",
+  "id": "version-0.12/reference/connectors/kafka",
+  "title": "The kafka Connector",
+  "description": "The kafka connector provides integration with the Apache Kafka and compatible",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/kafka.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/kafka",
+  "permalink": "/docs/0.12/reference/connectors/kafka",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/kafka.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "kafka",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "http",
+    "permalink": "/docs/0.12/reference/connectors/http"
+  },
+  "next": {
+    "title": "kv (Key/Value Store)",
+    "permalink": "/docs/0.12/reference/connectors/kv"
+  }
+}

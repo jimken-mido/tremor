@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/index",
+  "id": "version-0.11/recipes/index",
+  "title": "Recipes",
+  "description": "[tremor workshop]: #tremor-workshop",
+  "source": "@site/versioned_docs/version-0.11/recipes/index.md",
+  "sourceDirName": "recipes",
+  "slug": "/recipes/",
+  "permalink": "/docs/0.11/recipes/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Constraints and Limitations",
+    "permalink": "/docs/0.11/ConstraintsLimitations"
+  },
+  "next": {
+    "title": "Passthrough",
+    "permalink": "/docs/0.11/recipes/passthrough/"
+  }
+}

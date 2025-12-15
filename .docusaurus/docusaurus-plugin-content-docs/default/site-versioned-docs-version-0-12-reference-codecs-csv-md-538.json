@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/csv",
+  "id": "version-0.12/reference/codecs/csv",
+  "title": "csv",
+  "description": "The csv codec provides marshalling support for the Comma Separated Volume format.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/csv.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/csv",
+  "permalink": "/docs/0.12/reference/codecs/csv",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/csv.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "binflux",
+    "permalink": "/docs/0.12/reference/codecs/binflux"
+  },
+  "next": {
+    "title": "influx",
+    "permalink": "/docs/0.12/reference/codecs/influx"
+  }
+}

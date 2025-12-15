@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/textual-length-prefix",
+  "id": "version-0.12/reference/preprocessors/textual-length-prefix",
+  "title": "textual-length-prefix",
+  "description": "Extracts the message based on prefixed message length given in ascii digits which is followed by a space as used in RFC 5425 for TLS/TCP transport for syslog.",
+  "source": "@site/versioned_docs/version-0.12/reference/preprocessors/textual-length-prefix.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/textual-length-prefix",
+  "permalink": "/docs/0.12/reference/preprocessors/textual-length-prefix",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/preprocessors/textual-length-prefix.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "separate",
+    "permalink": "/docs/0.12/reference/preprocessors/separate"
+  },
+  "next": {
+    "title": "Extractors",
+    "permalink": "/docs/0.12/reference/extractors/"
+  }
+}

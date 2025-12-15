@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/influx",
+  "id": "version-0.12/reference/extractors/influx",
+  "title": "influx",
+  "description": "Influx extrector matches data from the string that uses the Influx Line Protocol. It will fail if the input isn't a valid string.",
+  "source": "@site/versioned_docs/version-0.12/reference/extractors/influx.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/influx",
+  "permalink": "/docs/0.12/reference/extractors/influx",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/extractors/influx.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "grok",
+    "permalink": "/docs/0.12/reference/extractors/grok"
+  },
+  "next": {
+    "title": "json",
+    "permalink": "/docs/0.12/reference/extractors/json"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "language/reference/index",
+  "id": "version-0.12/language/reference/index",
+  "title": "Grammar",
+  "description": "Tremor contains a number of related domain specific languages that are",
+  "source": "@site/versioned_docs/version-0.12/language/reference/index.md",
+  "sourceDirName": "language/reference",
+  "slug": "/language/reference/",
+  "permalink": "/docs/0.12/language/reference/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/reference/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Expressions",
+    "permalink": "/docs/0.12/language/expressions"
+  },
+  "next": {
+    "title": "EBNF",
+    "permalink": "/docs/0.12/language/reference/EBNF"
+  }
+}

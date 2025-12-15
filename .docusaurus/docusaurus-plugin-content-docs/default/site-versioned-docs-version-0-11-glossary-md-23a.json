@@ -1,0 +1,29 @@
+{
+  "unversionedId": "glossary",
+  "id": "version-0.11/glossary",
+  "title": "Glossary",
+  "description": "A set of terms in common or standardised usage by the tremor project and/or team",
+  "source": "@site/versioned_docs/version-0.11/Glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/docs/0.11/glossary",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/Glossary.md",
+  "tags": [],
+  "version": "0.11",
+  "sidebarPosition": 9999,
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary",
+    "sidebar_position": 9999
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "History",
+    "permalink": "/docs/0.11/history"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/0.11/getting_started"
+  }
+}

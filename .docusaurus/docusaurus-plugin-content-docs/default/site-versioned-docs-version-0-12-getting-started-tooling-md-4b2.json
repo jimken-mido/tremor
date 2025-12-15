@@ -1,0 +1,27 @@
+{
+  "unversionedId": "getting-started/tooling",
+  "id": "version-0.12/getting-started/tooling",
+  "title": "IDE Integration and tooling",
+  "description": "Tremor is configured using its own configuration language called Troy, which actually enables us to give you valueable feedback while writing your code with our Tremor language server.",
+  "source": "@site/versioned_docs/version-0.12/getting-started/tooling.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/tooling",
+  "permalink": "/docs/0.12/getting-started/tooling",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/getting-started/tooling.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Install Tremor",
+    "permalink": "/docs/0.12/getting-started/install"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/docs/0.12/guides/"
+  }
+}

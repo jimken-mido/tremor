@@ -1,0 +1,23 @@
+{
+  "unversionedId": "index",
+  "id": "version-0.12/index",
+  "title": "Tremor",
+  "description": "Think about Tremor as an event- or stream-processing engine. It receives input data from various Connectors], turns the data into streams of structured events with the help of [Preprocessors and Codecs]. Those events are then handled by one or more [Pipelines, which can inspect, mutate and route the event and implement arbitrarily complex application logic. Events are either dropped (e.g. for rate-limiting or traffic-shaping) or sent to downstream systems via various Connectors]. Before actually leaving the system, those streams of structured events need to be serialized using [Codecs] and [Postprocessors.",
+  "source": "@site/versioned_docs/version-0.12/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/0.12/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/index.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "indexSidebar",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/0.12/getting-started/"
+  }
+}

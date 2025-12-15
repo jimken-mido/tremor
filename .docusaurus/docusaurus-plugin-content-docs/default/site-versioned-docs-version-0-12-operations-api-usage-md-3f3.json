@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/api-usage",
+  "id": "version-0.12/operations/api-usage",
+  "title": "API usage",
+  "description": "At the moment tremor supports a fairly minimal api. A documentation can be found here.",
+  "source": "@site/versioned_docs/version-0.12/operations/api-usage.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/api-usage",
+  "permalink": "/docs/0.12/operations/api-usage",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/operations/api-usage.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "History",
+    "permalink": "/docs/0.12/language/history"
+  },
+  "next": {
+    "title": "Configuring Tremor",
+    "permalink": "/docs/0.12/operations/configuration"
+  }
+}

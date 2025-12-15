@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/configuration",
+  "id": "operations/configuration",
+  "title": "Configuring Tremor",
+  "description": "This is a short canned synopsis of tremor configuration.",
+  "source": "@site/docs/operations/configuration.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/configuration",
+  "permalink": "/docs/edge/operations/configuration",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/operations/configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "API usage",
+    "permalink": "/docs/edge/operations/api-usage"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/edge/api/"
+  }
+}

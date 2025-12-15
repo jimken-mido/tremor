@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/base64",
+  "id": "version-0.12/reference/preprocessors/base64",
+  "title": "base64",
+  "description": "Decodes base64 encoded data to the raw bytes.",
+  "source": "@site/versioned_docs/version-0.12/reference/preprocessors/base64.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/base64",
+  "permalink": "/docs/0.12/reference/preprocessors/base64",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/preprocessors/base64.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Preprocessors",
+    "permalink": "/docs/0.12/reference/preprocessors/"
+  },
+  "next": {
+    "title": "decompress",
+    "permalink": "/docs/0.12/reference/preprocessors/decompress"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/syslog_udp/index",
+  "id": "version-0.11/recipes/syslog_udp/index",
+  "title": "Syslog over UDP",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/14_syslog_udp/index.md",
+  "sourceDirName": "recipes/14_syslog_udp",
+  "slug": "/recipes/syslog_udp/",
+  "permalink": "/docs/0.11/recipes/syslog_udp/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/14_syslog_udp/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Grafana",
+    "permalink": "/docs/0.11/recipes/grafana/"
+  },
+  "next": {
+    "title": "Syslog over UDP with DNS lookups",
+    "permalink": "/docs/0.11/recipes/syslog_udp_dns/"
+  }
+}

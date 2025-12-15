@@ -1,0 +1,42 @@
+{
+  "permalink": "/blog/2020/03/06/influx-perf",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2020-03-06-influx-perf.md",
+  "source": "@site/blog/2020-03-06-influx-perf.md",
+  "title": "Improving our Influx Parser- A Story in Four Acts",
+  "description": "The process of improving the performance of our influx line protocol parser.",
+  "date": "2020-03-06T00:00:00.000Z",
+  "formattedDate": "March 6, 2020",
+  "tags": [
+    {
+      "label": "perf",
+      "permalink": "/blog/tags/perf"
+    }
+  ],
+  "readingTime": 8.85,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Improving our Influx Parser- A Story in Four Acts",
+    "author": "The Tremor Team",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "tags": [
+      "perf"
+    ],
+    "draft": false,
+    "hide_table_of_contents": false,
+    "description": "The process of improving the performance of our influx line protocol parser."
+  },
+  "prevItem": {
+    "title": "Rust & Tell Berlin- March 2020",
+    "permalink": "/blog/2020/03/31/rust-and-tell"
+  },
+  "nextItem": {
+    "title": "Tremor is now Open Source!",
+    "permalink": "/blog/2020/02/22/welcome"
+  }
+}

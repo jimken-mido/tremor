@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/syslog",
+  "id": "version-0.12/reference/codecs/syslog",
+  "title": "syslog",
+  "description": "The syslog codec supports marshalling the IETF and BSD syslog formats.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/syslog.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/syslog",
+  "permalink": "/docs/0.12/reference/codecs/syslog",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/syslog.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "string",
+    "permalink": "/docs/0.12/reference/codecs/string"
+  },
+  "next": {
+    "title": "yaml",
+    "permalink": "/docs/0.12/reference/codecs/yaml"
+  }
+}

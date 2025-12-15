@@ -1,0 +1,24 @@
+{
+  "unversionedId": "language/reference/script",
+  "id": "version-0.12/language/reference/script",
+  "title": "Script Grammar",
+  "description": "Rule Script",
+  "source": "@site/versioned_docs/version-0.12/language/reference/script.md",
+  "sourceDirName": "language/reference",
+  "slug": "/language/reference/script",
+  "permalink": "/docs/0.12/language/reference/script",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/reference/script.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Query Grammar",
+    "permalink": "/docs/0.12/language/reference/query"
+  },
+  "next": {
+    "title": "Common Patterns",
+    "permalink": "/docs/0.12/language/common_patterns"
+  }
+}

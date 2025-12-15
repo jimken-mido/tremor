@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/pipeline-optimizations",
+  "id": "implemented/pipeline-optimizations",
+  "title": "Pipeline Optimisations",
+  "description": "- Feature Name: pipeline-optimisations",
+  "source": "@site/rfc/implemented/0007-pipeline-optimizations.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/pipeline-optimizations",
+  "permalink": "/rfc/implemented/pipeline-optimizations",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0007-pipeline-optimizations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Circuit Breaker Mechanism",
+    "permalink": "/rfc/implemented/circuit-breaker-mechanism"
+  },
+  "next": {
+    "title": "Onramp Postgres",
+    "permalink": "/rfc/implemented/onramp-postgres"
+  }
+}

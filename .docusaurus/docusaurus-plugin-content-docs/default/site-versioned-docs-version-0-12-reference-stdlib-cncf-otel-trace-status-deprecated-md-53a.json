@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/trace/status/deprecated",
+  "id": "version-0.12/reference/stdlib/cncf/otel/trace/status/deprecated",
+  "title": "deprecated",
+  "description": "Represents deprecated status codes",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/status/deprecated.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/trace/status",
+  "slug": "/reference/stdlib/cncf/otel/trace/status/deprecated",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/deprecated",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/trace/status/deprecated.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "code",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/code"
+  },
+  "next": {
+    "title": "trace_id",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace_id"
+  }
+}

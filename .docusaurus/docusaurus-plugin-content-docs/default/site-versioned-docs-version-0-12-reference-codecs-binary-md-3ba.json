@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/codecs/binary",
+  "id": "version-0.12/reference/codecs/binary",
+  "title": "binary",
+  "description": "The binary codec marshalls raw binary data data as a tremor bytes literal value.",
+  "source": "@site/versioned_docs/version-0.12/reference/codecs/binary.md",
+  "sourceDirName": "reference/codecs",
+  "slug": "/reference/codecs/binary",
+  "permalink": "/docs/0.12/reference/codecs/binary",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/codecs/binary.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Codecs",
+    "permalink": "/docs/0.12/reference/codecs/"
+  },
+  "next": {
+    "title": "binflux",
+    "permalink": "/docs/0.12/reference/codecs/binflux"
+  }
+}

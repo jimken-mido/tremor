@@ -1,0 +1,28 @@
+{
+  "unversionedId": "governance/CII",
+  "id": "governance/CII",
+  "title": "Core Infrastructure Initiative",
+  "description": "This document normatively details the Tremor project best practices which is founded",
+  "source": "@site/community/governance/CII.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/CII",
+  "permalink": "/community/governance/CII",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "CII",
+    "title": "Core Infrastructure Initiative",
+    "sidebar_position": 2
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Governance",
+    "permalink": "/community/governance/"
+  },
+  "next": {
+    "title": "Versioning and Sundown Policy",
+    "permalink": "/community/governance/Versioning"
+  }
+}

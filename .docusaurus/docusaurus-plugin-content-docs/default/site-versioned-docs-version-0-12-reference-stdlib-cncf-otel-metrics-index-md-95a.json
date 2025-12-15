@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/metrics/index",
+  "id": "version-0.12/reference/stdlib/cncf/otel/metrics/index",
+  "title": "metrics",
+  "description": "CNCF OpenTelemetry Metrics event utilities",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/metrics/index.md",
+  "sourceDirName": "reference/stdlib/cncf/otel/metrics",
+  "slug": "/reference/stdlib/cncf/otel/metrics/",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/metrics/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/metrics/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "traceflags",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/logs/traceflags"
+  },
+  "next": {
+    "title": "temporality",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/metrics/temporality"
+  }
+}

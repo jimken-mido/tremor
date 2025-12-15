@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/std/base64",
+  "id": "version-0.11/tremor-script/stdlib/std/base64",
+  "title": "base64",
+  "description": "The base64 module contains functions to work with base64 encoding and decoding",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/std/base64.md",
+  "sourceDirName": "tremor-script/stdlib/std",
+  "slug": "/tremor-script/stdlib/std/base64",
+  "permalink": "/docs/0.11/tremor-script/stdlib/std/base64",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/std/base64.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "array",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/array"
+  },
+  "next": {
+    "title": "binary",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/binary"
+  }
+}

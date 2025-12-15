@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/functions",
+  "id": "version-0.11/tremor-script/functions",
+  "title": "Functions",
+  "description": "Tremor-script provides access to a growing number of functions that allow",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/functions.md",
+  "sourceDirName": "tremor-script",
+  "slug": "/tremor-script/functions",
+  "permalink": "/docs/0.11/tremor-script/functions",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/functions.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Extractors",
+    "permalink": "/docs/0.11/tremor-script/extractors"
+  },
+  "next": {
+    "title": "Modules",
+    "permalink": "/docs/0.11/tremor-script/modules"
+  }
+}

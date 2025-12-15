@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/tremor/system",
+  "id": "version-0.11/tremor-script/stdlib/tremor/system",
+  "title": "system",
+  "description": "The system namespace contains functions that provide information about the",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/tremor/system.md",
+  "sourceDirName": "tremor-script/stdlib/tremor",
+  "slug": "/tremor-script/stdlib/tremor/system",
+  "permalink": "/docs/0.11/tremor-script/stdlib/tremor/system",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/tremor/system.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "origin",
+    "permalink": "/docs/0.11/tremor-script/stdlib/tremor/origin"
+  },
+  "next": {
+    "title": "tremor",
+    "permalink": "/docs/0.11/tremor-script/stdlib/tremor"
+  }
+}

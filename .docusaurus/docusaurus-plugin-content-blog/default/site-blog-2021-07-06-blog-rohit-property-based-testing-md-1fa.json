@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/2021/07/06/Blog-Rohit-Property-Based-Testing",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-07-06-Blog-Rohit-Property-Based-Testing.md",
+  "source": "@site/blog/2021-07-06-Blog-Rohit-Property-Based-Testing.md",
+  "title": "Property Based Testing of Tremor Script",
+  "description": "Rohit's Experience working with Tremor as a LFX Spring 2021 Mentee.",
+  "date": "2021-07-06T00:00:00.000Z",
+  "formattedDate": "July 6, 2021",
+  "tags": [
+    {
+      "label": "testing",
+      "permalink": "/blog/tags/testing"
+    },
+    {
+      "label": "mentorship",
+      "permalink": "/blog/tags/mentorship"
+    },
+    {
+      "label": "cncf",
+      "permalink": "/blog/tags/cncf"
+    },
+    {
+      "label": "tremorscript",
+      "permalink": "/blog/tags/tremorscript"
+    }
+  ],
+  "readingTime": 7.495,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Rohit Dandamudi",
+      "title": "Tremor 2021 Spring Mentee",
+      "url": "https://www.linkedin.com/in/kurious-diru/"
+    }
+  ],
+  "frontMatter": {
+    "title": "Property Based Testing of Tremor Script",
+    "author": "Rohit Dandamudi",
+    "author_title": "Tremor 2021 Spring Mentee",
+    "author_url": "https://www.linkedin.com/in/kurious-diru/",
+    "tags": [
+      "testing",
+      "mentorship",
+      "cncf",
+      "tremorscript"
+    ],
+    "draft": false,
+    "hide_table_of_contents": false,
+    "description": "Rohit's Experience working with Tremor as a LFX Spring 2021 Mentee."
+  },
+  "prevItem": {
+    "title": "Wayfair Case Study",
+    "permalink": "/blog/2021/11/01/wayfair-case-studies"
+  },
+  "nextItem": {
+    "title": "Support for the Syslog Protocol",
+    "permalink": "/blog/LFX-Blog-Nupur"
+  }
+}

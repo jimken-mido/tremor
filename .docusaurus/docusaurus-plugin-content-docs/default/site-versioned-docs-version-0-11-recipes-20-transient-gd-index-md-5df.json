@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/transient_gd/index",
+  "id": "version-0.11/recipes/transient_gd/index",
+  "title": "Transient Write-Ahead Log",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/20_transient_gd/index.md",
+  "sourceDirName": "recipes/20_transient_gd",
+  "slug": "/recipes/transient_gd/",
+  "permalink": "/docs/0.11/recipes/transient_gd/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/20_transient_gd/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Syslog over UDP with DNS lookups",
+    "permalink": "/docs/0.11/recipes/syslog_udp_dns/"
+  },
+  "next": {
+    "title": "Persistent Write-Ahead Log",
+    "permalink": "/docs/0.11/recipes/persistent_gd/"
+  }
+}

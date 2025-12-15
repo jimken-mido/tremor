@@ -1,0 +1,27 @@
+{
+  "unversionedId": "language/scripts",
+  "id": "version-0.12/language/scripts",
+  "title": "Scripts",
+  "description": "Tremor scripts are user-defined pipeline [Operators]. They also have the standard ports in, out and err and are part of the [Pipeline] graph. Events are routed into and out of scripts using the [Select] statement inside a [Pipeline].",
+  "source": "@site/versioned_docs/version-0.12/language/scripts.md",
+  "sourceDirName": "language",
+  "slug": "/language/scripts",
+  "permalink": "/docs/0.12/language/scripts",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/scripts.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Pipelines",
+    "permalink": "/docs/0.12/language/pipelines"
+  },
+  "next": {
+    "title": "Functions",
+    "permalink": "/docs/0.12/language/functions"
+  }
+}

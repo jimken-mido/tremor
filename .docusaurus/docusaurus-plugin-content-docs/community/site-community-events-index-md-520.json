@@ -1,0 +1,23 @@
+{
+  "unversionedId": "events/index",
+  "id": "events/index",
+  "title": "Overview",
+  "description": "From time to time the Tremor team hosts, engages with or",
+  "source": "@site/community/events/index.md",
+  "sourceDirName": "events",
+  "slug": "/events/",
+  "permalink": "/community/events/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/community/governance/security"
+  },
+  "next": {
+    "title": "TremorCon",
+    "permalink": "/community/events/TremorCon2021"
+  }
+}

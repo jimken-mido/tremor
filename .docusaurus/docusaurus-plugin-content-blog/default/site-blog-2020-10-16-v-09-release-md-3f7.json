@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/2020/10/16/v09-release",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2020-10-16-v09-release.md",
+  "source": "@site/blog/2020-10-16-v09-release.md",
+  "title": "Releasing Tremor v0.9!",
+  "description": "Releasing Tremor v0.9",
+  "date": "2020-10-16T00:00:00.000Z",
+  "formattedDate": "October 16, 2020",
+  "tags": [
+    {
+      "label": "releases",
+      "permalink": "/blog/tags/releases"
+    }
+  ],
+  "readingTime": 7.34,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Releasing Tremor v0.9!",
+    "author": "The Tremor Team",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "tags": [
+      "releases"
+    ],
+    "draft": false,
+    "hide_table_of_contents": false,
+    "description": "Releasing Tremor v0.9",
+    "image": "/img/blog/2020-10-16/v0.9.png"
+  },
+  "prevItem": {
+    "title": "Releasing Tremor v0.10!",
+    "permalink": "/blog/2021/02/12/v010-release"
+  },
+  "nextItem": {
+    "title": "To async or Not to async",
+    "permalink": "/blog/2020/08/06/to-async-or-not-to-async"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/index",
+  "id": "version-0.11/tremor-script/index",
+  "title": "Tremor-Script",
+  "description": "The tremor-script scripting language is an interpreted expression-oriented language designed for the filtering, extraction, transformation and streaming of structured data in a stream or event-based processing system.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/index.md",
+  "sourceDirName": "tremor-script",
+  "slug": "/tremor-script/",
+  "permalink": "/docs/0.11/tremor-script/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Preprocessors",
+    "permalink": "/docs/0.11/artefacts/preprocessors"
+  },
+  "next": {
+    "title": "Base64",
+    "permalink": "/docs/0.11/tremor-script/extractors/base64"
+  }
+}

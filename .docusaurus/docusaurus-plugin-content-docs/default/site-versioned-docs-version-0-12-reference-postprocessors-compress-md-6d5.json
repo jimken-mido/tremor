@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/postprocessors/compress",
+  "id": "version-0.12/reference/postprocessors/compress",
+  "title": "compress",
+  "description": "Compresses event data.",
+  "source": "@site/versioned_docs/version-0.12/reference/postprocessors/compress.md",
+  "sourceDirName": "reference/postprocessors",
+  "slug": "/reference/postprocessors/compress",
+  "permalink": "/docs/0.12/reference/postprocessors/compress",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/postprocessors/compress.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "base64",
+    "permalink": "/docs/0.12/reference/postprocessors/base64"
+  },
+  "next": {
+    "title": "gelf-chunking",
+    "permalink": "/docs/0.12/reference/postprocessors/gelf-chunking"
+  }
+}

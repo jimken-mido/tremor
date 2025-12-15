@@ -1,0 +1,23 @@
+{
+  "unversionedId": "events/TremorCon2021",
+  "id": "events/TremorCon2021",
+  "title": "TremorCon",
+  "description": "TremorCon is an annual one-day conference that showcases the contributions",
+  "source": "@site/community/events/TremorCon2021.md",
+  "sourceDirName": "events",
+  "slug": "/events/TremorCon2021",
+  "permalink": "/community/events/TremorCon2021",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/community/events/"
+  },
+  "next": {
+    "title": "Adoption Case Studies",
+    "permalink": "/community/ADOPTERS"
+  }
+}

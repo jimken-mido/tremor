@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/url",
+  "id": "version-0.12/reference/stdlib/std/url",
+  "title": "url",
+  "description": "The url module contains functions to work on urls",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/url.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/url",
+  "permalink": "/docs/0.12/reference/stdlib/std/url",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/url.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "type",
+    "permalink": "/docs/0.12/reference/stdlib/std/type"
+  },
+  "next": {
+    "title": "win",
+    "permalink": "/docs/0.12/reference/stdlib/std/win"
+  }
+}

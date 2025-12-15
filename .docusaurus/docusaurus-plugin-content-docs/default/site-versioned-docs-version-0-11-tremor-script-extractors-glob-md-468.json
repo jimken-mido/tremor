@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/extractors/glob",
+  "id": "version-0.11/tremor-script/extractors/glob",
+  "title": "Glob",
+  "description": "Glob is an extractor that checks if the input string matches the specified Unix shell-style pattern#Unix-like). The extractor fails if an pattern is specified that is not valid or the string doesn't match the pattern.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/extractors/glob.md",
+  "sourceDirName": "tremor-script/extractors",
+  "slug": "/tremor-script/extractors/glob",
+  "permalink": "/docs/0.11/tremor-script/extractors/glob",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/extractors/glob.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Dissect",
+    "permalink": "/docs/0.11/tremor-script/extractors/dissect"
+  },
+  "next": {
+    "title": "Grok",
+    "permalink": "/docs/0.11/tremor-script/extractors/grok"
+  }
+}

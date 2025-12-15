@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/11/01/wayfair-case-studies",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-11-01-wayfair-case-studies.md",
+  "source": "@site/blog/2021-11-01-wayfair-case-studies.md",
+  "title": "Wayfair Case Study",
+  "description": "wayfair",
+  "date": "2021-11-01T00:00:00.000Z",
+  "formattedDate": "November 1, 2021",
+  "tags": [
+    {
+      "label": "case-study",
+      "permalink": "/blog/tags/case-study"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    }
+  ],
+  "readingTime": 6.025,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "url": "https://github.com/tremor-rs",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Wayfair Case Study",
+    "tags": [
+      "case-study",
+      "wayfair"
+    ],
+    "author": "The Tremor Team",
+    "author_url": "https://github.com/tremor-rs",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "image": "./media/wayfair.png",
+    "draft": false,
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Case Study - Traffic Shaping",
+    "permalink": "/blog/2021/11/02/traffic-shaping"
+  },
+  "nextItem": {
+    "title": "Property Based Testing of Tremor Script",
+    "permalink": "/blog/2021/07/06/Blog-Rohit-Property-Based-Testing"
+  }
+}

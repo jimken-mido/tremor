@@ -1,0 +1,24 @@
+{
+  "unversionedId": "guides/index",
+  "id": "version-0.12/guides/index",
+  "title": "Guides",
+  "description": "This are our guides, they're meant to show some example use cases and provide a starting point for various experience levels.",
+  "source": "@site/versioned_docs/version-0.12/guides/index.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/",
+  "permalink": "/docs/0.12/guides/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "IDE Integration and tooling",
+    "permalink": "/docs/0.12/getting-started/tooling"
+  },
+  "next": {
+    "title": "Basics",
+    "permalink": "/docs/0.12/guides/basics"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "governance/teams",
+  "id": "governance/teams",
+  "title": "Tremor Teams",
+  "description": "Teams",
+  "source": "@site/community/governance/teams.md",
+  "sourceDirName": "governance",
+  "slug": "/governance/teams",
+  "permalink": "/community/governance/teams",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Tremor Teams",
+    "description": "Teams",
+    "sidebar_position": 3
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Versioning and Sundown Policy",
+    "permalink": "/community/governance/Versioning"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/community/governance/security"
+  }
+}

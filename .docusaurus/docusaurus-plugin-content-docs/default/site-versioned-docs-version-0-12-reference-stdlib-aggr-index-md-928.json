@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/aggr/index",
+  "id": "version-0.12/reference/stdlib/aggr/index",
+  "title": "aggr",
+  "description": "Tremor query provides access to a growing number of aggregate functions that allow advanced data manipulation over sets of events delineated by windowed operations.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/aggr/index.md",
+  "sourceDirName": "reference/stdlib/aggr",
+  "slug": "/reference/stdlib/aggr/",
+  "permalink": "/docs/0.12/reference/stdlib/aggr/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/aggr/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Standard Library",
+    "permalink": "/docs/0.12/reference/stdlib/"
+  },
+  "next": {
+    "title": "stats",
+    "permalink": "/docs/0.12/reference/stdlib/aggr/stats"
+  }
+}

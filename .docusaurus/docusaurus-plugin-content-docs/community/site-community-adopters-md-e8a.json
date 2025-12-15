@@ -1,0 +1,19 @@
+{
+  "unversionedId": "ADOPTERS",
+  "id": "ADOPTERS",
+  "title": "Adoption Case Studies",
+  "description": "Until Tremor was open-sourced in February 2020, it was an internal project",
+  "source": "@site/community/ADOPTERS.md",
+  "sourceDirName": ".",
+  "slug": "/ADOPTERS",
+  "permalink": "/community/ADOPTERS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "TremorCon",
+    "permalink": "/community/events/TremorCon2021"
+  }
+}

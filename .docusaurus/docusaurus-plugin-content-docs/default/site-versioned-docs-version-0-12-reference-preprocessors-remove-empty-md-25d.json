@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/remove-empty",
+  "id": "version-0.12/reference/preprocessors/remove-empty",
+  "title": "remove-empty",
+  "description": "Removes empty messages (aka zero len). This one is best used in a chain after a splitting preprocessor, like separate",
+  "source": "@site/versioned_docs/version-0.12/reference/preprocessors/remove-empty.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/remove-empty",
+  "permalink": "/docs/0.12/reference/preprocessors/remove-empty",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/preprocessors/remove-empty.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "length-prefixed",
+    "permalink": "/docs/0.12/reference/preprocessors/length-prefixed"
+  },
+  "next": {
+    "title": "separate",
+    "permalink": "/docs/0.12/reference/preprocessors/separate"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "recipes/influx/index",
+  "id": "version-0.11/recipes/influx/index",
+  "title": "Influx",
+  "description": "All the application code here is available from the docs git repository.",
+  "source": "@site/versioned_docs/version-0.11/recipes/11_influx/index.md",
+  "sourceDirName": "recipes/11_influx",
+  "slug": "/recipes/influx/",
+  "permalink": "/docs/0.11/recipes/influx/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/recipes/11_influx/index.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Logstash",
+    "permalink": "/docs/0.11/recipes/logstash/"
+  },
+  "next": {
+    "title": "PostgreSQL TimescaleDB",
+    "permalink": "/docs/0.11/recipes/postgres_timescaledb/"
+  }
+}

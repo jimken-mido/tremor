@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/bucket",
+  "id": "version-0.12/reference/operators/bucket",
+  "title": "grouper::bucket",
+  "description": "Bucket will perform a sliding window rate limiting based on event metadata. Limits are applied for every $class. In a $class each $dimensions is allowed to pass $rate messages per second.",
+  "source": "@site/versioned_docs/version-0.12/reference/operators/bucket.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/bucket",
+  "permalink": "/docs/0.12/reference/operators/bucket",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/operators/bucket.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "generic::batch",
+    "permalink": "/docs/0.12/reference/operators/batch"
+  },
+  "next": {
+    "title": "generic::counter",
+    "permalink": "/docs/0.12/reference/operators/counter"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "artefacts/codecs",
+  "id": "version-0.11/artefacts/codecs",
+  "title": "Codecs",
+  "description": "Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
+  "source": "@site/versioned_docs/version-0.11/artefacts/codecs.md",
+  "sourceDirName": "artefacts",
+  "slug": "/artefacts/codecs",
+  "permalink": "/docs/0.11/artefacts/codecs",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/artefacts/codecs.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {
+    "id": "codecs",
+    "title": "Codecs"
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Monitoring",
+    "permalink": "/docs/0.11/operations/monitoring"
+  },
+  "next": {
+    "title": "Offramps",
+    "permalink": "/docs/0.11/artefacts/offramps"
+  }
+}

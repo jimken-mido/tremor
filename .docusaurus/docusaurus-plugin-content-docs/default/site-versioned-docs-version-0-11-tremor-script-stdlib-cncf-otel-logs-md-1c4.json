@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/cncf/otel/logs",
+  "id": "version-0.11/tremor-script/stdlib/cncf/otel/logs",
+  "title": "logs",
+  "description": "CNCF OpenTelemetry Log event utilities",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/logs.md",
+  "sourceDirName": "tremor-script/stdlib/cncf/otel",
+  "slug": "/tremor-script/stdlib/cncf/otel/logs",
+  "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/cncf/otel/logs.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "traceflags",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs/traceflags"
+  },
+  "next": {
+    "title": "temporality",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/metrics/temporality"
+  }
+}

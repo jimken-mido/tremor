@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/preprocessors/separate",
+  "id": "version-0.12/reference/preprocessors/separate",
+  "title": "separate",
+  "description": "Splits the input into events, using a given separator, the default being \\n (newline).",
+  "source": "@site/versioned_docs/version-0.12/reference/preprocessors/separate.md",
+  "sourceDirName": "reference/preprocessors",
+  "slug": "/reference/preprocessors/separate",
+  "permalink": "/docs/0.12/reference/preprocessors/separate",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/preprocessors/separate.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "remove-empty",
+    "permalink": "/docs/0.12/reference/preprocessors/remove-empty"
+  },
+  "next": {
+    "title": "textual-length-prefix",
+    "permalink": "/docs/0.12/reference/preprocessors/textual-length-prefix"
+  }
+}

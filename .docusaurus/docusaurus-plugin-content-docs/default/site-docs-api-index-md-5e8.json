@@ -1,0 +1,24 @@
+{
+  "unversionedId": "api/index",
+  "id": "api/index",
+  "title": "index",
+  "description": "Tremor exposes a versioned http API. This file should not be visible.",
+  "source": "@site/docs/api/index.md",
+  "sourceDirName": "api",
+  "slug": "/api/",
+  "permalink": "/docs/edge/api/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/api/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Operators",
+    "permalink": "/docs/edge/reference/operators/"
+  },
+  "next": {
+    "title": "Aggregations",
+    "permalink": "/docs/edge/concepts/aggregation"
+  }
+}

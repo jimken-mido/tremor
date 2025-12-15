@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/circuit-breaker-mechanism",
+  "id": "implemented/circuit-breaker-mechanism",
+  "title": "Circuit Breaker Mechanism",
+  "description": "- Feature Name: rfc0005circuitbreakermechanism",
+  "source": "@site/rfc/implemented/0005-circuit-breaker-mechanism.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/circuit-breaker-mechanism",
+  "permalink": "/rfc/implemented/circuit-breaker-mechanism",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0005-circuit-breaker-mechanism.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Linked Transports",
+    "permalink": "/rfc/implemented/linked-transports"
+  },
+  "next": {
+    "title": "Pipeline Optimisations",
+    "permalink": "/rfc/implemented/pipeline-optimizations"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/gpubsub_consumer",
+  "id": "version-0.12/reference/connectors/gpubsub_consumer",
+  "title": "The gpubsub_consumer Connector",
+  "description": "This connector allows consuming a Google PubSub queue.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/gpubsub_consumer.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/gpubsub_consumer",
+  "permalink": "/docs/0.12/reference/connectors/gpubsub_consumer",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/gpubsub_consumer.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "gpubsub_consumer (Google Pub/Sub)",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "gbq (Google Big Query)",
+    "permalink": "/docs/0.12/reference/connectors/gbq"
+  },
+  "next": {
+    "title": "gpubsub_producer (Google Pub/Sub)",
+    "permalink": "/docs/0.12/reference/connectors/gpubsub_producer"
+  }
+}

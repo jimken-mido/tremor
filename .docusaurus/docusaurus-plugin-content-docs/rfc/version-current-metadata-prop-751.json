@@ -1,0 +1,316 @@
+{
+  "pluginId": "rfc",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "link",
+        "label": "RFCs",
+        "href": "/rfc/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "Accepted",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Pipeline State Mechanism",
+            "href": "/rfc/accepted/pipeline-state-mechanism",
+            "docId": "accepted/pipeline-state-mechanism"
+          },
+          {
+            "type": "link",
+            "label": "Sliding Window Mechanism",
+            "href": "/rfc/accepted/sliding-window-mechanism",
+            "docId": "accepted/sliding-window-mechanism"
+          },
+          {
+            "type": "link",
+            "label": "Plugin development Kit",
+            "href": "/rfc/accepted/plugin-development-kit",
+            "docId": "accepted/plugin-development-kit"
+          },
+          {
+            "type": "link",
+            "label": "Ramp Interface",
+            "href": "/rfc/accepted/ramp-interface",
+            "docId": "accepted/ramp-interface"
+          },
+          {
+            "type": "link",
+            "label": "script-operator-enhacements",
+            "href": "/rfc/accepted/script-operator-enhacements",
+            "docId": "accepted/script-operator-enhacements"
+          },
+          {
+            "type": "link",
+            "label": "binary-type",
+            "href": "/rfc/accepted/binary-type",
+            "docId": "accepted/binary-type"
+          },
+          {
+            "type": "link",
+            "label": "troy",
+            "href": "/rfc/accepted/troy",
+            "docId": "accepted/troy"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Implemented",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Remove Actix",
+            "href": "/rfc/implemented/remove-actix-from-tremor-runtime",
+            "docId": "implemented/remove-actix-from-tremor-runtime"
+          },
+          {
+            "type": "link",
+            "label": "Linked Transports",
+            "href": "/rfc/implemented/linked-transports",
+            "docId": "implemented/linked-transports"
+          },
+          {
+            "type": "link",
+            "label": "Circuit Breaker Mechanism",
+            "href": "/rfc/implemented/circuit-breaker-mechanism",
+            "docId": "implemented/circuit-breaker-mechanism"
+          },
+          {
+            "type": "link",
+            "label": "Pipeline Optimisations",
+            "href": "/rfc/implemented/pipeline-optimizations",
+            "docId": "implemented/pipeline-optimizations"
+          },
+          {
+            "type": "link",
+            "label": "Onramp Postgres",
+            "href": "/rfc/implemented/onramp-postgres",
+            "docId": "implemented/onramp-postgres"
+          },
+          {
+            "type": "link",
+            "label": "Modularity",
+            "href": "/rfc/implemented/modularity",
+            "docId": "implemented/modularity"
+          },
+          {
+            "type": "link",
+            "label": "String Interpolation",
+            "href": "/rfc/implemented/string-interpolation",
+            "docId": "implemented/string-interpolation"
+          },
+          {
+            "type": "link",
+            "label": "Correlation",
+            "href": "/rfc/implemented/correlation",
+            "docId": "implemented/correlation"
+          },
+          {
+            "type": "link",
+            "label": "Modular Queries",
+            "href": "/rfc/implemented/modular-queries",
+            "docId": "implemented/modular-queries"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "RFC Process",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "RFC Template (RFC Title goes here)",
+            "href": "/rfc/process/template",
+            "docId": "process/template"
+          },
+          {
+            "type": "link",
+            "label": "API Changes",
+            "href": "/rfc/process/api_changes",
+            "docId": "process/api_changes"
+          },
+          {
+            "type": "link",
+            "label": "Architecture Changes",
+            "href": "/rfc/process/arch_changes",
+            "docId": "process/arch_changes"
+          },
+          {
+            "type": "link",
+            "label": "Documentation Changes",
+            "href": "/rfc/process/docs_changes",
+            "docId": "process/docs_changes"
+          },
+          {
+            "type": "link",
+            "label": "Language Changes",
+            "href": "/rfc/process/lang_changes",
+            "docId": "process/lang_changes"
+          },
+          {
+            "type": "link",
+            "label": "Library Changes",
+            "href": "/rfc/process/libs_changes",
+            "docId": "process/libs_changes"
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "accepted/binary-type": {
+      "id": "accepted/binary-type",
+      "title": "binary-type",
+      "description": "- Feature Name: binary-type",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/pipeline-state-mechanism": {
+      "id": "accepted/pipeline-state-mechanism",
+      "title": "Pipeline State Mechanism",
+      "description": "- Feature Name: rfc0002pipelinestatemechanism",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/plugin-development-kit": {
+      "id": "accepted/plugin-development-kit",
+      "title": "Plugin development Kit",
+      "description": "- Feature Name: plugindevelopmentkit",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/ramp-interface": {
+      "id": "accepted/ramp-interface",
+      "title": "Ramp Interface",
+      "description": "- Feature Name: ramp-interface",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/script-operator-enhacements": {
+      "id": "accepted/script-operator-enhacements",
+      "title": "script-operator-enhacements",
+      "description": "- Feature Name: script operator enhancements",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/sliding-window-mechanism": {
+      "id": "accepted/sliding-window-mechanism",
+      "title": "Sliding Window Mechanism",
+      "description": "- Feature Name: rfc0004slidingwindowmechanism",
+      "sidebar": "defaultSidebar"
+    },
+    "accepted/troy": {
+      "id": "accepted/troy",
+      "title": "troy",
+      "description": "- Feature Name: deployment_language",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/circuit-breaker-mechanism": {
+      "id": "implemented/circuit-breaker-mechanism",
+      "title": "Circuit Breaker Mechanism",
+      "description": "- Feature Name: rfc0005circuitbreakermechanism",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/correlation": {
+      "id": "implemented/correlation",
+      "title": "Correlation",
+      "description": "- Feature Name: correlationlinkedtransport",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/linked-transports": {
+      "id": "implemented/linked-transports",
+      "title": "Linked Transports",
+      "description": "- Feature Name: rfc0003linked_transports",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/modular-queries": {
+      "id": "implemented/modular-queries",
+      "title": "Modular Queries",
+      "description": "- Feature Name: rfc-0014-modular-queries",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/modularity": {
+      "id": "implemented/modularity",
+      "title": "Modularity",
+      "description": "- Feature Name: rfc-0010-modularity",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/onramp-postgres": {
+      "id": "implemented/onramp-postgres",
+      "title": "Onramp Postgres",
+      "description": "- Feature Name: rfc0008onramp_postgres",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/pipeline-optimizations": {
+      "id": "implemented/pipeline-optimizations",
+      "title": "Pipeline Optimisations",
+      "description": "- Feature Name: pipeline-optimisations",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/remove-actix-from-tremor-runtime": {
+      "id": "implemented/remove-actix-from-tremor-runtime",
+      "title": "Remove Actix",
+      "description": "- Feature Name: rfc0001remove_actix",
+      "sidebar": "defaultSidebar"
+    },
+    "implemented/string-interpolation": {
+      "id": "implemented/string-interpolation",
+      "title": "String Interpolation",
+      "description": "- Feature Name: string_interpolation",
+      "sidebar": "defaultSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "RFCs",
+      "description": "[Tremor RFCs]: #tremor-rfcs",
+      "sidebar": "defaultSidebar"
+    },
+    "process/api_changes": {
+      "id": "process/api_changes",
+      "title": "API Changes",
+      "description": "Pretty much every change to the API needs an RFC. Note that changes to documentation are not considered changes to API design unless there are associated changes to data structures transmitted or there is a change to error handling or defined behaviour that impacts existing API surface.",
+      "sidebar": "defaultSidebar"
+    },
+    "process/arch_changes": {
+      "id": "process/arch_changes",
+      "title": "Architecture Changes",
+      "description": "Pretty much every change to the Tremor internals architecture needs an RFC.",
+      "sidebar": "defaultSidebar"
+    },
+    "process/docs_changes": {
+      "id": "process/docs_changes",
+      "title": "Documentation Changes",
+      "description": "Any change to tremor that requires an RFC requires complete documentation to be contributed to cover the changes covered by the RFC and any changes to existing capabilities, features or functions within tremor.",
+      "sidebar": "defaultSidebar"
+    },
+    "process/lang_changes": {
+      "id": "process/lang_changes",
+      "title": "Language Changes",
+      "description": "Pretty much every change to the Tremor language(s) needs an RFC. Note that new",
+      "sidebar": "defaultSidebar"
+    },
+    "process/libs_changes": {
+      "id": "process/libs_changes",
+      "title": "Library Changes",
+      "description": "Motivation",
+      "sidebar": "defaultSidebar"
+    },
+    "process/template": {
+      "id": "process/template",
+      "title": "RFC Template (RFC Title goes here)",
+      "description": "- Feature Name: (fill me in with a unique ident, myawesomefeature)",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

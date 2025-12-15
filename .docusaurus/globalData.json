@@ -1,0 +1,3161 @@
+{
+  "docusaurus-plugin-redoc": {
+    "plugin-redoc-0": {
+      "url": "redocusaurus/plugin-redoc-0.yaml",
+      "themeId": "theme-redoc",
+      "isSpecFile": true,
+      "spec": {
+        "openapi": "3.0.3",
+        "info": {
+          "title": "Tremor Api",
+          "description": "REST API for tremor",
+          "version": "12.0",
+          "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:9898/",
+            "description": "The default ( development ) endpoint on a local ( development ) host"
+          }
+        ],
+        "paths": {
+          "/v1/version": {
+            "get": {
+              "summary": "Get's the current version of the tremor server",
+              "description": "\nThis endpoint returns version information for the current\nversion of tremor. Versioning policy follows [Semantic Versioning](https://semver.org/)\n",
+              "tags": [
+                "version"
+              ],
+              "operationId": "get_version",
+              "responses": {
+                "200": {
+                  "description": "The current version of tremor",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/version"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/status": {
+            "get": {
+              "summary": "Get's the current runtime status",
+              "description": "\nThis endpoint returns the runtime status of the tremor server.\nIt returns a summary of the status of all deployed flows and\ncontains a flag `all_running` to check if all flows are alive and well.\n",
+              "tags": [
+                "status"
+              ],
+              "operationId": "get_runtime_status",
+              "responses": {
+                "200": {
+                  "description": "The current status of the tremor runtime if all flows are in \"running\" state",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    }
+                  }
+                },
+                "503": {
+                  "description": "The current status of the tremor runtime otherwise",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/flows": {
+            "get": {
+              "summary": "Get information on all flows in the tremor runtime.",
+              "description": "\nGet information on all flows in the tremor runtime.\nIt returns an array with 1 item for each flow with information on name,\ncurrent status and connectors.\n",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "get_flows",
+              "responses": {
+                "200": {
+                  "description": "List of flow informations",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flows"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flows"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get information",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "get_flow",
+              "responses": {
+                "200": {
+                  "description": "Get flow informations",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            },
+            "patch": {
+              "summary": "change the status of a flow",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "patch_flow_status",
+              "requestBody": {
+                "description": "Intended status description",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  },
+                  "application/yaml": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "The new status of the flow after applying the patch",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "description": "Error during patch operation, due to invalid status transition.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}/connectors": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get detailed information on all connectors in the flow identified by 'flow-id'",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "get_flow_connectors",
+              "responses": {
+                "200": {
+                  "description": "A list of connector information items for all connectors created with in flow 'flow-id'",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connectors"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connectors"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}/connectors/{connector-id}": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "connector-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the connector within the flow",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get detailed information on the connector 'connector-id' in the flow 'flow-id'.",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "get_flow_connector",
+              "responses": {
+                "200": {
+                  "description": "Connector information for 'connector-id' within flow 'flow-id'",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' or the connector 'connector-id' within flow `flow-id' wasnt found. It is thus not deployed in the"
+                }
+              }
+            },
+            "patch": {
+              "summary": "change the status of a connector",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "patch_flow_connector_status",
+              "requestBody": {
+                "description": "Intended status description",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  },
+                  "application/yaml": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "The new status of the connector after the patch",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "description": "Error during patch operation, due to invalid status transition.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' or the connector 'connector-id' within flow `flow-id' wasnt found. It is thus not deployed in the",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "components": {
+          "schemas": {
+            "version": {
+              "description": "Version information",
+              "type": "object",
+              "properties": {
+                "version": {
+                  "type": "string",
+                  "description": "The semantic version code"
+                },
+                "debug": {
+                  "type": "boolean",
+                  "description": "True if this is a debug build"
+                }
+              },
+              "required": [
+                "version"
+              ],
+              "additionalProperties": false,
+              "example": {
+                "version": "0.11.4",
+                "debug": true
+              }
+            },
+            "runtime_status": {
+              "description": "Runtime status information",
+              "type": "object",
+              "properties": {
+                "all_running": {
+                  "type": "boolean",
+                  "description": "flag that is true if all flows are currently in a running state"
+                },
+                "num_flows": {
+                  "type": "number",
+                  "description": "number of deployed flows"
+                },
+                "flows": {
+                  "type": "object",
+                  "properties": {
+                    "initializing": {
+                      "type": "number",
+                      "description": "The number of flows in initializing state, not yet running"
+                    },
+                    "running": {
+                      "type": "number",
+                      "description": "The number of flows in running state"
+                    },
+                    "paused": {
+                      "type": "number",
+                      "description": "The number of flows in paused state"
+                    },
+                    "draining": {
+                      "type": "number",
+                      "description": "The number of flows in draining state"
+                    },
+                    "stopped": {
+                      "type": "number",
+                      "description": "The number of flows in stopped state"
+                    },
+                    "failed": {
+                      "type": "number",
+                      "description": "The number of flows in failed state"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "all_running",
+                "num_flows",
+                "flows"
+              ],
+              "additionalProperties": false,
+              "example": {
+                "all_running": false,
+                "num_flows": 2,
+                "flows": {
+                  "initializing": 1,
+                  "failed": 1
+                }
+              }
+            },
+            "status": {
+              "description": "runtime status of a flow or connector instance",
+              "type": "string",
+              "enum": [
+                "initializing",
+                "running",
+                "paused",
+                "draining",
+                "stopped",
+                "failed"
+              ]
+            },
+            "flows": {
+              "description": "List of information on deployed flows",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/flow"
+              }
+            },
+            "flow": {
+              "description": "Information on a deployed flow",
+              "type": "object",
+              "properties": {
+                "alias": {
+                  "description": "Alias of the flow",
+                  "type": "string"
+                },
+                "status": {
+                  "$ref": "#/components/schemas/status"
+                },
+                "connectors": {
+                  "description": "aliases of connectors in the flow",
+                  "type": "array",
+                  "items": {
+                    "description": "alias of a connector",
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "alias",
+                "status",
+                "connectors"
+              ],
+              "example": {
+                "alias": "kafka",
+                "status": "initializing",
+                "connectors": [
+                  "consumer1",
+                  "metrics",
+                  "out"
+                ]
+              }
+            },
+            "patch_status": {
+              "description": "encodes the intended status to switch to",
+              "type": "object",
+              "properties": {
+                "status": {
+                  "description": "Valid statusses flows and connectors can be switched to",
+                  "type": "string",
+                  "enum": [
+                    "running",
+                    "paused"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "status"
+              ],
+              "example": {
+                "status": "paused"
+              }
+            },
+            "connectors": {
+              "description": "List of information on connectors",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/connector"
+              }
+            },
+            "connector": {
+              "description": "Information on a single connector, including current runtime status and connected pipelines",
+              "type": "object",
+              "properties": {
+                "alias": {
+                  "type": "string"
+                },
+                "status": {
+                  "$ref": "#/components/schemas/status"
+                },
+                "connectivity": {
+                  "description": "denoting whether this connector is connected to its external system",
+                  "type": "string",
+                  "enum": [
+                    "connected",
+                    "disconnected"
+                  ]
+                },
+                "pipelines": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "description": "A map of connector port to the connected pipeline id and port.",
+                    "type": "array",
+                    "items": {
+                      "description": "\nThe id (or alias) of a connected pipeline and the pipeline-port with which they are connected to this connector.\n",
+                      "type": "object",
+                      "properties": {
+                        "alias": {
+                          "description": "Pipeline id (or alias)",
+                          "type": "string"
+                        },
+                        "port": {
+                          "description": "Name of the port with the pipeline is connected to this connector.",
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "example": {
+                      "out": [
+                        {
+                          "alias": "event_handling_pipeline",
+                          "port": "in"
+                        },
+                        {
+                          "alias": "aggregation_pipeline",
+                          "port": "in"
+                        }
+                      ],
+                      "err": [
+                        {
+                          "alias": "error_handling_pipeline",
+                          "port": "in"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "alias",
+                "status",
+                "connectivity",
+                "pipelines"
+              ],
+              "example": {
+                "alias": "foo",
+                "status": "running",
+                "connectivity": "connected",
+                "pipelines": {
+                  "out": [
+                    {
+                      "alias": "pass",
+                      "port": "in"
+                    }
+                  ]
+                }
+              }
+            },
+            "error": {
+              "description": "Error Payload",
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "number",
+                  "description": "Same as HTTP Status code"
+                },
+                "error": {
+                  "type": "string",
+                  "description": "Human-readable error message"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "code",
+                "error"
+              ],
+              "example": {
+                "code": 400,
+                "error": "Cannot patch status of connector non_existent_file in flow flow_02 from failed to running"
+              }
+            }
+          }
+        }
+      }
+    },
+    "plugin-redoc-1": {
+      "url": "redocusaurus/plugin-redoc-1.yaml",
+      "themeId": "theme-redoc",
+      "isSpecFile": true,
+      "spec": {
+        "openapi": "3.0.3",
+        "info": {
+          "title": "Tremor Api",
+          "description": "REST API for tremor",
+          "version": "12.0",
+          "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:9898/",
+            "description": "The default ( development ) endpoint on a local ( development ) host"
+          }
+        ],
+        "paths": {
+          "/v1/version": {
+            "get": {
+              "summary": "Get's the current version of the tremor server",
+              "description": "\nThis endpoint returns version information for the current\nversion of tremor. Versioning policy follows [Semantic Versioning](https://semver.org/)\n",
+              "tags": [
+                "version"
+              ],
+              "operationId": "get_version",
+              "responses": {
+                "200": {
+                  "description": "The current version of tremor",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/version"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/status": {
+            "get": {
+              "summary": "Get's the current runtime status",
+              "description": "\nThis endpoint returns the runtime status of the tremor server.\nIt returns a summary of the status of all deployed flows and\ncontains a flag `all_running` to check if all flows are alive and well.\n",
+              "tags": [
+                "status"
+              ],
+              "operationId": "get_runtime_status",
+              "responses": {
+                "200": {
+                  "description": "The current status of the tremor runtime if all flows are in \"running\" state",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    }
+                  }
+                },
+                "503": {
+                  "description": "The current status of the tremor runtime otherwise",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/runtime_status"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/flows": {
+            "get": {
+              "summary": "Get information on all flows in the tremor runtime.",
+              "description": "\nGet information on all flows in the tremor runtime.\nIt returns an array with 1 item for each flow with information on name,\ncurrent status and connectors.\n",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "get_flows",
+              "responses": {
+                "200": {
+                  "description": "List of flow informations",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flows"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flows"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get information",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "get_flow",
+              "responses": {
+                "200": {
+                  "description": "Get flow informations",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            },
+            "patch": {
+              "summary": "change the status of a flow",
+              "tags": [
+                "flows"
+              ],
+              "operationId": "patch_flow_status",
+              "requestBody": {
+                "description": "Intended status description",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  },
+                  "application/yaml": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "The new status of the flow after applying the patch",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/flow"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "description": "Error during patch operation, due to invalid status transition.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}/connectors": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get detailed information on all connectors in the flow identified by 'flow-id'",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "get_flow_connectors",
+              "responses": {
+                "200": {
+                  "description": "A list of connector information items for all connectors created with in flow 'flow-id'",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connectors"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connectors"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' wasnt found. It is thus not deployed in the runtime."
+                }
+              }
+            }
+          },
+          "/v1/flows/{flow-id}/connectors/{connector-id}": {
+            "parameters": [
+              {
+                "name": "flow-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the flow in the runtime",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              {
+                "name": "connector-id",
+                "in": "path",
+                "required": true,
+                "description": "The unique id of the connector within the flow",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            ],
+            "get": {
+              "summary": "Get detailed information on the connector 'connector-id' in the flow 'flow-id'.",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "get_flow_connector",
+              "responses": {
+                "200": {
+                  "description": "Connector information for 'connector-id' within flow 'flow-id'",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' or the connector 'connector-id' within flow `flow-id' wasnt found. It is thus not deployed in the"
+                }
+              }
+            },
+            "patch": {
+              "summary": "change the status of a connector",
+              "tags": [
+                "flows",
+                "connectors"
+              ],
+              "operationId": "patch_flow_connector_status",
+              "requestBody": {
+                "description": "Intended status description",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  },
+                  "application/yaml": {
+                    "schema": {
+                      "$ref": "#/components/schemas/patch_status"
+                    }
+                  }
+                },
+                "required": true
+              },
+              "responses": {
+                "200": {
+                  "description": "The new status of the connector after the patch",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/connector"
+                      }
+                    }
+                  }
+                },
+                "400": {
+                  "description": "Error during patch operation, due to invalid status transition.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                },
+                "404": {
+                  "description": "The flow 'flow-id' or the connector 'connector-id' within flow `flow-id' wasnt found. It is thus not deployed in the",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    },
+                    "application/yaml": {
+                      "schema": {
+                        "$ref": "#/components/schemas/error"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "components": {
+          "schemas": {
+            "version": {
+              "description": "Version information",
+              "type": "object",
+              "properties": {
+                "version": {
+                  "type": "string",
+                  "description": "The semantic version code"
+                },
+                "debug": {
+                  "type": "boolean",
+                  "description": "True if this is a debug build"
+                }
+              },
+              "required": [
+                "version"
+              ],
+              "additionalProperties": false,
+              "example": {
+                "version": "0.11.4",
+                "debug": true
+              }
+            },
+            "runtime_status": {
+              "description": "Runtime status information",
+              "type": "object",
+              "properties": {
+                "all_running": {
+                  "type": "boolean",
+                  "description": "flag that is true if all flows are currently in a running state"
+                },
+                "num_flows": {
+                  "type": "number",
+                  "description": "number of deployed flows"
+                },
+                "flows": {
+                  "type": "object",
+                  "properties": {
+                    "initializing": {
+                      "type": "number",
+                      "description": "The number of flows in initializing state, not yet running"
+                    },
+                    "running": {
+                      "type": "number",
+                      "description": "The number of flows in running state"
+                    },
+                    "paused": {
+                      "type": "number",
+                      "description": "The number of flows in paused state"
+                    },
+                    "draining": {
+                      "type": "number",
+                      "description": "The number of flows in draining state"
+                    },
+                    "stopped": {
+                      "type": "number",
+                      "description": "The number of flows in stopped state"
+                    },
+                    "failed": {
+                      "type": "number",
+                      "description": "The number of flows in failed state"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "all_running",
+                "num_flows",
+                "flows"
+              ],
+              "additionalProperties": false,
+              "example": {
+                "all_running": false,
+                "num_flows": 2,
+                "flows": {
+                  "initializing": 1,
+                  "failed": 1
+                }
+              }
+            },
+            "status": {
+              "description": "runtime status of a flow or connector instance",
+              "type": "string",
+              "enum": [
+                "initializing",
+                "running",
+                "paused",
+                "draining",
+                "stopped",
+                "failed"
+              ]
+            },
+            "flows": {
+              "description": "List of information on deployed flows",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/flow"
+              }
+            },
+            "flow": {
+              "description": "Information on a deployed flow",
+              "type": "object",
+              "properties": {
+                "alias": {
+                  "description": "Alias of the flow",
+                  "type": "string"
+                },
+                "status": {
+                  "$ref": "#/components/schemas/status"
+                },
+                "connectors": {
+                  "description": "aliases of connectors in the flow",
+                  "type": "array",
+                  "items": {
+                    "description": "alias of a connector",
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "alias",
+                "status",
+                "connectors"
+              ],
+              "example": {
+                "alias": "kafka",
+                "status": "initializing",
+                "connectors": [
+                  "consumer1",
+                  "metrics",
+                  "out"
+                ]
+              }
+            },
+            "patch_status": {
+              "description": "encodes the intended status to switch to",
+              "type": "object",
+              "properties": {
+                "status": {
+                  "description": "Valid statusses flows and connectors can be switched to",
+                  "type": "string",
+                  "enum": [
+                    "running",
+                    "paused"
+                  ]
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "status"
+              ],
+              "example": {
+                "status": "paused"
+              }
+            },
+            "connectors": {
+              "description": "List of information on connectors",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/connector"
+              }
+            },
+            "connector": {
+              "description": "Information on a single connector, including current runtime status and connected pipelines",
+              "type": "object",
+              "properties": {
+                "alias": {
+                  "type": "string"
+                },
+                "status": {
+                  "$ref": "#/components/schemas/status"
+                },
+                "connectivity": {
+                  "description": "denoting whether this connector is connected to its external system",
+                  "type": "string",
+                  "enum": [
+                    "connected",
+                    "disconnected"
+                  ]
+                },
+                "pipelines": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "description": "A map of connector port to the connected pipeline id and port.",
+                    "type": "array",
+                    "items": {
+                      "description": "\nThe id (or alias) of a connected pipeline and the pipeline-port with which they are connected to this connector.\n",
+                      "type": "object",
+                      "properties": {
+                        "alias": {
+                          "description": "Pipeline id (or alias)",
+                          "type": "string"
+                        },
+                        "port": {
+                          "description": "Name of the port with the pipeline is connected to this connector.",
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "example": {
+                      "out": [
+                        {
+                          "alias": "event_handling_pipeline",
+                          "port": "in"
+                        },
+                        {
+                          "alias": "aggregation_pipeline",
+                          "port": "in"
+                        }
+                      ],
+                      "err": [
+                        {
+                          "alias": "error_handling_pipeline",
+                          "port": "in"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "alias",
+                "status",
+                "connectivity",
+                "pipelines"
+              ],
+              "example": {
+                "alias": "foo",
+                "status": "running",
+                "connectivity": "connected",
+                "pipelines": {
+                  "out": [
+                    {
+                      "alias": "pass",
+                      "port": "in"
+                    }
+                  ]
+                }
+              }
+            },
+            "error": {
+              "description": "Error Payload",
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "number",
+                  "description": "Same as HTTP Status code"
+                },
+                "error": {
+                  "type": "string",
+                  "description": "Human-readable error message"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "code",
+                "error"
+              ],
+              "example": {
+                "code": 400,
+                "error": "Cannot patch status of connector non_existent_file in flow flow_02 from failed to running"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "@cmfcmf/docusaurus-search-local": {
+    "default": {
+      "titleBoost": 5,
+      "contentBoost": 1,
+      "parentCategoriesBoost": 2,
+      "indexDocSidebarParentCategories": 0
+    }
+  },
+  "docusaurus-theme-redoc": {
+    "theme-redoc": {
+      "lightTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "#ffffff"
+        },
+        "rightPanel": {
+          "backgroundColor": "#303846"
+        },
+        "colors": {
+          "primary": {
+            "main": "#1890ff"
+          }
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "darkTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "rgb(24, 25, 26)",
+          "textColor": "#f5f6f7",
+          "arrow": {
+            "color": "#f5f6f7"
+          }
+        },
+        "colors": {
+          "text": {
+            "primary": "#f5f6f7",
+            "secondary": "rgba(255, 255, 255, 1)"
+          },
+          "gray": {
+            "50": "#FAFAFA",
+            "100": "#F5F5F5"
+          },
+          "border": {
+            "dark": "#ffffff",
+            "light": "rgba(0,0,0, 0.1)"
+          },
+          "primary": {
+            "main": "#1890ff"
+          }
+        },
+        "schema": {
+          "nestedBackground": "rgb(24, 25, 26)",
+          "typeNameColor": "rgba(255, 255, 255, 1)",
+          "typeTitleColor": "rgba(255, 255, 255, 1)"
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "options": {
+        "scrollYOffset": "nav.navbar",
+        "expandSingleSchemaField": true,
+        "menuToggle": true,
+        "suppressWarnings": true
+      }
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "rfc": {
+      "path": "/rfc",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/rfc",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "accepted/binary-type",
+              "path": "/rfc/accepted/binary-type",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/pipeline-state-mechanism",
+              "path": "/rfc/accepted/pipeline-state-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/plugin-development-kit",
+              "path": "/rfc/accepted/plugin-development-kit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/ramp-interface",
+              "path": "/rfc/accepted/ramp-interface",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/script-operator-enhacements",
+              "path": "/rfc/accepted/script-operator-enhacements",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/sliding-window-mechanism",
+              "path": "/rfc/accepted/sliding-window-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/troy",
+              "path": "/rfc/accepted/troy",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/circuit-breaker-mechanism",
+              "path": "/rfc/implemented/circuit-breaker-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/correlation",
+              "path": "/rfc/implemented/correlation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/linked-transports",
+              "path": "/rfc/implemented/linked-transports",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/modular-queries",
+              "path": "/rfc/implemented/modular-queries",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/modularity",
+              "path": "/rfc/implemented/modularity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/onramp-postgres",
+              "path": "/rfc/implemented/onramp-postgres",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/pipeline-optimizations",
+              "path": "/rfc/implemented/pipeline-optimizations",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/remove-actix-from-tremor-runtime",
+              "path": "/rfc/implemented/remove-actix-from-tremor-runtime",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/string-interpolation",
+              "path": "/rfc/implemented/string-interpolation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/rfc/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/api_changes",
+              "path": "/rfc/process/api_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/arch_changes",
+              "path": "/rfc/process/arch_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/docs_changes",
+              "path": "/rfc/process/docs_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/lang_changes",
+              "path": "/rfc/process/lang_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/libs_changes",
+              "path": "/rfc/process/libs_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/template",
+              "path": "/rfc/process/template",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/rfc/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "community": {
+      "path": "/community",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/community",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "ADOPTERS",
+              "path": "/community/ADOPTERS",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "CodeofConduct",
+              "path": "/community/CodeofConduct",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/benchmarking",
+              "path": "/community/development/benchmarking",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/Contributing",
+              "path": "/community/development/",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/debugging",
+              "path": "/community/development/debugging",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/profiling",
+              "path": "/community/development/profiling",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/quick-start",
+              "path": "/community/development/quick-start",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "development/testing",
+              "path": "/community/development/testing",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "events/index",
+              "path": "/community/events/",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "events/TremorCon2021",
+              "path": "/community/events/TremorCon2021",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "governance/CII",
+              "path": "/community/governance/CII",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "governance/index",
+              "path": "/community/governance/",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "governance/security",
+              "path": "/community/governance/security",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "governance/teams",
+              "path": "/community/governance/teams",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "governance/Versioning",
+              "path": "/community/governance/Versioning",
+              "sidebar": "communitySidebar"
+            },
+            {
+              "id": "index",
+              "path": "/community/",
+              "sidebar": "communitySidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "communitySidebar": {
+              "link": {
+                "path": "/community/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "edge",
+          "isLast": false,
+          "path": "/docs/edge",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "api/index",
+              "path": "/docs/edge/api/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/aggregation",
+              "path": "/docs/edge/concepts/aggregation",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/batching",
+              "path": "/docs/edge/concepts/batching",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/design",
+              "path": "/docs/edge/concepts/design",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/runtime_capabilities",
+              "path": "/docs/edge/concepts/runtime_capabilities",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/index",
+              "path": "/docs/edge/getting-started/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/install",
+              "path": "/docs/edge/getting-started/install",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/tooling",
+              "path": "/docs/edge/getting-started/tooling",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/basics",
+              "path": "/docs/edge/guides/basics",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/index",
+              "path": "/docs/edge/guides/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/logging",
+              "path": "/docs/edge/guides/logging",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/logstash/index",
+              "path": "/docs/edge/guides/old/logstash/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/syslog_udp_dns/index",
+              "path": "/docs/edge/guides/old/syslog_udp_dns/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/syslog_udp/index",
+              "path": "/docs/edge/guides/old/syslog_udp/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/tbd-gd-guide",
+              "path": "/docs/edge/guides/tbd-gd-guide",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/edge/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "operations/api-usage",
+              "path": "/docs/edge/operations/api-usage",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "operations/configuration",
+              "path": "/docs/edge/operations/configuration",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/edge/reference/cli",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/index",
+              "path": "/docs/edge/reference/codecs/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/index",
+              "path": "/docs/edge/reference/extractors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/index",
+              "path": "/docs/edge/reference/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/index",
+              "path": "/docs/edge/reference/operators/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/index",
+              "path": "/docs/edge/reference/postprocessors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/index",
+              "path": "/docs/edge/reference/preprocessors/",
+              "sidebar": "indexSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "indexSidebar": {
+              "link": {
+                "path": "/docs/edge/",
+                "label": "index"
+              }
+            }
+          }
+        },
+        {
+          "name": "0.12",
+          "label": "0.12",
+          "isLast": true,
+          "path": "/docs/0.12",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "api/index",
+              "path": "/docs/0.12/api/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/aggregation",
+              "path": "/docs/0.12/concepts/aggregation",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/batching",
+              "path": "/docs/0.12/concepts/batching",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/design",
+              "path": "/docs/0.12/concepts/design",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "concepts/runtime_capabilities",
+              "path": "/docs/0.12/concepts/runtime_capabilities",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/index",
+              "path": "/docs/0.12/getting-started/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/install",
+              "path": "/docs/0.12/getting-started/install",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "getting-started/tooling",
+              "path": "/docs/0.12/getting-started/tooling",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/basics",
+              "path": "/docs/0.12/guides/basics",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/index",
+              "path": "/docs/0.12/guides/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/logging",
+              "path": "/docs/0.12/guides/logging",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/metrics",
+              "path": "/docs/0.12/guides/metrics",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/logstash/index",
+              "path": "/docs/0.12/guides/old/logstash/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/syslog_udp_dns/index",
+              "path": "/docs/0.12/guides/old/syslog_udp_dns/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/old/syslog_udp/index",
+              "path": "/docs/0.12/guides/old/syslog_udp/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "guides/tbd-gd-guide",
+              "path": "/docs/0.12/guides/tbd-gd-guide",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/0.12/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/common_patterns",
+              "path": "/docs/0.12/language/common_patterns",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/expressions",
+              "path": "/docs/0.12/language/expressions",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/functions",
+              "path": "/docs/0.12/language/functions",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/history",
+              "path": "/docs/0.12/language/history",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/index",
+              "path": "/docs/0.12/language/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/pipelines",
+              "path": "/docs/0.12/language/pipelines",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/deploy",
+              "path": "/docs/0.12/language/reference/deploy",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/EBNF",
+              "path": "/docs/0.12/language/reference/EBNF",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/full",
+              "path": "/docs/0.12/language/reference/full",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/index",
+              "path": "/docs/0.12/language/reference/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/module_system",
+              "path": "/docs/0.12/language/reference/module_system",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/query",
+              "path": "/docs/0.12/language/reference/query",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/reference/script",
+              "path": "/docs/0.12/language/reference/script",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "language/scripts",
+              "path": "/docs/0.12/language/scripts",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "operations/api-usage",
+              "path": "/docs/0.12/operations/api-usage",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "operations/configuration",
+              "path": "/docs/0.12/operations/configuration",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "operations/monitoring",
+              "path": "/docs/0.12/operations/monitoring",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/0.12/reference/cli",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/binary",
+              "path": "/docs/0.12/reference/codecs/binary",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/binflux",
+              "path": "/docs/0.12/reference/codecs/binflux",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/csv",
+              "path": "/docs/0.12/reference/codecs/csv",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/index",
+              "path": "/docs/0.12/reference/codecs/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/influx",
+              "path": "/docs/0.12/reference/codecs/influx",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/json",
+              "path": "/docs/0.12/reference/codecs/json",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/json-sorted",
+              "path": "/docs/0.12/reference/codecs/json-sorted",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/msgpack",
+              "path": "/docs/0.12/reference/codecs/msgpack",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/null",
+              "path": "/docs/0.12/reference/codecs/null",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/statsd",
+              "path": "/docs/0.12/reference/codecs/statsd",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/string",
+              "path": "/docs/0.12/reference/codecs/string",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/syslog",
+              "path": "/docs/0.12/reference/codecs/syslog",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/codecs/yaml",
+              "path": "/docs/0.12/reference/codecs/yaml",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/bench",
+              "path": "/docs/0.12/reference/connectors/bench",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/cb",
+              "path": "/docs/0.12/reference/connectors/cb",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/common_configuration",
+              "path": "/docs/0.12/reference/connectors/common_configuration",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/crononome",
+              "path": "/docs/0.12/reference/connectors/crononome",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/discord",
+              "path": "/docs/0.12/reference/connectors/discord",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/dns",
+              "path": "/docs/0.12/reference/connectors/dns",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/elastic",
+              "path": "/docs/0.12/reference/connectors/elastic",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/exit",
+              "path": "/docs/0.12/reference/connectors/exit",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/file",
+              "path": "/docs/0.12/reference/connectors/file",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/gbq",
+              "path": "/docs/0.12/reference/connectors/gbq",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/gpubsub_consumer",
+              "path": "/docs/0.12/reference/connectors/gpubsub_consumer",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/gpubsub_producer",
+              "path": "/docs/0.12/reference/connectors/gpubsub_producer",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/http",
+              "path": "/docs/0.12/reference/connectors/http",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/index",
+              "path": "/docs/0.12/reference/connectors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/kafka",
+              "path": "/docs/0.12/reference/connectors/kafka",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/kv",
+              "path": "/docs/0.12/reference/connectors/kv",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/metrics",
+              "path": "/docs/0.12/reference/connectors/metrics",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/metronome",
+              "path": "/docs/0.12/reference/connectors/metronome",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/null",
+              "path": "/docs/0.12/reference/connectors/null",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/otel",
+              "path": "/docs/0.12/reference/connectors/otel",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/s3",
+              "path": "/docs/0.12/reference/connectors/s3",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/stdio",
+              "path": "/docs/0.12/reference/connectors/stdio",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/tcp",
+              "path": "/docs/0.12/reference/connectors/tcp",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/udp",
+              "path": "/docs/0.12/reference/connectors/udp",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/unix_socket",
+              "path": "/docs/0.12/reference/connectors/unix_socket",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/wal",
+              "path": "/docs/0.12/reference/connectors/wal",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/connectors/ws",
+              "path": "/docs/0.12/reference/connectors/ws",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/base64",
+              "path": "/docs/0.12/reference/extractors/base64",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/cidr",
+              "path": "/docs/0.12/reference/extractors/cidr",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/datetime",
+              "path": "/docs/0.12/reference/extractors/datetime",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/dissect",
+              "path": "/docs/0.12/reference/extractors/dissect",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/glob",
+              "path": "/docs/0.12/reference/extractors/glob",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/grok",
+              "path": "/docs/0.12/reference/extractors/grok",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/index",
+              "path": "/docs/0.12/reference/extractors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/influx",
+              "path": "/docs/0.12/reference/extractors/influx",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/json",
+              "path": "/docs/0.12/reference/extractors/json",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/kv",
+              "path": "/docs/0.12/reference/extractors/kv",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/extractors/regex",
+              "path": "/docs/0.12/reference/extractors/regex",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/index",
+              "path": "/docs/0.12/reference/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/backpressure",
+              "path": "/docs/0.12/reference/operators/backpressure",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/batch",
+              "path": "/docs/0.12/reference/operators/batch",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/bucket",
+              "path": "/docs/0.12/reference/operators/bucket",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/counter",
+              "path": "/docs/0.12/reference/operators/counter",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/history",
+              "path": "/docs/0.12/reference/operators/history",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/index",
+              "path": "/docs/0.12/reference/operators/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/percentile",
+              "path": "/docs/0.12/reference/operators/percentile",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/roundrobin",
+              "path": "/docs/0.12/reference/operators/roundrobin",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/operators/script",
+              "path": "/docs/0.12/reference/operators/script",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/base64",
+              "path": "/docs/0.12/reference/postprocessors/base64",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/compress",
+              "path": "/docs/0.12/reference/postprocessors/compress",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/gelf-chunking",
+              "path": "/docs/0.12/reference/postprocessors/gelf-chunking",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/index",
+              "path": "/docs/0.12/reference/postprocessors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/ingest-ns",
+              "path": "/docs/0.12/reference/postprocessors/ingest-ns",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/length-prefixed",
+              "path": "/docs/0.12/reference/postprocessors/length-prefixed",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/separate",
+              "path": "/docs/0.12/reference/postprocessors/separate",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/postprocessors/textual-length-prefix",
+              "path": "/docs/0.12/reference/postprocessors/textual-length-prefix",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/base64",
+              "path": "/docs/0.12/reference/preprocessors/base64",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/decompress",
+              "path": "/docs/0.12/reference/preprocessors/decompress",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/gelf-chunking",
+              "path": "/docs/0.12/reference/preprocessors/gelf-chunking",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/index",
+              "path": "/docs/0.12/reference/preprocessors/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/length-prefixed",
+              "path": "/docs/0.12/reference/preprocessors/length-prefixed",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/remove-empty",
+              "path": "/docs/0.12/reference/preprocessors/remove-empty",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/separate",
+              "path": "/docs/0.12/reference/preprocessors/separate",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/preprocessors/textual-length-prefix",
+              "path": "/docs/0.12/reference/preprocessors/textual-length-prefix",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/aggr/index",
+              "path": "/docs/0.12/reference/stdlib/aggr/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/aggr/stats",
+              "path": "/docs/0.12/reference/stdlib/aggr/stats",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/aggr/win",
+              "path": "/docs/0.12/reference/stdlib/aggr/win",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/logs/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/logs/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/logs/severity",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/logs/severity",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/logs/traceflags",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/logs/traceflags",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/metrics/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/metrics/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/metrics/temporality",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/metrics/temporality",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/span_id",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/span_id",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace_id",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace_id",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace/spankind",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace/spankind",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace/status/code",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/code",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace/status/deprecated",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/deprecated",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/cncf/otel/trace/status/index",
+              "path": "/docs/0.12/reference/stdlib/cncf/otel/trace/status/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/index",
+              "path": "/docs/0.12/reference/stdlib/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/array",
+              "path": "/docs/0.12/reference/stdlib/std/array",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/base64",
+              "path": "/docs/0.12/reference/stdlib/std/base64",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/binary",
+              "path": "/docs/0.12/reference/stdlib/std/binary",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/float",
+              "path": "/docs/0.12/reference/stdlib/std/float",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/index",
+              "path": "/docs/0.12/reference/stdlib/std/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/integer/index",
+              "path": "/docs/0.12/reference/stdlib/std/integer/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/integer/signed",
+              "path": "/docs/0.12/reference/stdlib/std/integer/signed",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/integer/unsigned",
+              "path": "/docs/0.12/reference/stdlib/std/integer/unsigned",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/json",
+              "path": "/docs/0.12/reference/stdlib/std/json",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/math",
+              "path": "/docs/0.12/reference/stdlib/std/math",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/path",
+              "path": "/docs/0.12/reference/stdlib/std/path",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/random",
+              "path": "/docs/0.12/reference/stdlib/std/random",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/range",
+              "path": "/docs/0.12/reference/stdlib/std/range",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/re",
+              "path": "/docs/0.12/reference/stdlib/std/re",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/record",
+              "path": "/docs/0.12/reference/stdlib/std/record",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/size",
+              "path": "/docs/0.12/reference/stdlib/std/size",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/string",
+              "path": "/docs/0.12/reference/stdlib/std/string",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/test",
+              "path": "/docs/0.12/reference/stdlib/std/test",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/time/index",
+              "path": "/docs/0.12/reference/stdlib/std/time/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/time/nanos",
+              "path": "/docs/0.12/reference/stdlib/std/time/nanos",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/type",
+              "path": "/docs/0.12/reference/stdlib/std/type",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/url",
+              "path": "/docs/0.12/reference/stdlib/std/url",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/std/win",
+              "path": "/docs/0.12/reference/stdlib/std/win",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/chash",
+              "path": "/docs/0.12/reference/stdlib/tremor/chash",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/connectors",
+              "path": "/docs/0.12/reference/stdlib/tremor/connectors",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/index",
+              "path": "/docs/0.12/reference/stdlib/tremor/",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/origin",
+              "path": "/docs/0.12/reference/stdlib/tremor/origin",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/pipelines",
+              "path": "/docs/0.12/reference/stdlib/tremor/pipelines",
+              "sidebar": "indexSidebar"
+            },
+            {
+              "id": "reference/stdlib/tremor/system",
+              "path": "/docs/0.12/reference/stdlib/tremor/system",
+              "sidebar": "indexSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "indexSidebar": {
+              "link": {
+                "path": "/docs/0.12/",
+                "label": "version-0.12/index"
+              }
+            }
+          }
+        },
+        {
+          "name": "0.11",
+          "label": "0.11",
+          "isLast": false,
+          "path": "/docs/0.11",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "artefacts/codecs",
+              "path": "/docs/0.11/artefacts/codecs",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "artefacts/offramps",
+              "path": "/docs/0.11/artefacts/offramps",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "artefacts/onramps",
+              "path": "/docs/0.11/artefacts/onramps",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "artefacts/postprocessors",
+              "path": "/docs/0.11/artefacts/postprocessors",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "artefacts/preprocessors",
+              "path": "/docs/0.11/artefacts/preprocessors",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "ConstraintsLimitations",
+              "path": "/docs/0.11/ConstraintsLimitations",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "getting_started",
+              "path": "/docs/0.11/getting_started",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "glossary",
+              "path": "/docs/0.11/glossary",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "history",
+              "path": "/docs/0.11/history",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/0.11/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/cli",
+              "path": "/docs/0.11/operations/cli",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/configuration",
+              "path": "/docs/0.11/operations/configuration",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/configuration-walkthrough",
+              "path": "/docs/0.11/operations/configuration-walkthrough",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/gdcb",
+              "path": "/docs/0.11/operations/gdcb",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/linked-transports",
+              "path": "/docs/0.11/operations/linked-transports",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "operations/monitoring",
+              "path": "/docs/0.11/operations/monitoring",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "overview",
+              "path": "/docs/0.11/overview",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/bridges_lt_http_ws/index",
+              "path": "/docs/0.11/recipes/bridges_lt_http_ws/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/configurator/index",
+              "path": "/docs/0.11/recipes/configurator/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/filter/index",
+              "path": "/docs/0.11/recipes/filter/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/grafana/index",
+              "path": "/docs/0.11/recipes/grafana/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/index",
+              "path": "/docs/0.11/recipes/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/influx/index",
+              "path": "/docs/0.11/recipes/influx/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/kafka_elastic_correlation/index",
+              "path": "/docs/0.11/recipes/kafka_elastic_correlation/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/kafka_gd/index",
+              "path": "/docs/0.11/recipes/kafka_gd/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/logstash/index",
+              "path": "/docs/0.11/recipes/logstash/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/otel_elastic_apm/index",
+              "path": "/docs/0.11/recipes/otel_elastic_apm/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/otel_jaeger/index",
+              "path": "/docs/0.11/recipes/otel_jaeger/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/otel_passthrough/index",
+              "path": "/docs/0.11/recipes/otel_passthrough/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/otel_prometheus/index",
+              "path": "/docs/0.11/recipes/otel_prometheus/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/otel_zipkin/index",
+              "path": "/docs/0.11/recipes/otel_zipkin/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/passthrough/index",
+              "path": "/docs/0.11/recipes/passthrough/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/persistent_gd/index",
+              "path": "/docs/0.11/recipes/persistent_gd/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/polling_alerts/index",
+              "path": "/docs/0.11/recipes/polling_alerts/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/postgres_timescaledb/index",
+              "path": "/docs/0.11/recipes/postgres_timescaledb/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/proxies_lt_http/index",
+              "path": "/docs/0.11/recipes/proxies_lt_http/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/proxies_lt_ws/index",
+              "path": "/docs/0.11/recipes/proxies_lt_ws/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/quota_service/index",
+              "path": "/docs/0.11/recipes/quota_service/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/redpanda_elastic_correlation/index",
+              "path": "/docs/0.11/recipes/redpanda_elastic_correlation/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/redpanda_gd/index",
+              "path": "/docs/0.11/recipes/redpanda_gd/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/reverse_proxy_load_balancing/index",
+              "path": "/docs/0.11/recipes/reverse_proxy_load_balancing/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/roundrobin/index",
+              "path": "/docs/0.11/recipes/roundrobin/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/servers_lt_http/index",
+              "path": "/docs/0.11/recipes/servers_lt_http/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/servers_lt_ws/index",
+              "path": "/docs/0.11/recipes/servers_lt_ws/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/syslog_udp_dns/index",
+              "path": "/docs/0.11/recipes/syslog_udp_dns/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/syslog_udp/index",
+              "path": "/docs/0.11/recipes/syslog_udp/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/transform/index",
+              "path": "/docs/0.11/recipes/transform/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/transient_gd/index",
+              "path": "/docs/0.11/recipes/transient_gd/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "recipes/validate/index",
+              "path": "/docs/0.11/recipes/validate/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/functions",
+              "path": "/docs/0.11/tremor-query/functions",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/functions/stats",
+              "path": "/docs/0.11/tremor-query/functions/stats",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/functions/win",
+              "path": "/docs/0.11/tremor-query/functions/win",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/index",
+              "path": "/docs/0.11/tremor-query/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/modules",
+              "path": "/docs/0.11/tremor-query/modules",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/operators",
+              "path": "/docs/0.11/tremor-query/operators",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/pp",
+              "path": "/docs/0.11/tremor-query/pp",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/recipes",
+              "path": "/docs/0.11/tremor-query/recipes",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-query/walkthrough",
+              "path": "/docs/0.11/tremor-query/walkthrough",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors",
+              "path": "/docs/0.11/tremor-script/extractors",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/base64",
+              "path": "/docs/0.11/tremor-script/extractors/base64",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/cidr",
+              "path": "/docs/0.11/tremor-script/extractors/cidr",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/datetime",
+              "path": "/docs/0.11/tremor-script/extractors/datetime",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/dissect",
+              "path": "/docs/0.11/tremor-script/extractors/dissect",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/glob",
+              "path": "/docs/0.11/tremor-script/extractors/glob",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/grok",
+              "path": "/docs/0.11/tremor-script/extractors/grok",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/influx",
+              "path": "/docs/0.11/tremor-script/extractors/influx",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/json",
+              "path": "/docs/0.11/tremor-script/extractors/json",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/kv",
+              "path": "/docs/0.11/tremor-script/extractors/kv",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/extractors/regex",
+              "path": "/docs/0.11/tremor-script/extractors/regex",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/functions",
+              "path": "/docs/0.11/tremor-script/functions",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/index",
+              "path": "/docs/0.11/tremor-script/",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/modules",
+              "path": "/docs/0.11/tremor-script/modules",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/pp",
+              "path": "/docs/0.11/tremor-script/pp",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/recipes",
+              "path": "/docs/0.11/tremor-script/recipes",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/logs",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/logs/severity",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs/severity",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/logs/traceflags",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs/traceflags",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/metrics",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/metrics",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/metrics/temporality",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/metrics/temporality",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/span_id",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/span_id",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/trace",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/trace_id",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace_id",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/trace/spankind",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/spankind",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/cncf/otel/trace/status",
+              "path": "/docs/0.11/tremor-script/stdlib/cncf/otel/trace/status",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std",
+              "path": "/docs/0.11/tremor-script/stdlib/std",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/array",
+              "path": "/docs/0.11/tremor-script/stdlib/std/array",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/base64",
+              "path": "/docs/0.11/tremor-script/stdlib/std/base64",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/binary",
+              "path": "/docs/0.11/tremor-script/stdlib/std/binary",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/float",
+              "path": "/docs/0.11/tremor-script/stdlib/std/float",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/integer",
+              "path": "/docs/0.11/tremor-script/stdlib/std/integer",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/json",
+              "path": "/docs/0.11/tremor-script/stdlib/std/json",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/math",
+              "path": "/docs/0.11/tremor-script/stdlib/std/math",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/random",
+              "path": "/docs/0.11/tremor-script/stdlib/std/random",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/range",
+              "path": "/docs/0.11/tremor-script/stdlib/std/range",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/re",
+              "path": "/docs/0.11/tremor-script/stdlib/std/re",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/record",
+              "path": "/docs/0.11/tremor-script/stdlib/std/record",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/string",
+              "path": "/docs/0.11/tremor-script/stdlib/std/string",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/test",
+              "path": "/docs/0.11/tremor-script/stdlib/std/test",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/type",
+              "path": "/docs/0.11/tremor-script/stdlib/std/type",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/std/url",
+              "path": "/docs/0.11/tremor-script/stdlib/std/url",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/tremor",
+              "path": "/docs/0.11/tremor-script/stdlib/tremor",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/tremor/chash",
+              "path": "/docs/0.11/tremor-script/stdlib/tremor/chash",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/tremor/origin",
+              "path": "/docs/0.11/tremor-script/stdlib/tremor/origin",
+              "sidebar": "version-0.11/tutorialSidebar"
+            },
+            {
+              "id": "tremor-script/stdlib/tremor/system",
+              "path": "/docs/0.11/tremor-script/stdlib/tremor/system",
+              "sidebar": "version-0.11/tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "version-0.11/tutorialSidebar": {
+              "link": {
+                "path": "/docs/0.11/",
+                "label": "version-0.11/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

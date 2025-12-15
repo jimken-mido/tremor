@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/2020/08/06/to-async-or-not-to-async",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2020-08-06-to-async-or-not-to-async.md",
+  "source": "@site/blog/2020-08-06-to-async-or-not-to-async.md",
+  "title": "To async or Not to async",
+  "description": "Moving from threads to async tasks.",
+  "date": "2020-08-06T00:00:00.000Z",
+  "formattedDate": "August 6, 2020",
+  "tags": [
+    {
+      "label": "dev",
+      "permalink": "/blog/tags/dev"
+    },
+    {
+      "label": "rust",
+      "permalink": "/blog/tags/rust"
+    }
+  ],
+  "readingTime": 5.525,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "To async or Not to async",
+    "author": "The Tremor Team",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "tags": [
+      "dev",
+      "rust"
+    ],
+    "draft": false,
+    "image": "/img/async.png",
+    "description": "Moving from threads to async tasks."
+  },
+  "prevItem": {
+    "title": "Releasing Tremor v0.9!",
+    "permalink": "/blog/2020/10/16/v09-release"
+  },
+  "nextItem": {
+    "title": "Rust & Tell Berlin- March 2020",
+    "permalink": "/blog/2020/03/31/rust-and-tell"
+  }
+}

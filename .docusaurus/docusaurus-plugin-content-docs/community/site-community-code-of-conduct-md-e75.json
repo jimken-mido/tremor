@@ -1,0 +1,28 @@
+{
+  "unversionedId": "CodeofConduct",
+  "id": "CodeofConduct",
+  "title": "Code of Conduct",
+  "description": "A version of this document can be found online.",
+  "source": "@site/community/CodeOfConduct.md",
+  "sourceDirName": ".",
+  "slug": "/CodeofConduct",
+  "permalink": "/community/CodeofConduct",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "CodeofConduct",
+    "title": "Code of Conduct",
+    "sidebar_position": 1
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Community",
+    "permalink": "/community/"
+  },
+  "next": {
+    "title": "Contributing to Tremor",
+    "permalink": "/community/development/"
+  }
+}

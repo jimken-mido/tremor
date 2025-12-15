@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-query/walkthrough",
+  "id": "version-0.11/tremor-query/walkthrough",
+  "title": "Trickle Walkthough",
+  "description": "---",
+  "source": "@site/versioned_docs/version-0.11/tremor-query/walkthrough.md",
+  "sourceDirName": "tremor-query",
+  "slug": "/tremor-query/walkthrough",
+  "permalink": "/docs/0.11/tremor-query/walkthrough",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-query/walkthrough.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Periodic Synthetic Metrics Events",
+    "permalink": "/docs/0.11/tremor-query/recipes"
+  },
+  "next": {
+    "title": "History",
+    "permalink": "/docs/0.11/history"
+  }
+}

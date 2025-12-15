@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/std/range",
+  "id": "version-0.12/reference/stdlib/std/range",
+  "title": "range",
+  "description": "The range module contains functions for common range generator operations.",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/std/range.md",
+  "sourceDirName": "reference/stdlib/std",
+  "slug": "/reference/stdlib/std/range",
+  "permalink": "/docs/0.12/reference/stdlib/std/range",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/std/range.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "random",
+    "permalink": "/docs/0.12/reference/stdlib/std/random"
+  },
+  "next": {
+    "title": "re",
+    "permalink": "/docs/0.12/reference/stdlib/std/re"
+  }
+}

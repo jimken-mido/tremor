@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/modules",
+  "id": "version-0.11/tremor-script/modules",
+  "title": "Modules",
+  "description": "Tremor-script supports nested namespaces or modules.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/modules.md",
+  "sourceDirName": "tremor-script",
+  "slug": "/tremor-script/modules",
+  "permalink": "/docs/0.11/tremor-script/modules",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/modules.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Functions",
+    "permalink": "/docs/0.11/tremor-script/functions"
+  },
+  "next": {
+    "title": "pp",
+    "permalink": "/docs/0.11/tremor-script/pp"
+  }
+}

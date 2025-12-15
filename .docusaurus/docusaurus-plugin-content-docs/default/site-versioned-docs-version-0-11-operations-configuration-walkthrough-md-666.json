@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/configuration-walkthrough",
+  "id": "version-0.11/operations/configuration-walkthrough",
+  "title": "Configuration Walkthrough",
+  "description": "A short canned synopsis of configuration tremor.",
+  "source": "@site/versioned_docs/version-0.11/operations/configuration-walkthrough.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/configuration-walkthrough",
+  "permalink": "/docs/0.11/operations/configuration-walkthrough",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/operations/configuration-walkthrough.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Tremor cli v0.11",
+    "permalink": "/docs/0.11/operations/cli"
+  },
+  "next": {
+    "title": "Configuring Tremor",
+    "permalink": "/docs/0.11/operations/configuration"
+  }
+}

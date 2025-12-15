@@ -1,0 +1,20 @@
+{
+  "unversionedId": "getting_started",
+  "id": "version-0.11/getting_started",
+  "title": "Getting Started",
+  "description": "Requirements",
+  "source": "@site/versioned_docs/version-0.11/getting_started.md",
+  "sourceDirName": ".",
+  "slug": "/getting_started",
+  "permalink": "/docs/0.11/getting_started",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/getting_started.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/docs/0.11/glossary"
+  }
+}

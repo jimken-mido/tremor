@@ -1,0 +1,58 @@
+{
+  "permalink": "/blog/2021/12/04/LFX-Blog-Daksh",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-12-04-LFX-Blog-Daksh.md",
+  "source": "@site/blog/2021-12-04-LFX-Blog-Daksh.md",
+  "title": "Connectors for Streaming to AWS S3",
+  "description": "Daksh's Mentorship summary report",
+  "date": "2021-12-04T00:00:00.000Z",
+  "formattedDate": "December 4, 2021",
+  "tags": [
+    {
+      "label": "connectors",
+      "permalink": "/blog/tags/connectors"
+    },
+    {
+      "label": "s3",
+      "permalink": "/blog/tags/s-3"
+    },
+    {
+      "label": "mentorship",
+      "permalink": "/blog/tags/mentorship"
+    },
+    {
+      "label": "cncf",
+      "permalink": "/blog/tags/cncf"
+    }
+  ],
+  "readingTime": 3.295,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Daksh",
+      "title": "Tremor 2021 Fall Mentee",
+      "url": "https://www.linkedin.com/in/dak-x"
+    }
+  ],
+  "frontMatter": {
+    "title": "Connectors for Streaming to AWS S3",
+    "author": "Daksh",
+    "author_title": "Tremor 2021 Fall Mentee",
+    "author_url": "https://www.linkedin.com/in/dak-x",
+    "tags": [
+      "connectors",
+      "s3",
+      "mentorship",
+      "cncf"
+    ],
+    "draft": false,
+    "description": "Daksh's Mentorship summary report"
+  },
+  "prevItem": {
+    "title": "Collaboration - Using Redpanda with Tremor",
+    "permalink": "/blog/2021/12/13/redpanda"
+  },
+  "nextItem": {
+    "title": "Case Study - Dead Code Detection in PHP",
+    "permalink": "/blog/2021/11/09/php-dead-code-detection"
+  }
+}

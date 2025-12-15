@@ -1,0 +1,22 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Community",
+  "description": "The Tremor project is an early-stage project, with a small supporting community.",
+  "source": "@site/community/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/community/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "communitySidebar",
+  "next": {
+    "title": "Code of Conduct",
+    "permalink": "/community/CodeofConduct"
+  }
+}

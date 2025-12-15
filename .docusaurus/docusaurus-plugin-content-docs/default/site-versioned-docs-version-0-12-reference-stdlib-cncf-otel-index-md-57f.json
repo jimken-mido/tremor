@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/index",
+  "id": "version-0.12/reference/stdlib/cncf/otel/index",
+  "title": "otel",
+  "description": "# CNCF OpenTelemetry utility functions",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/index.md",
+  "sourceDirName": "reference/stdlib/cncf/otel",
+  "slug": "/reference/stdlib/cncf/otel/",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "cncf",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/"
+  },
+  "next": {
+    "title": "logs",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/logs/"
+  }
+}

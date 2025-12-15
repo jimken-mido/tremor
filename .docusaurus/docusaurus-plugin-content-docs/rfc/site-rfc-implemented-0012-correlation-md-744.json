@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/correlation",
+  "id": "implemented/correlation",
+  "title": "Correlation",
+  "description": "- Feature Name: correlationlinkedtransport",
+  "source": "@site/rfc/implemented/0012-correlation.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/correlation",
+  "permalink": "/rfc/implemented/correlation",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0012-correlation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "String Interpolation",
+    "permalink": "/rfc/implemented/string-interpolation"
+  },
+  "next": {
+    "title": "Modular Queries",
+    "permalink": "/rfc/implemented/modular-queries"
+  }
+}

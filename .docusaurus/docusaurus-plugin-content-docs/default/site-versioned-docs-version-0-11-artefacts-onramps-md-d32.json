@@ -1,0 +1,26 @@
+{
+  "unversionedId": "artefacts/onramps",
+  "id": "version-0.11/artefacts/onramps",
+  "title": "Onramps",
+  "description": "Specify how Tremor connects to the outside world in order to receive from external systems.",
+  "source": "@site/versioned_docs/version-0.11/artefacts/onramps.md",
+  "sourceDirName": "artefacts",
+  "slug": "/artefacts/onramps",
+  "permalink": "/docs/0.11/artefacts/onramps",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/artefacts/onramps.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {
+    "title": "Onramps"
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Offramps",
+    "permalink": "/docs/0.11/artefacts/offramps"
+  },
+  "next": {
+    "title": "Postprocessors",
+    "permalink": "/docs/0.11/artefacts/postprocessors"
+  }
+}

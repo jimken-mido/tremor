@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2021/11/03/data-distribution",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-11-03-data-distribution.md",
+  "source": "@site/blog/2021-11-03-data-distribution.md",
+  "title": "Case Study - Data Distribution",
+  "description": "Happened Before",
+  "date": "2021-11-03T00:00:00.000Z",
+  "formattedDate": "November 3, 2021",
+  "tags": [
+    {
+      "label": "case-study",
+      "permalink": "/blog/tags/case-study"
+    },
+    {
+      "label": "wayfair",
+      "permalink": "/blog/tags/wayfair"
+    }
+  ],
+  "readingTime": 5.355,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "The Tremor Team",
+      "url": "https://github.com/tremor-rs",
+      "imageURL": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4"
+    }
+  ],
+  "frontMatter": {
+    "title": "Case Study - Data Distribution",
+    "tags": [
+      "case-study",
+      "wayfair"
+    ],
+    "author": "The Tremor Team",
+    "author_url": "https://github.com/tremor-rs",
+    "author_image_url": "https://avatars.githubusercontent.com/u/60009416?s=200&v=4",
+    "image": "./media/wayfair.png",
+    "draft": false,
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Case Study - Data Flow with Tremor",
+    "permalink": "/blog/2021/11/04/data-flow"
+  },
+  "nextItem": {
+    "title": "Case Study - Traffic Shaping",
+    "permalink": "/blog/2021/11/02/traffic-shaping"
+  }
+}

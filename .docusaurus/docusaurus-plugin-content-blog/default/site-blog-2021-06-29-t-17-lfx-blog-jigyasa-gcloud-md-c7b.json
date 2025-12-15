@@ -1,0 +1,57 @@
+{
+  "permalink": "/blog/2021/06/29/T17-LFX-Blog-Jigyasa-gcloud",
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/blog/2021-06-29T17-LFX-Blog-Jigyasa-gcloud.md",
+  "source": "@site/blog/2021-06-29T17-LFX-Blog-Jigyasa-gcloud.md",
+  "title": "Google Cloud Storage and Pub/Sub Connectors",
+  "description": "Jigyasa's LFX spring Mentorship experience report.",
+  "date": "2021-06-29T00:00:00.000Z",
+  "formattedDate": "June 29, 2021",
+  "tags": [
+    {
+      "label": "connectors",
+      "permalink": "/blog/tags/connectors"
+    },
+    {
+      "label": "mentorship",
+      "permalink": "/blog/tags/mentorship"
+    },
+    {
+      "label": "cncf",
+      "permalink": "/blog/tags/cncf"
+    },
+    {
+      "label": "gpc",
+      "permalink": "/blog/tags/gpc"
+    }
+  ],
+  "readingTime": 12.335,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Jigyasa Khaneja",
+      "title": "Tremor 2021 Spring Mentee"
+    }
+  ],
+  "frontMatter": {
+    "title": "Google Cloud Storage and Pub/Sub Connectors",
+    "author": "Jigyasa Khaneja",
+    "author_title": "Tremor 2021 Spring Mentee",
+    "tags": [
+      "connectors",
+      "mentorship",
+      "cncf",
+      "gpc"
+    ],
+    "draft": false,
+    "hide_table_of_contents": false,
+    "description": "Jigyasa's LFX spring Mentorship experience report."
+  },
+  "prevItem": {
+    "title": "Support for the Syslog Protocol",
+    "permalink": "/blog/LFX-Blog-Nupur"
+  },
+  "nextItem": {
+    "title": "Releasing Tremor v0.10!",
+    "permalink": "/blog/2021/02/12/v010-release"
+  }
+}

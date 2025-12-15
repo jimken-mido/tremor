@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference/connectors/metrics",
+  "id": "version-0.12/reference/connectors/metrics",
+  "title": "The metrics Connector",
+  "description": "The metrics connector collects and forwards system metrics and can be used by user defined",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/metrics.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/metrics",
+  "permalink": "/docs/0.12/reference/connectors/metrics",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/metrics.md",
+  "tags": [],
+  "version": "0.12",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "metrics (Tremor metrics)",
+    "sidebar_position": 1
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "kv (Key/Value Store)",
+    "permalink": "/docs/0.12/reference/connectors/kv"
+  },
+  "next": {
+    "title": "metronome (Periodic messages)",
+    "permalink": "/docs/0.12/reference/connectors/metronome"
+  }
+}

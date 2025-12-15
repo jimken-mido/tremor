@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-query/functions/win",
+  "id": "version-0.11/tremor-query/functions/win",
+  "title": "The win namespace",
+  "description": "The win module contains functions for aggregating over the current active window in a window of events. The functions can also be used in tilt frames where events emitting from a window are chained across multiple window frames in sequence.",
+  "source": "@site/versioned_docs/version-0.11/tremor-query/functions/win.md",
+  "sourceDirName": "tremor-query/functions",
+  "slug": "/tremor-query/functions/win",
+  "permalink": "/docs/0.11/tremor-query/functions/win",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-query/functions/win.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "The stats namespace",
+    "permalink": "/docs/0.11/tremor-query/functions/stats"
+  },
+  "next": {
+    "title": "Aggregate Functions",
+    "permalink": "/docs/0.11/tremor-query/functions"
+  }
+}

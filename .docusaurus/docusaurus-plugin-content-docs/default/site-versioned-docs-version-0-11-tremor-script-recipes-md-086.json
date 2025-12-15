@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/recipes",
+  "id": "version-0.11/tremor-script/recipes",
+  "title": "Recipes",
+  "description": "This document provides a few recipes for common patterns in tremor script. Please note however that it neither is exhaustive nor should those patterns considered the 'only way' to perform certain tasks.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/recipes.md",
+  "sourceDirName": "tremor-script",
+  "slug": "/tremor-script/recipes",
+  "permalink": "/docs/0.11/tremor-script/recipes",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/recipes.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "pp",
+    "permalink": "/docs/0.11/tremor-script/pp"
+  },
+  "next": {
+    "title": "severity",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel/logs/severity"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "implemented/string-interpolation",
+  "id": "implemented/string-interpolation",
+  "title": "String Interpolation",
+  "description": "- Feature Name: string_interpolation",
+  "source": "@site/rfc/implemented/0011-string-interpolation.md",
+  "sourceDirName": "implemented",
+  "slug": "/implemented/string-interpolation",
+  "permalink": "/rfc/implemented/string-interpolation",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/implemented/0011-string-interpolation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Modularity",
+    "permalink": "/rfc/implemented/modularity"
+  },
+  "next": {
+    "title": "Correlation",
+    "permalink": "/rfc/implemented/correlation"
+  }
+}

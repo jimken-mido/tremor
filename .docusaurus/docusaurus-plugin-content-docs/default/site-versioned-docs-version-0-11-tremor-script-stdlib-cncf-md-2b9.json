@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/cncf",
+  "id": "version-0.11/tremor-script/stdlib/cncf",
+  "title": "cncf",
+  "description": "It provides the following modules for cloud native computing:",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/cncf.md",
+  "sourceDirName": "tremor-script/stdlib",
+  "slug": "/tremor-script/stdlib/cncf",
+  "permalink": "/docs/0.11/tremor-script/stdlib/cncf",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/cncf.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "otel",
+    "permalink": "/docs/0.11/tremor-script/stdlib/cncf/otel"
+  },
+  "next": {
+    "title": "array",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/array"
+  }
+}

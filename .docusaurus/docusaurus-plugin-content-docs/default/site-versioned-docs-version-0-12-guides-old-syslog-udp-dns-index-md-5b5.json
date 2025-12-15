@@ -1,0 +1,24 @@
+{
+  "unversionedId": "guides/old/syslog_udp_dns/index",
+  "id": "version-0.12/guides/old/syslog_udp_dns/index",
+  "title": "Syslog UDP with DNS",
+  "description": "This workshop is the samne as the syslogupd workship with the added component of enriching the syslog message we receive with a DNS lookup.",
+  "source": "@site/versioned_docs/version-0.12/guides/old/syslog_udp_dns/index.md",
+  "sourceDirName": "guides/old/syslog_udp_dns",
+  "slug": "/guides/old/syslog_udp_dns/",
+  "permalink": "/docs/0.12/guides/old/syslog_udp_dns/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/old/syslog_udp_dns/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Syslog UDP",
+    "permalink": "/docs/0.12/guides/old/syslog_udp/"
+  },
+  "next": {
+    "title": "Aggregations",
+    "permalink": "/docs/0.12/concepts/aggregation"
+  }
+}

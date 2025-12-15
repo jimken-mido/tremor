@@ -1,0 +1,26 @@
+{
+  "unversionedId": "development/testing",
+  "id": "development/testing",
+  "title": "Testing",
+  "description": "This is a short canned synopsis of testing in the tremor project.",
+  "source": "@site/community/development/testing.md",
+  "sourceDirName": "development",
+  "slug": "/development/testing",
+  "permalink": "/community/development/testing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/community/development/quick-start"
+  },
+  "next": {
+    "title": "Debugging Tremor",
+    "permalink": "/community/development/debugging"
+  }
+}

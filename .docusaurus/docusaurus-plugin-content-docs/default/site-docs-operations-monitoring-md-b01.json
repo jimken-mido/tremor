@@ -1,0 +1,24 @@
+{
+  "unversionedId": "operations/monitoring",
+  "id": "operations/monitoring",
+  "title": "Monitoring",
+  "description": "Monitoring tremor is done using tremor itself. This has some interesting implications.",
+  "source": "@site/docs/operations/monitoring.md",
+  "sourceDirName": "operations",
+  "slug": "/operations/monitoring",
+  "permalink": "/docs/edge/operations/monitoring",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/operations/monitoring.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Configuring Tremor",
+    "permalink": "/docs/edge/operations/configuration"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/edge/api/"
+  }
+}

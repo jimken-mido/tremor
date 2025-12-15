@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/std/binary",
+  "id": "version-0.11/tremor-script/stdlib/std/binary",
+  "title": "binary",
+  "description": "The binary module handles interacting with the binary/bytes type",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/std/binary.md",
+  "sourceDirName": "tremor-script/stdlib/std",
+  "slug": "/tremor-script/stdlib/std/binary",
+  "permalink": "/docs/0.11/tremor-script/stdlib/std/binary",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/std/binary.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "base64",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/base64"
+  },
+  "next": {
+    "title": "float",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/float"
+  }
+}

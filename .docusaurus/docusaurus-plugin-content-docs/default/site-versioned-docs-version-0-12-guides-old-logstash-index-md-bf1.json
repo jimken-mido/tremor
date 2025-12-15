@@ -1,0 +1,24 @@
+{
+  "unversionedId": "guides/old/logstash/index",
+  "id": "version-0.12/guides/old/logstash/index",
+  "title": "Logstash",
+  "description": "This example shows how handling apache logs with a tremor and elastic search could work. The example is a lot more complex than the initial showcases and combines three components.",
+  "source": "@site/versioned_docs/version-0.12/guides/old/logstash/index.md",
+  "sourceDirName": "guides/old/logstash",
+  "slug": "/guides/old/logstash/",
+  "permalink": "/docs/0.12/guides/old/logstash/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/old/logstash/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "tbd-gd-guide",
+    "permalink": "/docs/0.12/guides/tbd-gd-guide"
+  },
+  "next": {
+    "title": "Syslog UDP",
+    "permalink": "/docs/0.12/guides/old/syslog_udp/"
+  }
+}

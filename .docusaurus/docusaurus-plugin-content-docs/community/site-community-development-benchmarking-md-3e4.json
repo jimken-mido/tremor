@@ -1,0 +1,27 @@
+{
+  "unversionedId": "development/benchmarking",
+  "id": "development/benchmarking",
+  "title": "Benchmarking",
+  "description": "This is a short synopsis of benchmarking in tremor",
+  "source": "@site/community/development/benchmarking.md",
+  "sourceDirName": "development",
+  "slug": "/development/benchmarking",
+  "permalink": "/community/development/benchmarking",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "draft": true
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Profiling Tremor",
+    "permalink": "/community/development/profiling"
+  },
+  "next": {
+    "title": "Governance",
+    "permalink": "/community/governance/"
+  }
+}

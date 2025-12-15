@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/extractors/base64",
+  "id": "version-0.12/reference/extractors/base64",
+  "title": "base64",
+  "description": "The base64 extractor decodes content encoded with the Base64 binary-to-text encoding scheme into the corresponding string value.",
+  "source": "@site/versioned_docs/version-0.12/reference/extractors/base64.md",
+  "sourceDirName": "reference/extractors",
+  "slug": "/reference/extractors/base64",
+  "permalink": "/docs/0.12/reference/extractors/base64",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/extractors/base64.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Extractors",
+    "permalink": "/docs/0.12/reference/extractors/"
+  },
+  "next": {
+    "title": "cidr",
+    "permalink": "/docs/0.12/reference/extractors/cidr"
+  }
+}

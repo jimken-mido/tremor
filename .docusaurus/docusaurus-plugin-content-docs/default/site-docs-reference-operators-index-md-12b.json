@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/operators/index",
+  "id": "reference/operators/index",
+  "title": "Operators",
+  "description": "Operators are part of the pipeline configuration.",
+  "source": "@site/docs/reference/operators/index.md",
+  "sourceDirName": "reference/operators",
+  "slug": "/reference/operators/",
+  "permalink": "/docs/edge/reference/operators/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/operators/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Extractors",
+    "permalink": "/docs/edge/reference/extractors/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/edge/api/"
+  }
+}

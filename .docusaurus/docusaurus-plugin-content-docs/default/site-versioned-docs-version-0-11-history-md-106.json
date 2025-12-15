@@ -1,0 +1,29 @@
+{
+  "unversionedId": "history",
+  "id": "version-0.11/history",
+  "title": "History",
+  "description": "Tremor started with a straightforward problem statement:",
+  "source": "@site/versioned_docs/version-0.11/history.md",
+  "sourceDirName": ".",
+  "slug": "/history",
+  "permalink": "/docs/0.11/history",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/history.md",
+  "tags": [],
+  "version": "0.11",
+  "sidebarPosition": 800,
+  "frontMatter": {
+    "id": "history",
+    "title": "History",
+    "sidebar_position": 800
+  },
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "Trickle Walkthough",
+    "permalink": "/docs/0.11/tremor-query/walkthrough"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/docs/0.11/glossary"
+  }
+}

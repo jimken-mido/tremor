@@ -1,0 +1,26 @@
+{
+  "unversionedId": "reference/connectors/common_configuration",
+  "id": "version-0.12/reference/connectors/common_configuration",
+  "title": "Common Configuration",
+  "description": "This section explains common configuration options that are used across many connectors.",
+  "source": "@site/versioned_docs/version-0.12/reference/connectors/common_configuration.md",
+  "sourceDirName": "reference/connectors",
+  "slug": "/reference/connectors/common_configuration",
+  "permalink": "/docs/0.12/reference/connectors/common_configuration",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/connectors/common_configuration.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {
+    "sidebar_label": "Configuration"
+  },
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "exit",
+    "permalink": "/docs/0.12/reference/connectors/exit"
+  },
+  "next": {
+    "title": "Codecs",
+    "permalink": "/docs/0.12/reference/codecs/"
+  }
+}

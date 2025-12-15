@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tremor-script/stdlib/std/json",
+  "id": "version-0.11/tremor-script/stdlib/std/json",
+  "title": "json",
+  "description": "The json module contains functions that work with son structures.",
+  "source": "@site/versioned_docs/version-0.11/tremor-script/stdlib/std/json.md",
+  "sourceDirName": "tremor-script/stdlib/std",
+  "slug": "/tremor-script/stdlib/std/json",
+  "permalink": "/docs/0.11/tremor-script/stdlib/std/json",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.11/tremor-script/stdlib/std/json.md",
+  "tags": [],
+  "version": "0.11",
+  "frontMatter": {},
+  "sidebar": "version-0.11/tutorialSidebar",
+  "previous": {
+    "title": "integer",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/integer"
+  },
+  "next": {
+    "title": "math",
+    "permalink": "/docs/0.11/tremor-script/stdlib/std/math"
+  }
+}

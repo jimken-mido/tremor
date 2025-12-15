@@ -1,0 +1,27 @@
+{
+  "unversionedId": "process/api_changes",
+  "id": "process/api_changes",
+  "title": "API Changes",
+  "description": "Pretty much every change to the API needs an RFC. Note that changes to documentation are not considered changes to API design unless there are associated changes to data structures transmitted or there is a change to error handling or defined behaviour that impacts existing API surface.",
+  "source": "@site/rfc/process/api_changes.md",
+  "sourceDirName": "process",
+  "slug": "/process/api_changes",
+  "permalink": "/rfc/process/api_changes",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/process/api_changes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API Changes",
+    "id": "api_changes"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "RFC Template (RFC Title goes here)",
+    "permalink": "/rfc/process/template"
+  },
+  "next": {
+    "title": "Architecture Changes",
+    "permalink": "/rfc/process/arch_changes"
+  }
+}

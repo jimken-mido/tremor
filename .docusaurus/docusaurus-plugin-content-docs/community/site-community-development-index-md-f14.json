@@ -1,0 +1,28 @@
+{
+  "unversionedId": "development/Contributing",
+  "id": "development/Contributing",
+  "title": "Contributing to Tremor",
+  "description": "Thanks for your interest in contributing to the Tremor project!!",
+  "source": "@site/community/development/index.md",
+  "sourceDirName": "development",
+  "slug": "/development/",
+  "permalink": "/community/development/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "Contributing",
+    "title": "Contributing to Tremor",
+    "sidebar_position": 0
+  },
+  "sidebar": "communitySidebar",
+  "previous": {
+    "title": "Code of Conduct",
+    "permalink": "/community/CodeofConduct"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/community/development/quick-start"
+  }
+}

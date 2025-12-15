@@ -1,0 +1,24 @@
+{
+  "unversionedId": "language/index",
+  "id": "version-0.12/language/index",
+  "title": "Language",
+  "description": "Tremor provides a scripting language for defining and deploying event flows.",
+  "source": "@site/versioned_docs/version-0.12/language/index.md",
+  "sourceDirName": "language",
+  "slug": "/language/",
+  "permalink": "/docs/0.12/language/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/language/index.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "index",
+    "permalink": "/docs/0.12/api/"
+  },
+  "next": {
+    "title": "Pipelines",
+    "permalink": "/docs/0.12/language/pipelines"
+  }
+}

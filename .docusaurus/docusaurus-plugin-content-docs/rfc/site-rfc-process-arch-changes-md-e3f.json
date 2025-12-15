@@ -1,0 +1,27 @@
+{
+  "unversionedId": "process/arch_changes",
+  "id": "process/arch_changes",
+  "title": "Architecture Changes",
+  "description": "Pretty much every change to the Tremor internals architecture needs an RFC.",
+  "source": "@site/rfc/process/arch_changes.md",
+  "sourceDirName": "process",
+  "slug": "/process/arch_changes",
+  "permalink": "/rfc/process/arch_changes",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/rfc/process/arch_changes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Architecture Changes",
+    "id": "arch_changes"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "API Changes",
+    "permalink": "/rfc/process/api_changes"
+  },
+  "next": {
+    "title": "Documentation Changes",
+    "permalink": "/rfc/process/docs_changes"
+  }
+}

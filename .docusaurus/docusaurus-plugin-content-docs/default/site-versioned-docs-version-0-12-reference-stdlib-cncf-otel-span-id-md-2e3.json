@@ -1,0 +1,24 @@
+{
+  "unversionedId": "reference/stdlib/cncf/otel/span_id",
+  "id": "version-0.12/reference/stdlib/cncf/otel/span_id",
+  "title": "span_id",
+  "description": "Span Identifiers",
+  "source": "@site/versioned_docs/version-0.12/reference/stdlib/cncf/otel/span_id.md",
+  "sourceDirName": "reference/stdlib/cncf/otel",
+  "slug": "/reference/stdlib/cncf/otel/span_id",
+  "permalink": "/docs/0.12/reference/stdlib/cncf/otel/span_id",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/reference/stdlib/cncf/otel/span_id.md",
+  "tags": [],
+  "version": "0.12",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "temporality",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/metrics/temporality"
+  },
+  "next": {
+    "title": "trace",
+    "permalink": "/docs/0.12/reference/stdlib/cncf/otel/trace/"
+  }
+}
