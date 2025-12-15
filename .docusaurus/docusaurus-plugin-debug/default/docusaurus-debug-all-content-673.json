@@ -2600,8 +2600,8 @@
               "frontMatter": {},
               "sidebar": "indexSidebar",
               "previous": {
-                "title": "Tremor",
-                "permalink": "/docs/edge/"
+                "title": "Operators",
+                "permalink": "/docs/edge/reference/operators/"
               },
               "next": {
                 "title": "Batching",
@@ -2628,32 +2628,6 @@
                 "permalink": "/docs/edge/concepts/aggregation"
               },
               "next": {
-                "title": "Design",
-                "permalink": "/docs/edge/concepts/design"
-              }
-            },
-            {
-              "unversionedId": "concepts/design",
-              "id": "concepts/design",
-              "title": "Design",
-              "description": "TBD",
-              "source": "@site/docs/concepts/design.md",
-              "sourceDirName": "concepts",
-              "slug": "/concepts/design",
-              "permalink": "/docs/edge/concepts/design",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/concepts/design.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "draft": true
-              },
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Batching",
-                "permalink": "/docs/edge/concepts/batching"
-              },
-              "next": {
                 "title": "Runtime Capabilities",
                 "permalink": "/docs/edge/concepts/runtime_capabilities"
               }
@@ -2674,8 +2648,12 @@
               "frontMatter": {},
               "sidebar": "indexSidebar",
               "previous": {
-                "title": "Design",
-                "permalink": "/docs/edge/concepts/design"
+                "title": "Batching",
+                "permalink": "/docs/edge/concepts/batching"
+              },
+              "next": {
+                "title": "Grammar",
+                "permalink": "/docs/edge/language/reference/"
               }
             },
             {
@@ -2697,17 +2675,207 @@
               },
               "sidebar": "indexSidebar",
               "next": {
+                "title": "Codecs",
+                "permalink": "/docs/edge/reference/"
+              }
+            },
+            {
+              "unversionedId": "language/reference/index",
+              "id": "language/reference/index",
+              "title": "Grammar",
+              "description": "Tremor contains a number of related domain specific languages that are",
+              "source": "@site/docs/language/reference/index.md",
+              "sourceDirName": "language/reference",
+              "slug": "/language/reference/",
+              "permalink": "/docs/edge/language/reference/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/language/reference/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Runtime Capabilities",
+                "permalink": "/docs/edge/concepts/runtime_capabilities"
+              }
+            },
+            {
+              "unversionedId": "reference/extractors/index",
+              "id": "reference/extractors/index",
+              "title": "Extractors",
+              "description": "The tremor-script language can recognize micro-formats and extract or elementize data from those micro-formats.",
+              "source": "@site/docs/reference/extractors/index.md",
+              "sourceDirName": "reference/extractors",
+              "slug": "/reference/extractors/",
+              "permalink": "/docs/edge/reference/extractors/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/extractors/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Preprocessors",
+                "permalink": "/docs/edge/reference/preprocessors/"
+              },
+              "next": {
+                "title": "Operators",
+                "permalink": "/docs/edge/reference/operators/"
+              }
+            },
+            {
+              "unversionedId": "reference/index",
+              "id": "reference/index",
+              "title": "Codecs",
+              "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
+              "source": "@site/docs/reference/index.md",
+              "sourceDirName": "reference",
+              "slug": "/reference/",
+              "permalink": "/docs/edge/reference/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Tremor",
+                "permalink": "/docs/edge/"
+              },
+              "next": {
+                "title": "Postprocessors",
+                "permalink": "/docs/edge/reference/postprocessors/"
+              }
+            },
+            {
+              "unversionedId": "reference/operators/index",
+              "id": "reference/operators/index",
+              "title": "Operators",
+              "description": "Operators are part of the pipeline configuration.",
+              "source": "@site/docs/reference/operators/index.md",
+              "sourceDirName": "reference/operators",
+              "slug": "/reference/operators/",
+              "permalink": "/docs/edge/reference/operators/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/operators/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Extractors",
+                "permalink": "/docs/edge/reference/extractors/"
+              },
+              "next": {
                 "title": "Aggregations",
                 "permalink": "/docs/edge/concepts/aggregation"
               }
+            },
+            {
+              "unversionedId": "reference/postprocessors/index",
+              "id": "reference/postprocessors/index",
+              "title": "Postprocessors",
+              "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
+              "source": "@site/docs/reference/postprocessors/index.md",
+              "sourceDirName": "reference/postprocessors",
+              "slug": "/reference/postprocessors/",
+              "permalink": "/docs/edge/reference/postprocessors/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/postprocessors/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Codecs",
+                "permalink": "/docs/edge/reference/"
+              },
+              "next": {
+                "title": "Preprocessors",
+                "permalink": "/docs/edge/reference/preprocessors/"
+              }
+            },
+            {
+              "unversionedId": "reference/preprocessors/index",
+              "id": "reference/preprocessors/index",
+              "title": "Preprocessors",
+              "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
+              "source": "@site/docs/reference/preprocessors/index.md",
+              "sourceDirName": "reference/preprocessors",
+              "slug": "/reference/preprocessors/",
+              "permalink": "/docs/edge/reference/preprocessors/",
+              "draft": false,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/preprocessors/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "indexSidebar",
+              "previous": {
+                "title": "Postprocessors",
+                "permalink": "/docs/edge/reference/postprocessors/"
+              },
+              "next": {
+                "title": "Extractors",
+                "permalink": "/docs/edge/reference/extractors/"
+              }
             }
           ],
-          "drafts": [],
+          "drafts": [
+            {
+              "unversionedId": "concepts/design",
+              "id": "concepts/design",
+              "title": "Design",
+              "description": "TBD",
+              "source": "@site/docs/concepts/design.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/design",
+              "permalink": "/docs/edge/concepts/design",
+              "draft": true,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/concepts/design.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "draft": true
+              }
+            }
+          ],
           "sidebars": {
             "indexSidebar": [
               {
                 "type": "doc",
                 "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "Codecs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "label": "Postprocessors",
+                    "id": "reference/postprocessors/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Preprocessors",
+                    "id": "reference/preprocessors/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Extractors",
+                    "id": "reference/extractors/index"
+                  },
+                  {
+                    "type": "doc",
+                    "label": "Operators",
+                    "id": "reference/operators/index"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "reference/index"
+                }
               },
               {
                 "type": "category",
@@ -2725,11 +2893,20 @@
                   },
                   {
                     "type": "doc",
-                    "id": "concepts/design"
-                  },
+                    "id": "concepts/runtime_capabilities"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "language",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
                   {
                     "type": "doc",
-                    "id": "concepts/runtime_capabilities"
+                    "label": "Grammar",
+                    "id": "language/reference/index"
                   }
                 ]
               },
@@ -2821,32 +2998,6 @@
                 "permalink": "/docs/0.12/concepts/aggregation"
               },
               "next": {
-                "title": "Design",
-                "permalink": "/docs/0.12/concepts/design"
-              }
-            },
-            {
-              "unversionedId": "concepts/design",
-              "id": "version-0.12/concepts/design",
-              "title": "Design",
-              "description": "TBD",
-              "source": "@site/versioned_docs/version-0.12/concepts/design.md",
-              "sourceDirName": "concepts",
-              "slug": "/concepts/design",
-              "permalink": "/docs/0.12/concepts/design",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/concepts/design.md",
-              "tags": [],
-              "version": "0.12",
-              "frontMatter": {
-                "draft": true
-              },
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Batching",
-                "permalink": "/docs/0.12/concepts/batching"
-              },
-              "next": {
                 "title": "Runtime Capabilities",
                 "permalink": "/docs/0.12/concepts/runtime_capabilities"
               }
@@ -2867,8 +3018,8 @@
               "frontMatter": {},
               "sidebar": "indexSidebar",
               "previous": {
-                "title": "Design",
-                "permalink": "/docs/0.12/concepts/design"
+                "title": "Batching",
+                "permalink": "/docs/0.12/concepts/batching"
               },
               "next": {
                 "title": "Reference",
@@ -3005,34 +3156,6 @@
               }
             },
             {
-              "unversionedId": "guides/logging",
-              "id": "version-0.12/guides/logging",
-              "title": "Logging",
-              "description": "DRAFT This will be hidden outside of dev DRAFT",
-              "source": "@site/versioned_docs/version-0.12/guides/logging.md",
-              "sourceDirName": "guides",
-              "slug": "/guides/logging",
-              "permalink": "/docs/0.12/guides/logging",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/logging.md",
-              "tags": [],
-              "version": "0.12",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2,
-                "draft": true
-              },
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Metrics",
-                "permalink": "/docs/0.12/guides/metrics"
-              },
-              "next": {
-                "title": "tbd-gd-guide",
-                "permalink": "/docs/0.12/guides/tbd-gd-guide"
-              }
-            },
-            {
               "unversionedId": "guides/metrics",
               "id": "version-0.12/guides/metrics",
               "title": "Metrics",
@@ -3055,8 +3178,8 @@
                 "permalink": "/docs/0.12/guides/basics"
               },
               "next": {
-                "title": "Logging",
-                "permalink": "/docs/0.12/guides/logging"
+                "title": "Logstash",
+                "permalink": "/docs/0.12/guides/old/logstash/"
               }
             },
             {
@@ -3075,8 +3198,8 @@
               "frontMatter": {},
               "sidebar": "indexSidebar",
               "previous": {
-                "title": "tbd-gd-guide",
-                "permalink": "/docs/0.12/guides/tbd-gd-guide"
+                "title": "Metrics",
+                "permalink": "/docs/0.12/guides/metrics"
               },
               "next": {
                 "title": "Syslog UDP",
@@ -3129,34 +3252,6 @@
               "next": {
                 "title": "Syslog UDP with DNS",
                 "permalink": "/docs/0.12/guides/old/syslog_udp_dns/"
-              }
-            },
-            {
-              "unversionedId": "guides/tbd-gd-guide",
-              "id": "version-0.12/guides/tbd-gd-guide",
-              "title": "tbd-gd-guide",
-              "description": "TBD",
-              "source": "@site/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
-              "sourceDirName": "guides",
-              "slug": "/guides/tbd-gd-guide",
-              "permalink": "/docs/0.12/guides/tbd-gd-guide",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
-              "tags": [],
-              "version": "0.12",
-              "sidebarPosition": 99,
-              "frontMatter": {
-                "sidebar_position": 99,
-                "draft": true
-              },
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Logging",
-                "permalink": "/docs/0.12/guides/logging"
-              },
-              "next": {
-                "title": "Logstash",
-                "permalink": "/docs/0.12/guides/old/logstash/"
               }
             },
             {
@@ -6708,7 +6803,63 @@
               }
             }
           ],
-          "drafts": [],
+          "drafts": [
+            {
+              "unversionedId": "concepts/design",
+              "id": "version-0.12/concepts/design",
+              "title": "Design",
+              "description": "TBD",
+              "source": "@site/versioned_docs/version-0.12/concepts/design.md",
+              "sourceDirName": "concepts",
+              "slug": "/concepts/design",
+              "permalink": "/docs/0.12/concepts/design",
+              "draft": true,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/concepts/design.md",
+              "tags": [],
+              "version": "0.12",
+              "frontMatter": {
+                "draft": true
+              }
+            },
+            {
+              "unversionedId": "guides/logging",
+              "id": "version-0.12/guides/logging",
+              "title": "Logging",
+              "description": "DRAFT This will be hidden outside of dev DRAFT",
+              "source": "@site/versioned_docs/version-0.12/guides/logging.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/logging",
+              "permalink": "/docs/0.12/guides/logging",
+              "draft": true,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/logging.md",
+              "tags": [],
+              "version": "0.12",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "draft": true
+              }
+            },
+            {
+              "unversionedId": "guides/tbd-gd-guide",
+              "id": "version-0.12/guides/tbd-gd-guide",
+              "title": "tbd-gd-guide",
+              "description": "TBD",
+              "source": "@site/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
+              "sourceDirName": "guides",
+              "slug": "/guides/tbd-gd-guide",
+              "permalink": "/docs/0.12/guides/tbd-gd-guide",
+              "draft": true,
+              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/versioned_docs/version-0.12/guides/tbd-gd-guide.md",
+              "tags": [],
+              "version": "0.12",
+              "sidebarPosition": 99,
+              "frontMatter": {
+                "sidebar_position": 99,
+                "draft": true
+              }
+            }
+          ],
           "sidebars": {
             "indexSidebar": [
               {
@@ -6748,14 +6899,6 @@
                   {
                     "type": "doc",
                     "id": "version-0.12/guides/metrics"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.12/guides/logging"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.12/guides/tbd-gd-guide"
                   },
                   {
                     "type": "category",
@@ -6799,10 +6942,6 @@
                   {
                     "type": "doc",
                     "id": "version-0.12/concepts/batching"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.12/concepts/design"
                   },
                   {
                     "type": "doc",
@@ -13716,6 +13855,7 @@
     ]
   },
   "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-sitemap": {},
   "docusaurus-theme-redoc": {},
   "docusaurus-theme-classic": {},
   "@cmfcmf/docusaurus-search-local": {},

@@ -18,7 +18,7 @@
     "permalink": "/docs/edge/reference/postprocessors/"
   },
   "next": {
-    "title": "Command Line Interface",
-    "permalink": "/docs/edge/reference/cli"
+    "title": "Extractors",
+    "permalink": "/docs/edge/reference/extractors/"
   }
 }

@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "Design",
-    "permalink": "/docs/edge/concepts/design"
+    "title": "Batching",
+    "permalink": "/docs/edge/concepts/batching"
+  },
+  "next": {
+    "title": "Grammar",
+    "permalink": "/docs/edge/language/reference/"
   }
 }

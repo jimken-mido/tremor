@@ -1,8 +1,8 @@
 {
   "unversionedId": "reference/index",
   "id": "reference/index",
-  "title": "Reference",
-  "description": "This is Tremors reference documentation.",
+  "title": "Codecs",
+  "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
   "source": "@site/docs/reference/index.md",
   "sourceDirName": "reference",
   "slug": "/reference/",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "Syslog UDP with DNS",
-    "permalink": "/docs/edge/guides/old/syslog_udp_dns/"
+    "title": "Tremor",
+    "permalink": "/docs/edge/"
   },
   "next": {
-    "title": "Codecs",
-    "permalink": "/docs/edge/reference/codecs/"
+    "title": "Postprocessors",
+    "permalink": "/docs/edge/reference/postprocessors/"
   }
 }

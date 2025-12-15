@@ -991,7 +991,7 @@ export default [
   },
   {
     path: '/docs/0.12',
-    component: ComponentCreator('/docs/0.12', '895'),
+    component: ComponentCreator('/docs/0.12', '0c8'),
     routes: [
       {
         path: '/docs/0.12/',
@@ -1014,12 +1014,6 @@ export default [
       {
         path: '/docs/0.12/concepts/batching',
         component: ComponentCreator('/docs/0.12/concepts/batching', '6b3'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/0.12/concepts/design',
-        component: ComponentCreator('/docs/0.12/concepts/design', '522'),
         exact: true,
         sidebar: "indexSidebar"
       },
@@ -1060,12 +1054,6 @@ export default [
         sidebar: "indexSidebar"
       },
       {
-        path: '/docs/0.12/guides/logging',
-        component: ComponentCreator('/docs/0.12/guides/logging', 'bf2'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
         path: '/docs/0.12/guides/metrics',
         component: ComponentCreator('/docs/0.12/guides/metrics', '0ac'),
         exact: true,
@@ -1086,12 +1074,6 @@ export default [
       {
         path: '/docs/0.12/guides/old/syslog_udp/',
         component: ComponentCreator('/docs/0.12/guides/old/syslog_udp/', '0c5'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/0.12/guides/tbd-gd-guide',
-        component: ComponentCreator('/docs/0.12/guides/tbd-gd-guide', 'c00'),
         exact: true,
         sidebar: "indexSidebar"
       },
@@ -1654,12 +1636,6 @@ export default [
         sidebar: "indexSidebar"
       },
       {
-        path: '/docs/0.12/reference/preprocessors/separate',
-        component: ComponentCreator('/docs/0.12/reference/preprocessors/separate', '3a6'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
         path: '/docs/0.12/reference/preprocessors/textual-length-prefix',
         component: ComponentCreator('/docs/0.12/reference/preprocessors/textual-length-prefix', '226'),
         exact: true,
@@ -1951,7 +1927,7 @@ export default [
   },
   {
     path: '/docs/edge',
-    component: ComponentCreator('/docs/edge', 'b94'),
+    component: ComponentCreator('/docs/edge', '5b9'),
     routes: [
       {
         path: '/docs/edge/',
@@ -1972,14 +1948,44 @@ export default [
         sidebar: "indexSidebar"
       },
       {
-        path: '/docs/edge/concepts/design',
-        component: ComponentCreator('/docs/edge/concepts/design', 'a0a'),
+        path: '/docs/edge/concepts/runtime_capabilities',
+        component: ComponentCreator('/docs/edge/concepts/runtime_capabilities', 'a44'),
         exact: true,
         sidebar: "indexSidebar"
       },
       {
-        path: '/docs/edge/concepts/runtime_capabilities',
-        component: ComponentCreator('/docs/edge/concepts/runtime_capabilities', 'a44'),
+        path: '/docs/edge/language/reference/',
+        component: ComponentCreator('/docs/edge/language/reference/', '8ba'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
+        path: '/docs/edge/reference/',
+        component: ComponentCreator('/docs/edge/reference/', '0bf'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
+        path: '/docs/edge/reference/extractors/',
+        component: ComponentCreator('/docs/edge/reference/extractors/', 'a7e'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
+        path: '/docs/edge/reference/operators/',
+        component: ComponentCreator('/docs/edge/reference/operators/', 'd9f'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
+        path: '/docs/edge/reference/postprocessors/',
+        component: ComponentCreator('/docs/edge/reference/postprocessors/', '5c6'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
+        path: '/docs/edge/reference/preprocessors/',
+        component: ComponentCreator('/docs/edge/reference/preprocessors/', 'cd5'),
         exact: true,
         sidebar: "indexSidebar"
       }

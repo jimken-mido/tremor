@@ -17,6 +17,39 @@
       },
       {
         "type": "category",
+        "label": "Codecs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Postprocessors",
+            "href": "/docs/edge/reference/postprocessors/",
+            "docId": "reference/postprocessors/index"
+          },
+          {
+            "type": "link",
+            "label": "Preprocessors",
+            "href": "/docs/edge/reference/preprocessors/",
+            "docId": "reference/preprocessors/index"
+          },
+          {
+            "type": "link",
+            "label": "Extractors",
+            "href": "/docs/edge/reference/extractors/",
+            "docId": "reference/extractors/index"
+          },
+          {
+            "type": "link",
+            "label": "Operators",
+            "href": "/docs/edge/reference/operators/",
+            "docId": "reference/operators/index"
+          }
+        ],
+        "href": "/docs/edge/reference/"
+      },
+      {
+        "type": "category",
         "label": "concepts",
         "collapsible": true,
         "collapsed": true,
@@ -35,15 +68,23 @@
           },
           {
             "type": "link",
-            "label": "Design",
-            "href": "/docs/edge/concepts/design",
-            "docId": "concepts/design"
-          },
-          {
-            "type": "link",
             "label": "Runtime Capabilities",
             "href": "/docs/edge/concepts/runtime_capabilities",
             "docId": "concepts/runtime_capabilities"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "language",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Grammar",
+            "href": "/docs/edge/language/reference/",
+            "docId": "language/reference/index"
           }
         ]
       },
@@ -67,12 +108,6 @@
       "description": "Batching is a complex topic. It happens in many layers, and it's easy to confuse one with another. This makes it especially important to explain the concepts of batching the tremor engine uses.",
       "sidebar": "indexSidebar"
     },
-    "concepts/design": {
-      "id": "concepts/design",
-      "title": "Design",
-      "description": "TBD",
-      "sidebar": "indexSidebar"
-    },
     "concepts/runtime_capabilities": {
       "id": "concepts/runtime_capabilities",
       "title": "Runtime Capabilities",
@@ -83,6 +118,42 @@
       "id": "index",
       "title": "Tremor",
       "description": "Think about Tremor as an event- or stream-processing engine. It receives input data from various Connectors], turns the data into streams of structured events with the help of [Preprocessors and Codecs]. Those events are then handled by one or more [Pipelines, which can inspect, mutate and route the event and implement arbitrarily complex application logic. Events are either dropped (e.g. for rate-limiting or traffic-shaping) or sent to downstream systems via various Connectors]. Before actually leaving the system, those streams of structured events need to be serialized using [Codecs] and [Postprocessors.",
+      "sidebar": "indexSidebar"
+    },
+    "language/reference/index": {
+      "id": "language/reference/index",
+      "title": "Grammar",
+      "description": "Tremor contains a number of related domain specific languages that are",
+      "sidebar": "indexSidebar"
+    },
+    "reference/extractors/index": {
+      "id": "reference/extractors/index",
+      "title": "Extractors",
+      "description": "The tremor-script language can recognize micro-formats and extract or elementize data from those micro-formats.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/index": {
+      "id": "reference/index",
+      "title": "Codecs",
+      "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/operators/index": {
+      "id": "reference/operators/index",
+      "title": "Operators",
+      "description": "Operators are part of the pipeline configuration.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/postprocessors/index": {
+      "id": "reference/postprocessors/index",
+      "title": "Postprocessors",
+      "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
+      "sidebar": "indexSidebar"
+    },
+    "reference/preprocessors/index": {
+      "id": "reference/preprocessors/index",
+      "title": "Preprocessors",
+      "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
       "sidebar": "indexSidebar"
     }
   }

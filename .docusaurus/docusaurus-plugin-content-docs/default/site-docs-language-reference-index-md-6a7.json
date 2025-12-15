@@ -1,0 +1,20 @@
+{
+  "unversionedId": "language/reference/index",
+  "id": "language/reference/index",
+  "title": "Grammar",
+  "description": "Tremor contains a number of related domain specific languages that are",
+  "source": "@site/docs/language/reference/index.md",
+  "sourceDirName": "language/reference",
+  "slug": "/language/reference/",
+  "permalink": "/docs/edge/language/reference/",
+  "draft": false,
+  "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/language/reference/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "indexSidebar",
+  "previous": {
+    "title": "Runtime Capabilities",
+    "permalink": "/docs/edge/concepts/runtime_capabilities"
+  }
+}

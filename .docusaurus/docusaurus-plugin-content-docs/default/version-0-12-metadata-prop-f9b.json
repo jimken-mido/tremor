@@ -55,18 +55,6 @@
             "docId": "guides/metrics"
           },
           {
-            "type": "link",
-            "label": "Logging",
-            "href": "/docs/0.12/guides/logging",
-            "docId": "guides/logging"
-          },
-          {
-            "type": "link",
-            "label": "tbd-gd-guide",
-            "href": "/docs/0.12/guides/tbd-gd-guide",
-            "docId": "guides/tbd-gd-guide"
-          },
-          {
             "type": "category",
             "label": "old",
             "collapsible": true,
@@ -112,12 +100,6 @@
             "label": "Batching",
             "href": "/docs/0.12/concepts/batching",
             "docId": "concepts/batching"
-          },
-          {
-            "type": "link",
-            "label": "Design",
-            "href": "/docs/0.12/concepts/design",
-            "docId": "concepts/design"
           },
           {
             "type": "link",
@@ -1088,12 +1070,6 @@
       "description": "Batching is a complex topic. It happens in many layers, and it's easy to confuse one with another. This makes it especially important to explain the concepts of batching the tremor engine uses.",
       "sidebar": "indexSidebar"
     },
-    "concepts/design": {
-      "id": "concepts/design",
-      "title": "Design",
-      "description": "TBD",
-      "sidebar": "indexSidebar"
-    },
     "concepts/runtime_capabilities": {
       "id": "concepts/runtime_capabilities",
       "title": "Runtime Capabilities",
@@ -1130,12 +1106,6 @@
       "description": "This are our guides, they're meant to show some example use cases and provide a starting point for various experience levels.",
       "sidebar": "indexSidebar"
     },
-    "guides/logging": {
-      "id": "guides/logging",
-      "title": "Logging",
-      "description": "DRAFT This will be hidden outside of dev DRAFT",
-      "sidebar": "indexSidebar"
-    },
     "guides/metrics": {
       "id": "guides/metrics",
       "title": "Metrics",
@@ -1158,12 +1128,6 @@
       "id": "guides/old/syslog_udp/index",
       "title": "Syslog UDP",
       "description": "The syslog udp example is demonstrate a number things:",
-      "sidebar": "indexSidebar"
-    },
-    "guides/tbd-gd-guide": {
-      "id": "guides/tbd-gd-guide",
-      "title": "tbd-gd-guide",
-      "description": "TBD",
       "sidebar": "indexSidebar"
     },
     "index": {

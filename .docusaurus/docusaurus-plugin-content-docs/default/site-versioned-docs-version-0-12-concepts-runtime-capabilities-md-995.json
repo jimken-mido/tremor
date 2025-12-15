@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "Design",
-    "permalink": "/docs/0.12/concepts/design"
+    "title": "Batching",
+    "permalink": "/docs/0.12/concepts/batching"
   },
   "next": {
     "title": "Reference",

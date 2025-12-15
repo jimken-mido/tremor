@@ -21,7 +21,7 @@
     "permalink": "/docs/0.12/guides/basics"
   },
   "next": {
-    "title": "Logging",
-    "permalink": "/docs/0.12/guides/logging"
+    "title": "Logstash",
+    "permalink": "/docs/0.12/guides/old/logstash/"
   }
 }

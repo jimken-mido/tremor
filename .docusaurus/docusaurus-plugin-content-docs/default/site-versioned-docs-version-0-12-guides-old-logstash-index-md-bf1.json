@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "tbd-gd-guide",
-    "permalink": "/docs/0.12/guides/tbd-gd-guide"
+    "title": "Metrics",
+    "permalink": "/docs/0.12/guides/metrics"
   },
   "next": {
     "title": "Syslog UDP",

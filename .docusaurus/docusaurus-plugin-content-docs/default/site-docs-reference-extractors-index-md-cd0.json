@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "Command Line Interface",
-    "permalink": "/docs/edge/reference/cli"
+    "title": "Preprocessors",
+    "permalink": "/docs/edge/reference/preprocessors/"
   },
   "next": {
     "title": "Operators",

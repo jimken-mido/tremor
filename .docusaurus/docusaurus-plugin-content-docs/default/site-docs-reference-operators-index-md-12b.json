@@ -18,7 +18,7 @@
     "permalink": "/docs/edge/reference/extractors/"
   },
   "next": {
-    "title": "index",
-    "permalink": "/docs/edge/api/"
+    "title": "Aggregations",
+    "permalink": "/docs/edge/concepts/aggregation"
   }
 }
