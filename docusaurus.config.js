@@ -36,16 +36,6 @@ const config = {
         editUrl: 'https://github.com/tremor-rs/tremor-www/tree/main/'
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      /** @type {import('@docusaurus/plugin-content-docs').Options} */
-      {
-        id: 'community',
-        path: 'community',
-        routeBasePath: 'community',
-        sidebarPath: require.resolve('./sidebarsCommunity.js'),
-      },
-    ],
   ]
 
   ,
@@ -134,19 +124,6 @@ const config = {
             position: 'left',
             label: 'Getting Started',
           },
-          {
-            type: 'dropdown',
-            label: 'Community',
-            to: 'community',
-            position: 'left',
-            items: [
-              { to: 'community/CodeOfConduct', label: 'Code of Conduct' },
-              { to: 'community/development', label: 'Contribute' },
-              { to: 'rfc', label: 'RFCs' },
-              { to: 'community/events', label: 'Events and Media' },
-              { href: 'https://chat.tremor.rs', label: 'Chat' },
-            ],
-          },
           { to: 'blog', label: 'Blog', position: 'left' },
 
           {
@@ -165,12 +142,6 @@ const config = {
           {
             type: 'docsVersionDropdown',
             position: 'left',
-          },
-          {
-            href: 'https://chat.tremor.rs',
-            className: 'header-discord-link',
-            position: 'right',
-            'aria-label': 'Community Chat',
           },
           {
             href: 'https://github.com/tremor-rs',
@@ -207,13 +178,6 @@ const config = {
                 label: 'YouTube',
                 href: 'https://www.youtube.com/channel/UCg1hxwEjh9szpYg8SxL0U7Q',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              { label: 'Code of Conduct', to: 'community/CodeofConduct' },
-              { label: 'Download', href: 'https://github.com/tremor-rs/tremor-runtime/releases' },
             ],
           },
         ],

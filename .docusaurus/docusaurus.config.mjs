@@ -30,15 +30,6 @@ export default {
         "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/"
       }
     ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "community",
-        "path": "community",
-        "routeBasePath": "community",
-        "sidebarPath": "/Users/jim/Desktop/github/tremor/sidebarsCommunity.js"
-      }
-    ]
   ],
   "presets": [
     [
@@ -113,34 +104,6 @@ export default {
           "docId": "getting-started/index",
           "position": "left",
           "label": "Getting Started"
-        },
-        {
-          "type": "dropdown",
-          "label": "Community",
-          "to": "community",
-          "position": "left",
-          "items": [
-            {
-              "to": "community/CodeOfConduct",
-              "label": "Code of Conduct"
-            },
-            {
-              "to": "community/development",
-              "label": "Contribute"
-            },
-            {
-              "to": "rfc",
-              "label": "RFCs"
-            },
-            {
-              "to": "community/events",
-              "label": "Events and Media"
-            },
-            {
-              "href": "https://chat.tremor.rs",
-              "label": "Chat"
-            }
-          ]
         },
         {
           "to": "blog",
