@@ -16,9 +16,5 @@
   "previous": {
     "title": "Design",
     "permalink": "/docs/edge/concepts/design"
-  },
-  "next": {
-    "title": "API usage",
-    "permalink": "/docs/edge/operations/api-usage"
   }
 }

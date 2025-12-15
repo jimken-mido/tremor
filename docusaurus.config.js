@@ -136,7 +136,6 @@ const config = {
               // RELEASE: this needs to change for each major version release (0.12 -> 0.13)
               { type: 'doc', docId: 'guides/index', label: 'Guides' },
               { type: 'doc', docId: 'reference/index', label: 'Reference Documentation' },
-              { type: 'doc', docId: 'api/index', label: 'API' },
             ],
           },
           {

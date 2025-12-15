@@ -1,7 +1,7 @@
 {
   "docusaurus-plugin-redoc": {
-    "plugin-redoc-0": {
-      "url": "redocusaurus/plugin-redoc-0.yaml",
+    "plugin-redoc-1": {
+      "url": "redocusaurus/plugin-redoc-1.yaml",
       "themeId": "theme-redoc",
       "isSpecFile": true,
       "spec": {
@@ -645,8 +645,8 @@
         }
       }
     },
-    "plugin-redoc-1": {
-      "url": "redocusaurus/plugin-redoc-1.yaml",
+    "plugin-redoc-0": {
+      "url": "redocusaurus/plugin-redoc-0.yaml",
       "themeId": "theme-redoc",
       "isSpecFile": true,
       "spec": {
@@ -1404,6 +1404,145 @@
     }
   },
   "docusaurus-plugin-content-docs": {
+    "rfc": {
+      "path": "/rfc",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/rfc",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "accepted/binary-type",
+              "path": "/rfc/accepted/binary-type",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/pipeline-state-mechanism",
+              "path": "/rfc/accepted/pipeline-state-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/plugin-development-kit",
+              "path": "/rfc/accepted/plugin-development-kit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/ramp-interface",
+              "path": "/rfc/accepted/ramp-interface",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/script-operator-enhacements",
+              "path": "/rfc/accepted/script-operator-enhacements",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/sliding-window-mechanism",
+              "path": "/rfc/accepted/sliding-window-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "accepted/troy",
+              "path": "/rfc/accepted/troy",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/circuit-breaker-mechanism",
+              "path": "/rfc/implemented/circuit-breaker-mechanism",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/correlation",
+              "path": "/rfc/implemented/correlation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/linked-transports",
+              "path": "/rfc/implemented/linked-transports",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/modular-queries",
+              "path": "/rfc/implemented/modular-queries",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/modularity",
+              "path": "/rfc/implemented/modularity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/onramp-postgres",
+              "path": "/rfc/implemented/onramp-postgres",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/pipeline-optimizations",
+              "path": "/rfc/implemented/pipeline-optimizations",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/remove-actix-from-tremor-runtime",
+              "path": "/rfc/implemented/remove-actix-from-tremor-runtime",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "implemented/string-interpolation",
+              "path": "/rfc/implemented/string-interpolation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/rfc/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/api_changes",
+              "path": "/rfc/process/api_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/arch_changes",
+              "path": "/rfc/process/arch_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/docs_changes",
+              "path": "/rfc/process/docs_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/lang_changes",
+              "path": "/rfc/process/lang_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/libs_changes",
+              "path": "/rfc/process/libs_changes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "process/template",
+              "path": "/rfc/process/template",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/rfc/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "default": {
       "path": "/docs",
       "versions": [
@@ -1414,11 +1553,6 @@
           "path": "/docs/edge",
           "mainDocId": "index",
           "docs": [
-            {
-              "id": "api/index",
-              "path": "/docs/edge/api/",
-              "sidebar": "indexSidebar"
-            },
             {
               "id": "concepts/aggregation",
               "path": "/docs/edge/concepts/aggregation",
@@ -1440,103 +1574,8 @@
               "sidebar": "indexSidebar"
             },
             {
-              "id": "getting-started/index",
-              "path": "/docs/edge/getting-started/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "getting-started/install",
-              "path": "/docs/edge/getting-started/install",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "getting-started/tooling",
-              "path": "/docs/edge/getting-started/tooling",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/basics",
-              "path": "/docs/edge/guides/basics",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/index",
-              "path": "/docs/edge/guides/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/logging",
-              "path": "/docs/edge/guides/logging",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/old/logstash/index",
-              "path": "/docs/edge/guides/old/logstash/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/old/syslog_udp_dns/index",
-              "path": "/docs/edge/guides/old/syslog_udp_dns/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/old/syslog_udp/index",
-              "path": "/docs/edge/guides/old/syslog_udp/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "guides/tbd-gd-guide",
-              "path": "/docs/edge/guides/tbd-gd-guide",
-              "sidebar": "indexSidebar"
-            },
-            {
               "id": "index",
               "path": "/docs/edge/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "operations/api-usage",
-              "path": "/docs/edge/operations/api-usage",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "operations/configuration",
-              "path": "/docs/edge/operations/configuration",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/cli",
-              "path": "/docs/edge/reference/cli",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/codecs/index",
-              "path": "/docs/edge/reference/codecs/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/extractors/index",
-              "path": "/docs/edge/reference/extractors/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/index",
-              "path": "/docs/edge/reference/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/operators/index",
-              "path": "/docs/edge/reference/operators/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/postprocessors/index",
-              "path": "/docs/edge/reference/postprocessors/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/preprocessors/index",
-              "path": "/docs/edge/reference/preprocessors/",
               "sidebar": "indexSidebar"
             }
           ],
@@ -2907,249 +2946,6 @@
               "link": {
                 "path": "/docs/0.11/",
                 "label": "version-0.11/index"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "community": {
-      "path": "/community",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/community",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "ADOPTERS",
-              "path": "/community/ADOPTERS",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "CodeofConduct",
-              "path": "/community/CodeofConduct",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/benchmarking",
-              "path": "/community/development/benchmarking",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/Contributing",
-              "path": "/community/development/",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/debugging",
-              "path": "/community/development/debugging",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/profiling",
-              "path": "/community/development/profiling",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/quick-start",
-              "path": "/community/development/quick-start",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "development/testing",
-              "path": "/community/development/testing",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "events/index",
-              "path": "/community/events/",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "events/TremorCon2021",
-              "path": "/community/events/TremorCon2021",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "governance/CII",
-              "path": "/community/governance/CII",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "governance/index",
-              "path": "/community/governance/",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "governance/security",
-              "path": "/community/governance/security",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "governance/teams",
-              "path": "/community/governance/teams",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "governance/Versioning",
-              "path": "/community/governance/Versioning",
-              "sidebar": "communitySidebar"
-            },
-            {
-              "id": "index",
-              "path": "/community/",
-              "sidebar": "communitySidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "communitySidebar": {
-              "link": {
-                "path": "/community/",
-                "label": "index"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "rfc": {
-      "path": "/rfc",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/rfc",
-          "mainDocId": "index",
-          "docs": [
-            {
-              "id": "accepted/binary-type",
-              "path": "/rfc/accepted/binary-type",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/pipeline-state-mechanism",
-              "path": "/rfc/accepted/pipeline-state-mechanism",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/plugin-development-kit",
-              "path": "/rfc/accepted/plugin-development-kit",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/ramp-interface",
-              "path": "/rfc/accepted/ramp-interface",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/script-operator-enhacements",
-              "path": "/rfc/accepted/script-operator-enhacements",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/sliding-window-mechanism",
-              "path": "/rfc/accepted/sliding-window-mechanism",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "accepted/troy",
-              "path": "/rfc/accepted/troy",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/circuit-breaker-mechanism",
-              "path": "/rfc/implemented/circuit-breaker-mechanism",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/correlation",
-              "path": "/rfc/implemented/correlation",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/linked-transports",
-              "path": "/rfc/implemented/linked-transports",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/modular-queries",
-              "path": "/rfc/implemented/modular-queries",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/modularity",
-              "path": "/rfc/implemented/modularity",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/onramp-postgres",
-              "path": "/rfc/implemented/onramp-postgres",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/pipeline-optimizations",
-              "path": "/rfc/implemented/pipeline-optimizations",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/remove-actix-from-tremor-runtime",
-              "path": "/rfc/implemented/remove-actix-from-tremor-runtime",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "implemented/string-interpolation",
-              "path": "/rfc/implemented/string-interpolation",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "index",
-              "path": "/rfc/",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/api_changes",
-              "path": "/rfc/process/api_changes",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/arch_changes",
-              "path": "/rfc/process/arch_changes",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/docs_changes",
-              "path": "/rfc/process/docs_changes",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/lang_changes",
-              "path": "/rfc/process/lang_changes",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/libs_changes",
-              "path": "/rfc/process/libs_changes",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "process/template",
-              "path": "/rfc/process/template",
-              "sidebar": "defaultSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "defaultSidebar": {
-              "link": {
-                "path": "/rfc/",
-                "label": "index"
               }
             }
           }

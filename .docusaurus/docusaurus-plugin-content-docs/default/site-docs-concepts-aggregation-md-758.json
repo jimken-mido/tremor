@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "index",
-    "permalink": "/docs/edge/api/"
+    "title": "Tremor",
+    "permalink": "/docs/edge/"
   },
   "next": {
     "title": "Batching",

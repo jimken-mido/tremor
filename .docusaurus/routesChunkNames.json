@@ -1964,7 +1964,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-0-12-reference-stdlib-tremor-systeme-13-749"
   },
-  "/docs/edge-192": {
+  "/docs/edge-b94": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-0-115-d-3-6b9"
@@ -1974,10 +1974,6 @@
   "/docs/edge/-486": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-edge-c-37-49c"
-  },
-  "/docs/edge/api/-b87": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-api-5-e-8-5ac"
   },
   "/docs/edge/concepts/aggregation-99b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -1994,153 +1990,6 @@
   "/docs/edge/concepts/runtime_capabilities-a44": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-edge-concepts-runtime-capabilities-636-e0f"
-  },
-  "/docs/edge/getting-started/-1b4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-getting-started-54-c-6b2"
-  },
-  "/docs/edge/getting-started/install-6f1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-getting-started-install-2-a-2-c6d"
-  },
-  "/docs/edge/getting-started/tooling-643": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-getting-started-tooling-186-e09"
-  },
-  "/docs/edge/guides/-779": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-d-03-77d"
-  },
-  "/docs/edge/guides/basics-bfb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-basicsfd-3-88a"
-  },
-  "/docs/edge/guides/logging-97f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-loggingc-36-01f"
-  },
-  "/docs/edge/guides/old/logstash/-5da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-old-logstash-604-012"
-  },
-  "/docs/edge/guides/old/syslog_udp_dns/-f70": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-old-syslog-udp-dns-f-04-9a1"
-  },
-  "/docs/edge/guides/old/syslog_udp/-da8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-old-syslog-udp-f-16-a12"
-  },
-  "/docs/edge/guides/tbd-gd-guide-436": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-guides-tbd-gd-guide-8-ae-850"
-  },
-  "/docs/edge/operations/api-usage-a6c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-operations-api-usageedb-8c8"
-  },
-  "/docs/edge/operations/configuration-897": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-operations-configuration-7-d-4-e74"
-  },
-  "/docs/edge/reference/-0bf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-1-a-3-dbe"
-  },
-  "/docs/edge/reference/cli-7f3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-cli-91-c-80e"
-  },
-  "/docs/edge/reference/codecs/-b65": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-codecs-04-a-b90"
-  },
-  "/docs/edge/reference/extractors/-a7e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-extractors-cd-0-e28"
-  },
-  "/docs/edge/reference/operators/-d9f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-operators-12-b-5e7"
-  },
-  "/docs/edge/reference/postprocessors/-5c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-postprocessors-e-20-5a2"
-  },
-  "/docs/edge/reference/preprocessors/-cd5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-edge-reference-preprocessors-582-8cf"
-  },
-  "/community-812": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
-    "__context": {
-      "plugin": "plugin---community-651-443"
-    },
-    "versionMetadata": "versionMetadata---community-306-8a8"
-  },
-  "/community/-497": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-edc-2d1"
-  },
-  "/community/ADOPTERS-fd0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-adopter-se-8-a-544"
-  },
-  "/community/CodeofConduct-601": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-codeof-conducte-75-5cf"
-  },
-  "/community/development/-13e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-f-14-cbe"
-  },
-  "/community/development/benchmarking-7f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-benchmarking-3-e-4-9b2"
-  },
-  "/community/development/debugging-8ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-debugging-4-d-8-4bc"
-  },
-  "/community/development/profiling-bec": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-profiling-7-bf-272"
-  },
-  "/community/development/quick-start-135": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-quick-start-53-f-824"
-  },
-  "/community/development/testing-ec5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-development-testing-8-b-9-de8"
-  },
-  "/community/events/-4a6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-events-520-08d"
-  },
-  "/community/events/TremorCon2021-9e1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-events-tremor-con-20215-a-5-99e"
-  },
-  "/community/governance/-d4d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-governance-6-ff-7ed"
-  },
-  "/community/governance/CII-6f7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-governance-ci-if-87-799"
-  },
-  "/community/governance/security-781": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-governance-securitya-70-6c1"
-  },
-  "/community/governance/teams-dd6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-governance-teams-721-9db"
-  },
-  "/community/governance/Versioning-37e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---community-governance-versioningb-88-f99"
   },
   "/rfc-bb1": {
     "__comp": "__comp---theme-doc-page-1-be-9be",

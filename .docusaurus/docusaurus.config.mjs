@@ -29,7 +29,7 @@ export default {
         "routeBasePath": "rfc",
         "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/"
       }
-    ],
+    ]
   ],
   "presets": [
     [
@@ -125,11 +125,6 @@ export default {
               "type": "doc",
               "docId": "reference/index",
               "label": "Reference Documentation"
-            },
-            {
-              "type": "doc",
-              "docId": "api/index",
-              "label": "API"
             }
           ],
           "position": "left"
@@ -139,12 +134,6 @@ export default {
           "position": "left",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": []
-        },
-        {
-          "href": "https://chat.tremor.rs",
-          "className": "header-discord-link",
-          "position": "right",
-          "aria-label": "Community Chat"
         },
         {
           "href": "https://github.com/tremor-rs",
@@ -181,19 +170,6 @@ export default {
             {
               "label": "YouTube",
               "href": "https://www.youtube.com/channel/UCg1hxwEjh9szpYg8SxL0U7Q"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Code of Conduct",
-              "to": "community/CodeofConduct"
-            },
-            {
-              "label": "Download",
-              "href": "https://github.com/tremor-rs/tremor-runtime/releases"
             }
           ]
         }

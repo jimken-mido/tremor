@@ -11,11 +11,6 @@ const sidebars = {
       label: "Benchmarks",
       href: "/benchmarks"
     },
-    {
-      type: 'doc',
-      label: 'Api',
-      id: 'api/index'
-    }
   ],
 };
 
