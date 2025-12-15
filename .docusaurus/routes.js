@@ -1636,6 +1636,12 @@ export default [
         sidebar: "indexSidebar"
       },
       {
+        path: '/docs/0.12/reference/preprocessors/separate',
+        component: ComponentCreator('/docs/0.12/reference/preprocessors/separate', '3a6'),
+        exact: true,
+        sidebar: "indexSidebar"
+      },
+      {
         path: '/docs/0.12/reference/preprocessors/textual-length-prefix',
         component: ComponentCreator('/docs/0.12/reference/preprocessors/textual-length-prefix', '226'),
         exact: true,
@@ -1927,7 +1933,7 @@ export default [
   },
   {
     path: '/docs/edge',
-    component: ComponentCreator('/docs/edge', '5b9'),
+    component: ComponentCreator('/docs/edge', 'b16'),
     routes: [
       {
         path: '/docs/edge/',
@@ -1956,36 +1962,6 @@ export default [
       {
         path: '/docs/edge/language/reference/',
         component: ComponentCreator('/docs/edge/language/reference/', '8ba'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/edge/reference/',
-        component: ComponentCreator('/docs/edge/reference/', '0bf'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/edge/reference/extractors/',
-        component: ComponentCreator('/docs/edge/reference/extractors/', 'a7e'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/edge/reference/operators/',
-        component: ComponentCreator('/docs/edge/reference/operators/', 'd9f'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/edge/reference/postprocessors/',
-        component: ComponentCreator('/docs/edge/reference/postprocessors/', '5c6'),
-        exact: true,
-        sidebar: "indexSidebar"
-      },
-      {
-        path: '/docs/edge/reference/preprocessors/',
-        component: ComponentCreator('/docs/edge/reference/preprocessors/', 'cd5'),
         exact: true,
         sidebar: "indexSidebar"
       }

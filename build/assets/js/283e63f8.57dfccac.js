@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[6886],{73468:e=>{e.exports=JSON.parse('{"label":"announcement","permalink":"/blog/tags/announcement","allTagsPath":"/blog/tags","count":1}')}}]);

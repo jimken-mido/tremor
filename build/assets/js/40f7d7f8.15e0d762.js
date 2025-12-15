@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[5847],{64287:e=>{e.exports=JSON.parse('{"label":"gpc","permalink":"/blog/tags/gpc","allTagsPath":"/blog/tags","count":1}')}}]);

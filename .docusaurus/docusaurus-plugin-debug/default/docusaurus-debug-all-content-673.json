@@ -2600,8 +2600,8 @@
               "frontMatter": {},
               "sidebar": "indexSidebar",
               "previous": {
-                "title": "Operators",
-                "permalink": "/docs/edge/reference/operators/"
+                "title": "Tremor",
+                "permalink": "/docs/edge/"
               },
               "next": {
                 "title": "Batching",
@@ -2675,8 +2675,8 @@
               },
               "sidebar": "indexSidebar",
               "next": {
-                "title": "Codecs",
-                "permalink": "/docs/edge/reference/"
+                "title": "Aggregations",
+                "permalink": "/docs/edge/concepts/aggregation"
               }
             },
             {
@@ -2697,126 +2697,6 @@
               "previous": {
                 "title": "Runtime Capabilities",
                 "permalink": "/docs/edge/concepts/runtime_capabilities"
-              }
-            },
-            {
-              "unversionedId": "reference/extractors/index",
-              "id": "reference/extractors/index",
-              "title": "Extractors",
-              "description": "The tremor-script language can recognize micro-formats and extract or elementize data from those micro-formats.",
-              "source": "@site/docs/reference/extractors/index.md",
-              "sourceDirName": "reference/extractors",
-              "slug": "/reference/extractors/",
-              "permalink": "/docs/edge/reference/extractors/",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/extractors/index.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Preprocessors",
-                "permalink": "/docs/edge/reference/preprocessors/"
-              },
-              "next": {
-                "title": "Operators",
-                "permalink": "/docs/edge/reference/operators/"
-              }
-            },
-            {
-              "unversionedId": "reference/index",
-              "id": "reference/index",
-              "title": "Codecs",
-              "description": "TL;DR: Codecs are used to describe how to decode data from the wire and encode it back to wire format.",
-              "source": "@site/docs/reference/index.md",
-              "sourceDirName": "reference",
-              "slug": "/reference/",
-              "permalink": "/docs/edge/reference/",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/index.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Tremor",
-                "permalink": "/docs/edge/"
-              },
-              "next": {
-                "title": "Postprocessors",
-                "permalink": "/docs/edge/reference/postprocessors/"
-              }
-            },
-            {
-              "unversionedId": "reference/operators/index",
-              "id": "reference/operators/index",
-              "title": "Operators",
-              "description": "Operators are part of the pipeline configuration.",
-              "source": "@site/docs/reference/operators/index.md",
-              "sourceDirName": "reference/operators",
-              "slug": "/reference/operators/",
-              "permalink": "/docs/edge/reference/operators/",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/operators/index.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Extractors",
-                "permalink": "/docs/edge/reference/extractors/"
-              },
-              "next": {
-                "title": "Aggregations",
-                "permalink": "/docs/edge/concepts/aggregation"
-              }
-            },
-            {
-              "unversionedId": "reference/postprocessors/index",
-              "id": "reference/postprocessors/index",
-              "title": "Postprocessors",
-              "description": "Postprocessors operate on the raw data stream and transform it. They are run after data reaches the codec and do not know or care about tremor's internal representation.",
-              "source": "@site/docs/reference/postprocessors/index.md",
-              "sourceDirName": "reference/postprocessors",
-              "slug": "/reference/postprocessors/",
-              "permalink": "/docs/edge/reference/postprocessors/",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/postprocessors/index.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Codecs",
-                "permalink": "/docs/edge/reference/"
-              },
-              "next": {
-                "title": "Preprocessors",
-                "permalink": "/docs/edge/reference/preprocessors/"
-              }
-            },
-            {
-              "unversionedId": "reference/preprocessors/index",
-              "id": "reference/preprocessors/index",
-              "title": "Preprocessors",
-              "description": "Preprocessors operate on the raw data stream and transform it. They are run before data reaches the codec and do not know or care about tremor's internal representation.",
-              "source": "@site/docs/reference/preprocessors/index.md",
-              "sourceDirName": "reference/preprocessors",
-              "slug": "/reference/preprocessors/",
-              "permalink": "/docs/edge/reference/preprocessors/",
-              "draft": false,
-              "editUrl": "https://github.com/tremor-rs/tremor-www/tree/main/docs/reference/preprocessors/index.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "indexSidebar",
-              "previous": {
-                "title": "Postprocessors",
-                "permalink": "/docs/edge/reference/postprocessors/"
-              },
-              "next": {
-                "title": "Extractors",
-                "permalink": "/docs/edge/reference/extractors/"
               }
             }
           ],
@@ -2844,38 +2724,6 @@
               {
                 "type": "doc",
                 "id": "index"
-              },
-              {
-                "type": "category",
-                "label": "Codecs",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "label": "Postprocessors",
-                    "id": "reference/postprocessors/index"
-                  },
-                  {
-                    "type": "doc",
-                    "label": "Preprocessors",
-                    "id": "reference/preprocessors/index"
-                  },
-                  {
-                    "type": "doc",
-                    "label": "Extractors",
-                    "id": "reference/extractors/index"
-                  },
-                  {
-                    "type": "doc",
-                    "label": "Operators",
-                    "id": "reference/operators/index"
-                  }
-                ],
-                "link": {
-                  "type": "doc",
-                  "id": "reference/index"
-                }
               },
               {
                 "type": "category",

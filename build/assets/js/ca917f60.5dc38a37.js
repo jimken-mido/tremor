@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[6008],{49874:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"rfc"}')}}]);

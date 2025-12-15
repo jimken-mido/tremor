@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[1713],{92354:e=>{e.exports=JSON.parse('{"label":"k8s","permalink":"/blog/tags/k-8-s","allTagsPath":"/blog/tags","count":1}')}}]);

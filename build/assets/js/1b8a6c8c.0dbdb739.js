@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[7305],{15504:e=>{e.exports=JSON.parse('{"label":"wayfair","permalink":"/blog/tags/wayfair","allTagsPath":"/blog/tags","count":12}')}}]);

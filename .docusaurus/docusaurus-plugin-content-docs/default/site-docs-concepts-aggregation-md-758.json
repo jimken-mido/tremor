@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "indexSidebar",
   "previous": {
-    "title": "Operators",
-    "permalink": "/docs/edge/reference/operators/"
+    "title": "Tremor",
+    "permalink": "/docs/edge/"
   },
   "next": {
     "title": "Batching",

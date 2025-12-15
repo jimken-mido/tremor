@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[6163],{79426:e=>{e.exports=JSON.parse('{"label":"ClickHouse","permalink":"/blog/tags/click-house","allTagsPath":"/blog/tags","count":1}')}}]);

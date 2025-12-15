@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[9720],{39720:(e,r,t)=>{t.d(r,{createArchitectureServices:()=>s.S});var s=t(27555);t(19369)}}]);

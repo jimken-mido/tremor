@@ -1952,7 +1952,7 @@
     "__comp": "17896441",
     "content": "e133b314"
   },
-  "/docs/edge-5b9": {
+  "/docs/edge-b16": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "5d3538ec"
@@ -1978,26 +1978,6 @@
   "/docs/edge/language/reference/-8ba": {
     "__comp": "17896441",
     "content": "6a72f502"
-  },
-  "/docs/edge/reference/-0bf": {
-    "__comp": "17896441",
-    "content": "1a3c9b31"
-  },
-  "/docs/edge/reference/extractors/-a7e": {
-    "__comp": "17896441",
-    "content": "cd025b8a"
-  },
-  "/docs/edge/reference/operators/-d9f": {
-    "__comp": "17896441",
-    "content": "12b3cd5e"
-  },
-  "/docs/edge/reference/postprocessors/-5c6": {
-    "__comp": "17896441",
-    "content": "e206e287"
-  },
-  "/docs/edge/reference/preprocessors/-cd5": {
-    "__comp": "17896441",
-    "content": "582729e2"
   },
   "/rfc-bb1": {
     "__comp": "1be78505",

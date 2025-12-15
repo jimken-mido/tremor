@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[6640],{78510:e=>{e.exports=JSON.parse('{"label":"collaboration","permalink":"/blog/tags/collaboration","allTagsPath":"/blog/tags","count":4}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[911],{74920:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});var r=n(96540),l=n(44586),c=n(35435),s=n(21441);function u(){const{siteConfig:e}=(0,l.A)();return r.createElement(c.A,null,r.createElement("h2",null,"Site config"),r.createElement(s.A,{src:e,collapseDepth:3}))}}}]);

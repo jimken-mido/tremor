@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[5155],{34593:e=>{e.exports=JSON.parse('{"label":"case-study","permalink":"/blog/tags/case-study","allTagsPath":"/blog/tags","count":9}')}}]);

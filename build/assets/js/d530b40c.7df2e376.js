@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[7630],{6374:e=>{e.exports=JSON.parse('{"label":"cncf","permalink":"/blog/tags/cncf","allTagsPath":"/blog/tags","count":6}')}}]);

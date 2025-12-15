@@ -17,7 +17,7 @@
   },
   "sidebar": "indexSidebar",
   "next": {
-    "title": "Codecs",
-    "permalink": "/docs/edge/reference/"
+    "title": "Aggregations",
+    "permalink": "/docs/edge/concepts/aggregation"
   }
 }

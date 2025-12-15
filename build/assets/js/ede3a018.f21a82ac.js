@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[8504],{11641:(e,t,l)=>{l.r(t),l.d(t,{default:()=>s});var r=l(96540),a=l(66588),n=l(35435),c=l(21441);function s(){const e=(0,a.Ay)();return r.createElement(n.A,null,r.createElement("h2",null,"Global data"),r.createElement(c.A,{src:e,collapseDepth:3}))}}}]);

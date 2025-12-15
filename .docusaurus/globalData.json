@@ -1438,31 +1438,6 @@
               "id": "language/reference/index",
               "path": "/docs/edge/language/reference/",
               "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/extractors/index",
-              "path": "/docs/edge/reference/extractors/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/index",
-              "path": "/docs/edge/reference/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/operators/index",
-              "path": "/docs/edge/reference/operators/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/postprocessors/index",
-              "path": "/docs/edge/reference/postprocessors/",
-              "sidebar": "indexSidebar"
-            },
-            {
-              "id": "reference/preprocessors/index",
-              "path": "/docs/edge/reference/preprocessors/",
-              "sidebar": "indexSidebar"
             }
           ],
           "draftIds": [

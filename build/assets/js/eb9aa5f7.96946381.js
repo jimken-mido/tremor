@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktremor_website=self.webpackChunktremor_website||[]).push([[9367],{2392:e=>{e.exports=JSON.parse('{"label":"DevOps","permalink":"/blog/tags/dev-ops","allTagsPath":"/blog/tags","count":1}')}}]);
